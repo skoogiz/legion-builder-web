@@ -29,4 +29,7 @@ export interface PageConfig {
     twitter?: string;
     twitch?: string;
   };
+  assets: {
+    playerCardsUrl?: string;
+  };
 }

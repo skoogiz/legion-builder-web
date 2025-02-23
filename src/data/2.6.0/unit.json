@@ -1,0 +1,5955 @@
+[
+  {
+    "__typename": "unit",
+    "name": "Leia Organa",
+    "subtitle": "Fearless and Inventive",
+    "unitType": "trooper",
+    "faction": "rebels",
+    "unitRank": "commander",
+    "points": 75,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "command",
+      "command",
+      "gear"
+    ],
+    "keywords": [
+      "Take Cover",
+      "Inspire",
+      "Nimble",
+      "Sharpshooter",
+      "Pierce"
+    ],
+    "woundThreshold": 6,
+    "courage": 2,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      "critical",
+      "block"
+    ],
+    "isUnique": true,
+    "imageRef": {
+      "front": {
+        "file": "SWQ_PlayerCards_JanuaryUpdate_1.png",
+        "sprite": "1:1"
+      },
+      "back": {
+        "file": "SWQ_PlayerCards_JanuaryUpdate_1.png",
+        "sprite": "2:1"
+      }
+    },
+    "identifiers": {
+      "name": "Leia Organa: Fearless and Inventive",
+      "legionhqId": "ab",
+      "tni": "unit|Leia Organa: Fearless and Inventive|rebels"
+    },
+    "meta": {
+      "prevCost": 80
+    },
+    "history": [
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 90 to 80 points."
+      },
+      {
+        "date": "5 June 2023",
+        "description": "Cost reduced from 80 to 75 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "Han Solo",
+    "subtitle": "Unorthodox General",
+    "unitType": "trooper",
+    "faction": "rebels",
+    "unitRank": "commander",
+    "points": 100,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "command",
+      "training",
+      "gear"
+    ],
+    "keywords": [
+      "Steady",
+      "Low Profile",
+      "Gunslinger",
+      "Sharpshooter",
+      "Uncanny Luck",
+      "Pierce"
+    ],
+    "woundThreshold": 6,
+    "courage": 2,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      "critical",
+      "block"
+    ],
+    "isUnique": true,
+    "imageRef": "Han Solo.jpeg",
+    "identifiers": {
+      "name": "Han Solo: Unorthodox General",
+      "legionhqId": "ac",
+      "tni": "unit|Han Solo: Unorthodox General|rebels"
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 120 to 100 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "Luke Skywalker",
+    "subtitle": "Hero of the Rebellion",
+    "unitType": "trooper",
+    "faction": "rebels",
+    "unitRank": "commander",
+    "points": 150,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "force",
+      "force",
+      "gear"
+    ],
+    "keywords": [
+      "Jump",
+      "Charge",
+      "Deflect",
+      "Immune",
+      "Impact",
+      "Pierce"
+    ],
+    "woundThreshold": 6,
+    "courage": 3,
+    "speed": 2,
+    "defense": "red",
+    "weapons": [],
+    "surgeChart": [
+      "critical",
+      null
+    ],
+    "isUnique": true,
+    "imageRef": "Luke Skywalker.jpeg",
+    "identifiers": {
+      "name": "Luke Skywalker: Hero of the Rebellion",
+      "legionhqId": "ad",
+      "tni": "unit|Luke Skywalker: Hero of the Rebellion|rebels"
+    },
+    "meta": {
+      "prevCost": 160
+    },
+    "history": [
+      {
+        "date": "5 June 2023",
+        "description": "Cost reduced from 160 to 150 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "Jyn Erso",
+    "subtitle": "Stardust",
+    "unitType": "trooper",
+    "faction": "rebels",
+    "unitRank": "commander",
+    "points": 90,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "command",
+      "training",
+      "gear",
+      "armament"
+    ],
+    "keywords": [
+      "Quick Thinking",
+      "Danger Sense",
+      "Infiltrate",
+      "Nimble",
+      "Sharpshooter",
+      "Suppressive"
+    ],
+    "woundThreshold": 6,
+    "courage": 3,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      "critical",
+      "block"
+    ],
+    "isUnique": true,
+    "imageRef": "Jyn Erso.jpeg",
+    "identifiers": {
+      "name": "Jyn Erso: Stardust",
+      "legionhqId": "ae",
+      "tni": "unit|Jyn Erso: Stardust|rebels"
+    },
+    "history": [
+      {
+        "date": "12 September 2019",
+        "description": "Cost reduced from 130 to 110 points."
+      },
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 110 to 100 points."
+      },
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 100 to 90 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "Chewbacca",
+    "subtitle": "Walking Carpet",
+    "unitType": "wookiee trooper",
+    "faction": "rebels",
+    "unitRank": "operative",
+    "points": 90,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "training",
+      "training",
+      "gear"
+    ],
+    "keywords": [
+      "Enrage",
+      "Guardian",
+      "Teamwork",
+      "Impact",
+      "Pierce",
+      "Scale",
+      "Lethal"
+    ],
+    "woundThreshold": 9,
+    "courage": 2,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      "critical",
+      null
+    ],
+    "isUnique": true,
+    "imageRef": "Chewbacca.jpeg",
+    "identifiers": {
+      "name": "Chewbacca: Walking Carpet",
+      "legionhqId": "af",
+      "tni": "unit|Chewbacca: Walking Carpet|rebels"
+    },
+    "history": [
+      {
+        "date": "12 September 2019",
+        "description": "Cost reduced from 110 to 95 points."
+      },
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 95 to 90 points. Gained Wookiee Warrior tag and Scale keyword. Weapon gained Lethal keyword. Lost Expert Climber and Unhindered keywords."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "Sabine Wren",
+    "subtitle": "Explosive Artist",
+    "unitType": "trooper",
+    "faction": "rebels",
+    "unitRank": "operative",
+    "points": 125,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "training",
+      "gear",
+      "gear",
+      "armament"
+    ],
+    "keywords": [
+      "Jump",
+      "Gunslinger",
+      "Impervious",
+      "Nimble",
+      "Pierce"
+    ],
+    "woundThreshold": 5,
+    "courage": 2,
+    "speed": 3,
+    "defense": "red",
+    "weapons": [],
+    "surgeChart": [
+      "critical",
+      "block"
+    ],
+    "isUnique": true,
+    "imageRef": "Sabine Wren.jpeg",
+    "identifiers": {
+      "name": "Sabine Wren: Explosive Artist",
+      "legionhqId": "ag",
+      "tni": "unit|Sabine Wren: Explosive Artist|rebels"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "Rebel Troopers",
+    "unitType": "trooper",
+    "faction": "rebels",
+    "unitRank": "corps",
+    "points": 40,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "heavy weapon",
+      "personnel",
+      "gear",
+      "grenades"
+    ],
+    "keywords": [
+      "Nimble"
+    ],
+    "woundThreshold": 1,
+    "courage": 1,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      null,
+      "block"
+    ],
+    "imageRef": "Rebel Troopers.jpeg",
+    "identifiers": {
+      "name": "Rebel Troopers",
+      "legionhqId": "ah",
+      "tni": "unit|Rebel Troopers|rebels"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "Fleet Troopers",
+    "unitType": "trooper",
+    "faction": "rebels",
+    "unitRank": "corps",
+    "points": 40,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "heavy weapon",
+      "personnel",
+      "gear",
+      "grenades"
+    ],
+    "keywords": [
+      "Ready"
+    ],
+    "woundThreshold": 1,
+    "courage": 1,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      "hit",
+      "block"
+    ],
+    "imageRef": "Fleet Troopers.jpeg",
+    "identifiers": {
+      "name": "Fleet Troopers",
+      "legionhqId": "ai",
+      "tni": "unit|Fleet Troopers|rebels"
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 44 to 40 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "Wookiee Warriors",
+    "unitType": "wookiee trooper",
+    "faction": "rebels",
+    "unitRank": "special",
+    "points": 69,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "heavy weapon",
+      "training",
+      "training",
+      "gear",
+      "grenades"
+    ],
+    "keywords": [
+      "Charge",
+      "Duelist",
+      "Indomitable",
+      "Scale"
+    ],
+    "woundThreshold": 3,
+    "courage": 2,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      "hit",
+      null
+    ],
+    "imageRef": "Wookiee Warriors.jpeg",
+    "identifiers": {
+      "name": "Wookiee Warriors",
+      "legionhqId": "aj",
+      "tni": "unit|Wookiee Warriors|rebels"
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 75 to 69 points. Gained Wookiee Warrior tag and Scale keyword. Lost Expert Climber and Unhindered keywords."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "Rebel Commandos",
+    "unitType": "trooper",
+    "faction": "rebels",
+    "unitRank": "special",
+    "points": 48,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "heavy weapon",
+      "training",
+      "comms",
+      "gear",
+      "grenades"
+    ],
+    "keywords": [
+      "Low Profile",
+      "Scout",
+      "Sharpshooter"
+    ],
+    "woundThreshold": 1,
+    "courage": 2,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      "hit",
+      "block"
+    ],
+    "imageRef": "Rebel Commandos.jpeg",
+    "identifiers": {
+      "name": "Rebel Commandos",
+      "legionhqId": "ak",
+      "tni": "unit|Rebel Commandos|rebels"
+    },
+    "meta": {
+      "displayName": "Commandos"
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 60 to 50 points."
+      },
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 50 to 48 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "Rebel Commandos Strike Team",
+    "unitType": "trooper",
+    "faction": "rebels",
+    "unitRank": "special",
+    "points": 20,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "heavy weapon",
+      "training",
+      "comms",
+      "gear",
+      "grenades"
+    ],
+    "keywords": [
+      "Low Profile",
+      "Scout",
+      "Sharpshooter"
+    ],
+    "woundThreshold": 1,
+    "courage": 2,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      "hit",
+      "block"
+    ],
+    "imageRef": "Rebel Commandos Strike Team.jpeg",
+    "identifiers": {
+      "name": "Rebel Commandos Strike Team",
+      "legionhqId": "al",
+      "tni": "unit|Rebel Commandos Strike Team|rebels"
+    },
+    "meta": {
+      "displayName": "Commando Strike Team"
+    },
+    "history": [
+      {
+        "date": "12 September 2019",
+        "description": "Cost increased from 16 to 20 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "Rebel Pathfinders",
+    "unitType": "trooper",
+    "faction": "rebels",
+    "unitRank": "special",
+    "points": 56,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "heavy weapon",
+      "training",
+      "comms",
+      "gear",
+      "armament",
+      "grenades"
+    ],
+    "keywords": [
+      "Danger Sense",
+      "Dauntless",
+      "Infiltrate"
+    ],
+    "woundThreshold": 1,
+    "courage": 2,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      "critical",
+      "block"
+    ],
+    "imageRef": "Rebel Pathfinders.jpeg",
+    "identifiers": {
+      "name": "Rebel Pathfinders",
+      "legionhqId": "am",
+      "tni": "unit|Rebel Pathfinders|rebels"
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 68 to 58 points."
+      },
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 58 to 56 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "1.4 FD Laser Cannon Team",
+    "unitType": "emplacement trooper",
+    "faction": "rebels",
+    "unitRank": "support",
+    "points": 65,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "comms",
+      "generator"
+    ],
+    "keywords": [
+      "Emplacement Trooper",
+      "Full Pivot",
+      "Sentinel",
+      "Stationary",
+      "Impact",
+      "Fixed"
+    ],
+    "woundThreshold": 6,
+    "courage": 2,
+    "speed": 0,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      "hit",
+      "block"
+    ],
+    "imageRef": "1.4 FD Laser Cannon Team.jpeg",
+    "identifiers": {
+      "name": "1.4 FD Laser Cannon Team",
+      "legionhqId": "an",
+      "tni": "unit|1.4 FD Laser Cannon Team|rebels"
+    },
+    "meta": {
+      "displayName": "Laser Cannon Team"
+    },
+    "history": [
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 70 to 65 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "AT-RT",
+    "unitType": "ground vehicle",
+    "faction": "rebels",
+    "unitRank": "support",
+    "points": 55,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "hardpoint",
+      "comms"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Armor",
+      "Climbing Vehicle",
+      "Expert Climber",
+      "Impact"
+    ],
+    "woundThreshold": 6,
+    "resilience": 4,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      "critical",
+      null
+    ],
+    "imageRef": "AT-RT.jpeg",
+    "identifiers": {
+      "name": "AT-RT",
+      "legionhqId": "ao",
+      "tni": "unit|AT-RT|rebels"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "T-47 Airspeeder",
+    "unitType": "repulsor vehicle",
+    "faction": "rebels",
+    "unitRank": "heavy",
+    "points": 130,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "pilot",
+      "hardpoint",
+      "comms"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Armor",
+      "Arsenal",
+      "Cover",
+      "Immune",
+      "Speeder",
+      "Fixed",
+      "Impact"
+    ],
+    "woundThreshold": 7,
+    "resilience": 5,
+    "speed": 3,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      null,
+      "block"
+    ],
+    "imageRef": "T-47 Airspeeder.jpeg",
+    "identifiers": {
+      "name": "T-47 Airspeeder",
+      "legionhqId": "ap",
+      "tni": "unit|T-47 Airspeeder|rebels"
+    },
+    "meta": {
+      "displayName": "Airspeeder"
+    },
+    "history": [
+      {
+        "date": "12 September 2019",
+        "description": "Cost reduced from 175 to 140 points."
+      },
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 140 to 130 points. Gained Immunity to range 1 weapons as well as surge to crit."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "X-34 Landspeeder",
+    "unitType": "repulsor vehicle",
+    "faction": "rebels",
+    "unitRank": "heavy",
+    "points": 60,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "pilot",
+      "crew",
+      "crew",
+      "hardpoint",
+      "comms"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Arsenal",
+      "Cover",
+      "Light Transport: Open",
+      "Speeder"
+    ],
+    "woundThreshold": 6,
+    "resilience": 4,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      "hit",
+      "block"
+    ],
+    "imageRef": "X-34 Landspeeder.jpeg",
+    "identifiers": {
+      "name": "X-34 Landspeeder",
+      "legionhqId": "aq",
+      "tni": "unit|X-34 Landspeeder|rebels"
+    },
+    "meta": {
+      "displayName": "Landspeeder"
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 75 to 60 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "Imperial Officer",
+    "subtitle": "Ruthless Commander",
+    "unitType": "trooper",
+    "faction": "empire",
+    "unitRank": "commander",
+    "points": 50,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "command",
+      "gear"
+    ],
+    "keywords": [
+      "Spotter",
+      "Inspire",
+      "Sharpshooter"
+    ],
+    "woundThreshold": 4,
+    "courage": 2,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      "hit",
+      "block"
+    ],
+    "imageRef": "Imperial Officer.jpeg",
+    "identifiers": {
+      "name": "Imperial Officer: Ruthless Commander",
+      "legionhqId": "ar",
+      "tni": "unit|Imperial Officer: Ruthless Commander|empire"
+    },
+    "meta": {
+      "prevCost": 45
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 50 to 45 points."
+      },
+      {
+        "date": "5 June 2023",
+        "description": "Cost increased from 45 to 50 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "Emperor Palpatine",
+    "subtitle": "Ruler of the Galactic Empire",
+    "unitType": "trooper",
+    "faction": "empire",
+    "unitRank": "commander",
+    "points": 190,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "force",
+      "force",
+      "force",
+      "command"
+    ],
+    "keywords": [
+      "Pulling the Strings",
+      "Entourage",
+      "Immune",
+      "Master of the Force",
+      "Pierce",
+      "Suppressive"
+    ],
+    "woundThreshold": 5,
+    "courage": 4,
+    "speed": 1,
+    "defense": "red",
+    "weapons": [],
+    "surgeChart": [
+      "critical",
+      "block"
+    ],
+    "isUnique": true,
+    "imageRef": "Emperor Palpatine.jpeg",
+    "identifiers": {
+      "name": "Emperor Palpatine: Ruler of the Galactic Empire",
+      "legionhqId": "as",
+      "tni": "unit|Emperor Palpatine: Ruler of the Galactic Empire|empire"
+    },
+    "meta": {
+      "entourage": {
+        "name": "Imperial Royal Guards",
+        "type": "special"
+      }
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 210 to 200 points."
+      },
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 200 to 190 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "Darth Vader",
+    "subtitle": "Dark Lord of the Sith",
+    "unitType": "trooper",
+    "faction": "empire",
+    "unitRank": "commander",
+    "points": 190,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "command",
+      "force",
+      "force",
+      "force"
+    ],
+    "keywords": [
+      "Deflect",
+      "Immune",
+      "Master of the Force",
+      "Relentless",
+      "Impact",
+      "Pierce",
+      "Compel"
+    ],
+    "woundThreshold": 8,
+    "courage": "-",
+    "speed": 1,
+    "defense": "red",
+    "weapons": [],
+    "isUnique": true,
+    "imageRef": "Darth Vader.jpeg",
+    "identifiers": {
+      "name": "Darth Vader: Dark Lord of the Sith",
+      "legionhqId": "at",
+      "tni": "unit|Darth Vader: Dark Lord of the Sith|empire"
+    },
+    "history": [
+      {
+        "date": "12 September 2019",
+        "description": "Cost reduced from 200 to 190 points."
+      },
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 190 to 175 points."
+      },
+      {
+        "date": "27 October 2021",
+        "description": "Cost increased from 175 to 190 points. Added Command upgrade slot and Compel: Corps Trooper."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "General Veers",
+    "subtitle": "Master Tactician",
+    "unitType": "trooper",
+    "faction": "empire",
+    "unitRank": "commander",
+    "points": 70,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "command",
+      "command",
+      "gear"
+    ],
+    "keywords": [
+      "Spotter",
+      "Inspire",
+      "Precise",
+      "Sharpshooter",
+      "Pierce"
+    ],
+    "woundThreshold": 5,
+    "courage": 2,
+    "speed": 2,
+    "defense": "red",
+    "weapons": [],
+    "surgeChart": [
+      "critical",
+      null
+    ],
+    "isUnique": true,
+    "imageRef": "General Veers.jpeg",
+    "identifiers": {
+      "name": "General Veers: Master Tactician",
+      "legionhqId": "au",
+      "tni": "unit|General Veers: Master Tactician|empire"
+    },
+    "meta": {
+      "prevCost": 75
+    },
+    "history": [
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 80 to 75 points."
+      },
+      {
+        "date": "5 June 2023",
+        "description": "Cost reduced from 75 to 70 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "Director Orson Krennic",
+    "subtitle": "Architect of Terror",
+    "unitType": "trooper",
+    "faction": "empire",
+    "unitRank": "commander",
+    "points": 75,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "command",
+      "command",
+      "gear"
+    ],
+    "keywords": [
+      "Compel",
+      "Cunning",
+      "Entourage",
+      "Sharpshooter",
+      "Pierce"
+    ],
+    "woundThreshold": 6,
+    "courage": 2,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      "critical",
+      "block"
+    ],
+    "isUnique": true,
+    "imageRef": "Director Orson Krennic.jpeg",
+    "identifiers": {
+      "name": "Director Orson Krennic: Architect of Terror",
+      "legionhqId": "av",
+      "tni": "unit|Director Orson Krennic: Architect of Terror|empire"
+    },
+    "meta": {
+      "displayName": "Director Krennic",
+      "entourage": {
+        "name": "Imperial Death Troopers",
+        "type": "special"
+      }
+    },
+    "history": [
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 90 to 75 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "Boba Fett",
+    "subtitle": "Infamous Bounty Hunter",
+    "unitType": "trooper",
+    "faction": "mercenaries",
+    "affiliation": "Rogues",
+    "unitRank": "operative",
+    "points": 130,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "training",
+      "training",
+      "comms",
+      "gear",
+      "gear"
+    ],
+    "keywords": [
+      "Jump",
+      "Arsenal",
+      "Bounty",
+      "Impervious",
+      "Independent",
+      "Sharpshooter",
+      "Impact",
+      "Pierce"
+    ],
+    "woundThreshold": 5,
+    "courage": 3,
+    "speed": 3,
+    "defense": "red",
+    "weapons": [],
+    "surgeChart": [
+      "critical",
+      "block"
+    ],
+    "isUnique": true,
+    "imageRef": "Boba Fett.jpeg",
+    "identifiers": {
+      "name": "Boba Fett: Infamous Bounty Hunter",
+      "legionhqId": "aw",
+      "tni": "unit|Boba Fett: Infamous Bounty Hunter|mercenaries"
+    },
+    "meta": {
+      "prevCost": 120,
+      "mercernary": [
+        "empire"
+      ]
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 140 to 125 points."
+      },
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 125 to 120 points."
+      },
+      {
+        "date": "5 June 2023",
+        "description": "Cost increased from 120 to 130 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "Bossk",
+    "subtitle": "Trandoshan Terror",
+    "unitType": "trooper",
+    "faction": "mercenaries",
+    "affiliation": "Rogues",
+    "unitRank": "operative",
+    "points": 105,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "training",
+      "training",
+      "gear"
+    ],
+    "keywords": [
+      "Bounty",
+      "Enrage",
+      "Independent",
+      "Regenerate",
+      "Scale",
+      "Pierce",
+      "Suppressive"
+    ],
+    "woundThreshold": 7,
+    "courage": 2,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      "critical",
+      null
+    ],
+    "isUnique": true,
+    "imageRef": "Bossk.jpeg",
+    "identifiers": {
+      "name": "Bossk: Trandoshan Terror",
+      "legionhqId": "ax",
+      "tni": "unit|Bossk: Trandoshan Terror|mercenaries"
+    },
+    "meta": {
+      "mercernary": [
+        "empire",
+        "separatists"
+      ]
+    },
+    "history": [
+      {
+        "date": "31 May 2022",
+        "description": "Cost reduced from 115 to 105 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "Stormtroopers",
+    "unitType": "trooper",
+    "faction": "empire",
+    "unitRank": "corps",
+    "points": 44,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "heavy weapon",
+      "personnel",
+      "gear",
+      "grenades"
+    ],
+    "keywords": [
+      "Precise"
+    ],
+    "woundThreshold": 1,
+    "courage": 1,
+    "speed": 2,
+    "defense": "red",
+    "weapons": [],
+    "surgeChart": [
+      "hit",
+      null
+    ],
+    "imageRef": "Stormtroopers.jpeg",
+    "identifiers": {
+      "name": "Stormtroopers",
+      "legionhqId": "ay",
+      "tni": "unit|Stormtroopers|empire"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "Snowtroopers",
+    "unitType": "trooper",
+    "faction": "empire",
+    "unitRank": "corps",
+    "points": 44,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "heavy weapon",
+      "personnel",
+      "gear",
+      "grenades"
+    ],
+    "keywords": [
+      "Steady"
+    ],
+    "woundThreshold": 1,
+    "courage": 1,
+    "speed": 1,
+    "defense": "red",
+    "weapons": [],
+    "surgeChart": [
+      "hit",
+      null
+    ],
+    "imageRef": "Snowtroopers.jpeg",
+    "identifiers": {
+      "name": "Snowtroopers",
+      "legionhqId": "az",
+      "tni": "unit|Snowtroopers|empire"
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 48 to 44 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "Scout Troopers",
+    "unitType": "trooper",
+    "faction": "empire",
+    "unitRank": "special",
+    "points": 48,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "heavy weapon",
+      "training",
+      "comms",
+      "gear",
+      "grenades"
+    ],
+    "keywords": [
+      "Low Profile",
+      "Scout",
+      "Sharpshooter"
+    ],
+    "woundThreshold": 1,
+    "courage": 2,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      null,
+      "block"
+    ],
+    "imageRef": "Scout Troopers.jpeg",
+    "identifiers": {
+      "name": "Scout Troopers",
+      "legionhqId": "ba",
+      "tni": "unit|Scout Troopers|empire"
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 60 to 48 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "Scout Troopers Strike Team",
+    "unitType": "trooper",
+    "faction": "empire",
+    "unitRank": "special",
+    "points": 20,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "heavy weapon",
+      "training",
+      "comms",
+      "gear",
+      "grenades"
+    ],
+    "keywords": [
+      "Low Profile",
+      "Scout",
+      "Sharpshooter"
+    ],
+    "woundThreshold": 1,
+    "courage": 2,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      null,
+      "block"
+    ],
+    "imageRef": "Scout Troopers Strike Team.jpeg",
+    "identifiers": {
+      "name": "Scout Troopers Strike Team",
+      "legionhqId": "bb",
+      "tni": "unit|Scout Troopers Strike Team|empire"
+    },
+    "meta": {
+      "displayName": "Strike Team"
+    },
+    "history": [
+      {
+        "date": "12 September 2019",
+        "description": "Cost increased from 16 to 20 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "Imperial Royal Guards",
+    "unitType": "trooper",
+    "faction": "empire",
+    "unitRank": "special",
+    "points": 69,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "heavy weapon",
+      "training",
+      "training",
+      "gear",
+      "grenades"
+    ],
+    "keywords": [
+      "Charge",
+      "Disciplined",
+      "Guardian"
+    ],
+    "woundThreshold": 2,
+    "courage": 2,
+    "speed": 2,
+    "defense": "red",
+    "weapons": [],
+    "imageRef": "Imperial Royal Guards.jpeg",
+    "identifiers": {
+      "name": "Imperial Royal Guards",
+      "legionhqId": "bc",
+      "tni": "unit|Imperial Royal Guards|empire"
+    },
+    "meta": {
+      "displayName": "Royal Guards"
+    },
+    "history": [
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 75 to 69 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "Imperial Death Troopers",
+    "unitType": "trooper",
+    "faction": "empire",
+    "unitRank": "special",
+    "points": 72,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "heavy weapon",
+      "training",
+      "comms",
+      "gear",
+      "armament",
+      "grenades"
+    ],
+    "keywords": [
+      "Disciplined",
+      "Precise",
+      "Ready"
+    ],
+    "woundThreshold": 1,
+    "courage": 2,
+    "speed": 2,
+    "defense": "red",
+    "weapons": [],
+    "surgeChart": [
+      "critical",
+      "block"
+    ],
+    "imageRef": "Imperial Death Troopers.jpeg",
+    "identifiers": {
+      "name": "Imperial Death Troopers",
+      "legionhqId": "bd",
+      "tni": "unit|Imperial Death Troopers|empire"
+    },
+    "meta": {
+      "displayName": "Death Troopers"
+    },
+    "history": [
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 76 to 72 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "E-Web Heavy Blaster Team",
+    "unitType": "emplacement trooper",
+    "faction": "empire",
+    "unitRank": "support",
+    "points": 50,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "comms",
+      "generator"
+    ],
+    "keywords": [
+      "Emplacement Trooper",
+      "Full Pivot",
+      "Reposition",
+      "Sentinel",
+      "Cumbersome",
+      "Fixed"
+    ],
+    "woundThreshold": 4,
+    "courage": 2,
+    "speed": 1,
+    "defense": "red",
+    "weapons": [],
+    "surgeChart": [
+      "critical",
+      null
+    ],
+    "imageRef": "E-Web Heavy Blaster Team.jpeg",
+    "identifiers": {
+      "name": "E-Web Heavy Blaster Team",
+      "legionhqId": "be",
+      "tni": "unit|E-Web Heavy Blaster Team|empire"
+    },
+    "meta": {
+      "prevCost": 55,
+      "displayName": "E-Web Team"
+    },
+    "history": [
+      {
+        "date": "5 June 2023",
+        "description": "Cost reduced from 55 to 50 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "74-Z Speeder Bikes",
+    "unitType": "repulsor vehicle",
+    "faction": "empire",
+    "unitRank": "support",
+    "points": 70,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "comms"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Cover",
+      "Speeder",
+      "Fixed",
+      "Impact"
+    ],
+    "woundThreshold": 3,
+    "resilience": -1,
+    "speed": 3,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      "hit",
+      "block"
+    ],
+    "imageRef": "74-Z Speeder Bikes.jpeg",
+    "identifiers": {
+      "name": "74-Z Speeder Bikes",
+      "legionhqId": "bf",
+      "tni": "unit|74-Z Speeder Bikes|empire"
+    },
+    "meta": {
+      "displayName": "Speeder Bikes"
+    },
+    "history": [
+      {
+        "date": "12 September 2019",
+        "description": "Cost reduced from 90 to 75 points."
+      },
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 75 to 70 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "AT-ST",
+    "unitType": "ground vehicle",
+    "faction": "empire",
+    "unitRank": "heavy",
+    "points": 155,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "pilot",
+      "hardpoint",
+      "hardpoint",
+      "hardpoint",
+      "comms"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Armor",
+      "Arsenal",
+      "Weak Point",
+      "Fixed",
+      "Impact"
+    ],
+    "woundThreshold": 11,
+    "resilience": 8,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      null,
+      "block"
+    ],
+    "imageRef": "AT-ST.jpeg",
+    "identifiers": {
+      "name": "AT-ST",
+      "legionhqId": "bg",
+      "tni": "unit|AT-ST|empire"
+    },
+    "history": [
+      {
+        "date": "12 September 2019",
+        "description": "Cost reduced from 195 to 170 points."
+      },
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 170 to 160 points."
+      },
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 160 to 155 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "Occupier Combat Assault Tank",
+    "unitType": "ground vehicle",
+    "faction": "empire",
+    "unitRank": "heavy",
+    "points": 140,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "pilot",
+      "hardpoint",
+      "comms"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Armor",
+      "Arsenal",
+      "Reposition",
+      "Transport: Open",
+      "Weak Point",
+      "Suppressive",
+      "Fixed",
+      "Impact"
+    ],
+    "woundThreshold": 8,
+    "resilience": 6,
+    "speed": 1,
+    "defense": "red",
+    "weapons": [],
+    "imageRef": "Occupier Combat Assault Tank.jpeg",
+    "identifiers": {
+      "name": "Occupier Combat Assault Tank",
+      "legionhqId": "bh",
+      "tni": "unit|Occupier Combat Assault Tank|empire"
+    },
+    "meta": {
+      "displayName": "Occupier Tank"
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 155 to 145 points."
+      },
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 145 to 140 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "Rebel Officer",
+    "subtitle": "Resolute Commander",
+    "unitType": "trooper",
+    "faction": "rebels",
+    "unitRank": "commander",
+    "points": 45,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "command",
+      "gear"
+    ],
+    "keywords": [
+      "Take Cover",
+      "Inspire",
+      "Sharpshooter"
+    ],
+    "woundThreshold": 1,
+    "courage": 1,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      "hit",
+      "block"
+    ],
+    "imageRef": "Rebel Officer.jpeg",
+    "identifiers": {
+      "name": "Rebel Officer: Resolute Commander",
+      "legionhqId": "bi",
+      "tni": "unit|Rebel Officer: Resolute Commander|rebels"
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 50 to 45 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "Luke Skywalker",
+    "subtitle": "Jedi Knight",
+    "unitType": "trooper",
+    "faction": "rebels",
+    "unitRank": "operative",
+    "points": 195,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "force",
+      "force",
+      "force",
+      "training"
+    ],
+    "keywords": [
+      "Jump",
+      "Charge",
+      "Deflect",
+      "Disengage",
+      "Immune",
+      "Master of the Force",
+      "Impact",
+      "Pierce"
+    ],
+    "woundThreshold": 7,
+    "courage": 4,
+    "speed": 2,
+    "defense": "red",
+    "weapons": [],
+    "surgeChart": [
+      "critical",
+      null
+    ],
+    "isUnique": true,
+    "imageRef": "Luke Skywalker2.jpeg",
+    "identifiers": {
+      "name": "Luke Skywalker: Jedi Knight",
+      "legionhqId": "fm",
+      "tni": "unit|Luke Skywalker: Jedi Knight|rebels"
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 200 to 195 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "Darth Vader",
+    "subtitle": "The Emperor's Apprentice",
+    "unitType": "trooper",
+    "faction": "empire",
+    "unitRank": "operative",
+    "points": 175,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "force",
+      "force",
+      "training",
+      "training"
+    ],
+    "keywords": [
+      "Deflect",
+      "Immune",
+      "Jedi Hunter",
+      "Master of the Force",
+      "Relentless",
+      "Impact",
+      "Pierce",
+      "Blast",
+      "Scatter"
+    ],
+    "woundThreshold": 7,
+    "courage": 3,
+    "speed": 2,
+    "defense": "red",
+    "weapons": [],
+    "isUnique": true,
+    "imageRef": "Darth Vader2.jpeg",
+    "identifiers": {
+      "name": "Darth Vader: The Emperor's Apprentice",
+      "legionhqId": "fn",
+      "tni": "unit|Darth Vader: The Emperor's Apprentice|empire"
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 170 to 155 points."
+      },
+      {
+        "date": "27 October 2021",
+        "description": "Cost increased from 155 to 175 points. Increased wound threshold from 6 to 7. Increased speed from 1 to 2. Removed Spur keyword."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "DF-90 Mortar Trooper",
+    "unitType": "emplacement trooper",
+    "faction": "empire",
+    "unitRank": "corps",
+    "points": 40,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "comms"
+    ],
+    "keywords": [
+      "Detachment",
+      "Fire Support",
+      "Full Pivot",
+      "Reposition",
+      "Sentinel",
+      "Critical",
+      "Cumbersome",
+      "Suppressive",
+      "Fixed"
+    ],
+    "woundThreshold": 3,
+    "courage": 2,
+    "speed": 1,
+    "defense": "red",
+    "weapons": [],
+    "imageRef": "DF-90 Mortar Trooper.jpeg",
+    "identifiers": {
+      "name": "DF-90 Mortar Trooper",
+      "legionhqId": "ft",
+      "tni": "unit|DF-90 Mortar Trooper|empire"
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost increased from 36 to 38 points."
+      },
+      {
+        "date": "8 December 2022",
+        "description": "Cost increased from 38 to 40 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "Count Dooku",
+    "subtitle": "Darth Tyranus",
+    "unitType": "trooper",
+    "faction": "separatists",
+    "unitRank": "commander",
+    "points": 185,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "force",
+      "force",
+      "force",
+      "command"
+    ],
+    "keywords": [
+      "Cunning",
+      "Deflect",
+      "Immune",
+      "Makashi Mastery",
+      "Master of the Force",
+      "Impact",
+      "Pierce",
+      "Scatter"
+    ],
+    "woundThreshold": 6,
+    "courage": 3,
+    "speed": 2,
+    "defense": "red",
+    "weapons": [],
+    "surgeChart": [
+      "critical",
+      null
+    ],
+    "isUnique": true,
+    "imageRef": "Count Dooku.jpeg",
+    "identifiers": {
+      "name": "Count Dooku: Darth Tyranus",
+      "legionhqId": "fx",
+      "tni": "unit|Count Dooku: Darth Tyranus|separatists"
+    },
+    "meta": {
+      "prevCost": 195
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 205 to 200 points."
+      },
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 200 to 195 points."
+      },
+      {
+        "date": "5 June 2023",
+        "description": "Cost reduced from 195 to 185 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "Clone Captain Rex",
+    "subtitle": "Honorable Soldier",
+    "unitType": "clone trooper",
+    "faction": "republic",
+    "unitRank": "commander",
+    "points": 95,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "command",
+      "training",
+      "gear",
+      "gear",
+      "grenades"
+    ],
+    "keywords": [
+      "Gunslinger",
+      "Scout",
+      "Scouting Party",
+      "Sharpshooter",
+      "Tactical"
+    ],
+    "woundThreshold": 5,
+    "courage": 2,
+    "speed": 2,
+    "defense": "red",
+    "weapons": [],
+    "surgeChart": [
+      "critical",
+      null
+    ],
+    "isUnique": true,
+    "imageRef": "Clone Captain Rex.jpeg",
+    "identifiers": {
+      "name": "Clone Captain Rex: Honorable Soldier",
+      "legionhqId": "fy",
+      "tni": "unit|Clone Captain Rex: Honorable Soldier|republic"
+    },
+    "meta": {
+      "prevCost": 100,
+      "displayName": "Captain Rex"
+    },
+    "history": [
+      {
+        "date": "27 October 2021",
+        "description": "Cost increased from 90 to 100 points."
+      },
+      {
+        "date": "5 June 2023",
+        "description": "Cost reduced from 100 to 95 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "Phase II Clone Troopers",
+    "unitType": "clone trooper",
+    "faction": "republic",
+    "unitRank": "corps",
+    "points": 60,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "heavy weapon",
+      "personnel",
+      "training",
+      "gear",
+      "grenades"
+    ],
+    "keywords": [
+      "Fire Support",
+      "Reliable"
+    ],
+    "woundThreshold": 1,
+    "courage": 2,
+    "speed": 2,
+    "defense": "red",
+    "weapons": [],
+    "imageRef": "Phase II Clone Troopers.jpeg",
+    "identifiers": {
+      "name": "Phase II Clone Troopers",
+      "legionhqId": "fz",
+      "tni": "unit|Phase II Clone Troopers|republic"
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost increased from 60 to 62 points."
+      },
+      {
+        "date": "8 December 2022",
+        "description": "Cost decreased from 62 to 60 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "B2 Super Battle Droids",
+    "unitType": "droid trooper",
+    "faction": "separatists",
+    "unitRank": "corps",
+    "points": 45,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "heavy weapon",
+      "personnel",
+      "comms"
+    ],
+    "keywords": [
+      "AI",
+      "Armor"
+    ],
+    "woundThreshold": 2,
+    "courage": 2,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "imageRef": "B2 Super Battle Droids.jpeg",
+    "identifiers": {
+      "name": "B2 Super Battle Droids",
+      "legionhqId": "ga",
+      "tni": "unit|B2 Super Battle Droids|separatists"
+    },
+    "meta": {
+      "displayName": "Super Battle Droids"
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 48 to 45 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "TX-130 Saber-Class Fighter Tank",
+    "unitType": "repulsor vehicle",
+    "faction": "republic",
+    "unitRank": "heavy",
+    "points": 160,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "pilot",
+      "hardpoint",
+      "ordnance",
+      "comms"
+    ],
+    "keywords": [
+      "Armor",
+      "Arsenal",
+      "Hover",
+      "Outmaneuver",
+      "Weak Point",
+      "Critical",
+      "Impact",
+      "Fixed"
+    ],
+    "woundThreshold": 9,
+    "resilience": 6,
+    "speed": 2,
+    "defense": "red",
+    "weapons": [],
+    "imageRef": "TX-130 Saber-Class Fighter Tank.jpeg",
+    "identifiers": {
+      "name": "TX-130 Saber-Class Fighter Tank",
+      "legionhqId": "gb",
+      "tni": "unit|TX-130 Saber-Class Fighter Tank|republic"
+    },
+    "meta": {
+      "prevCost": 170,
+      "displayName": "Saber Fighter Tank"
+    },
+    "history": [
+      {
+        "date": "5 June 2023",
+        "description": "Cost reduced from 170 to 160 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "AAT Trade Federation Battle Tank",
+    "unitType": "repulsor vehicle",
+    "faction": "separatists",
+    "unitRank": "heavy",
+    "points": 175,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "pilot",
+      "ordnance",
+      "ordnance",
+      "comms"
+    ],
+    "keywords": [
+      "AI",
+      "Armor",
+      "Arsenal",
+      "Barrage",
+      "Hover",
+      "Weak Point",
+      "Fixed",
+      "Critical",
+      "High Velocity",
+      "Impact"
+    ],
+    "woundThreshold": 9,
+    "resilience": 6,
+    "speed": 1,
+    "defense": "red",
+    "weapons": [],
+    "imageRef": "AAT Trade Federation Battle Tank.jpeg",
+    "identifiers": {
+      "name": "AAT Trade Federation Battle Tank",
+      "legionhqId": "gc",
+      "tni": "unit|AAT Trade Federation Battle Tank|separatists"
+    },
+    "meta": {
+      "displayName": "AAT Battle Tank"
+    },
+    "history": [
+      {
+        "date": "27 October 2021",
+        "description": "Cost increased from 170 to 175 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "Rebel Veterans",
+    "unitType": "trooper",
+    "faction": "rebels",
+    "unitRank": "corps",
+    "points": 48,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "heavy weapon",
+      "personnel",
+      "training",
+      "gear",
+      "grenades"
+    ],
+    "keywords": [
+      "Defend",
+      "Coordinate"
+    ],
+    "woundThreshold": 1,
+    "courage": 1,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      "hit",
+      "block"
+    ],
+    "imageRef": "Rebel Veterans.jpeg",
+    "identifiers": {
+      "name": "Rebel Veterans",
+      "legionhqId": "gv",
+      "tni": "unit|Rebel Veterans|rebels"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "Obi-Wan Kenobi",
+    "subtitle": "Civilized Warrior",
+    "unitType": "trooper",
+    "faction": "republic",
+    "unitRank": "commander",
+    "points": 170,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "force",
+      "force",
+      "command",
+      "training"
+    ],
+    "keywords": [
+      "Jump",
+      "Charge",
+      "Guardian",
+      "Immune",
+      "Master of the Force",
+      "Soresu Mastery",
+      "Critical",
+      "Impact",
+      "Pierce"
+    ],
+    "woundThreshold": 6,
+    "courage": 3,
+    "speed": 2,
+    "defense": "red",
+    "weapons": [],
+    "isUnique": true,
+    "imageRef": "Obi-Wan Kenobi.jpeg",
+    "identifiers": {
+      "name": "Obi-Wan Kenobi: Civilized Warrior",
+      "legionhqId": "gw",
+      "tni": "unit|Obi-Wan Kenobi: Civilized Warrior|republic"
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 175 to 170 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "B1 Battle Droids",
+    "unitType": "droid trooper",
+    "faction": "separatists",
+    "unitRank": "corps",
+    "points": 38,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "heavy weapon",
+      "personnel",
+      "comms",
+      "gear"
+    ],
+    "keywords": [
+      "AI",
+      "Coordinate",
+      "Droid Trooper"
+    ],
+    "woundThreshold": 1,
+    "courage": 1,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "imageRef": "B1 Battle Droids.jpeg",
+    "identifiers": {
+      "name": "B1 Battle Droids",
+      "legionhqId": "gx",
+      "tni": "unit|B1 Battle Droids|separatists"
+    },
+    "meta": {
+      "displayName": "Battle Droids"
+    },
+    "history": [
+      {
+        "date": "27 October 2021",
+        "description": "Cost increased from 36 to 38 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "Phase I Clone Troopers",
+    "unitType": "clone trooper",
+    "faction": "republic",
+    "unitRank": "corps",
+    "points": 52,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "heavy weapon",
+      "personnel",
+      "gear",
+      "grenades"
+    ],
+    "keywords": [
+      "Fire Support"
+    ],
+    "woundThreshold": 1,
+    "courage": 1,
+    "speed": 2,
+    "defense": "red",
+    "weapons": [],
+    "imageRef": "Phase I Clone Troopers.jpeg",
+    "identifiers": {
+      "name": "Phase I Clone Troopers",
+      "legionhqId": "gy",
+      "tni": "unit|Phase I Clone Troopers|republic"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "Tauntaun Riders",
+    "unitType": "creature trooper",
+    "faction": "rebels",
+    "unitRank": "support",
+    "points": 90,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "training",
+      "comms"
+    ],
+    "keywords": [
+      "Agile",
+      "Relentless",
+      "Reposition",
+      "Sharpshooter",
+      "Unhindered",
+      "Ram"
+    ],
+    "woundThreshold": 1,
+    "courage": 1,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      "hit",
+      "block"
+    ],
+    "imageRef": "Tauntaun Riders.jpeg",
+    "identifiers": {
+      "name": "Tauntaun Riders",
+      "legionhqId": "he",
+      "tni": "unit|Tauntaun Riders|rebels"
+    },
+    "meta": {
+      "prevCost": 95
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost increased from 90 to 95 points."
+      },
+      {
+        "date": "5 June 2023",
+        "description": "Cost reduced from 95 to 90 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "Dewback Rider",
+    "unitType": "creature trooper",
+    "faction": "empire",
+    "unitRank": "support",
+    "points": 70,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "training",
+      "comms",
+      "armament"
+    ],
+    "keywords": [
+      "Armor",
+      "Relentless",
+      "Reposition",
+      "Spur",
+      "Unhindered",
+      "Critical",
+      "Suppressive"
+    ],
+    "woundThreshold": 6,
+    "courage": 2,
+    "speed": 1,
+    "defense": "red",
+    "weapons": [],
+    "surgeChart": [
+      "hit",
+      null
+    ],
+    "imageRef": "Dewback Rider.jpeg",
+    "identifiers": {
+      "name": "Dewback Rider",
+      "legionhqId": "hf",
+      "tni": "unit|Dewback Rider|empire"
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 90 to 75 points."
+      },
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 75 to 70 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "Shoretroopers",
+    "unitType": "trooper",
+    "faction": "empire",
+    "unitRank": "corps",
+    "points": 52,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "heavy weapon",
+      "personnel",
+      "training",
+      "gear",
+      "grenades"
+    ],
+    "keywords": [
+      "Coordinate",
+      "Target"
+    ],
+    "woundThreshold": 1,
+    "courage": 1,
+    "speed": 2,
+    "defense": "red",
+    "weapons": [],
+    "imageRef": "Shoretroopers.jpeg",
+    "identifiers": {
+      "name": "Shoretroopers",
+      "legionhqId": "hg",
+      "tni": "unit|Shoretroopers|empire"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "General Grievous",
+    "subtitle": "Sinister Cyborg",
+    "unitType": "trooper",
+    "faction": "separatists",
+    "unitRank": "commander",
+    "points": 150,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "command",
+      "command",
+      "training",
+      "armament"
+    ],
+    "keywords": [
+      "Arsenal",
+      "Block",
+      "Impervious",
+      "Jedi Hunter",
+      "Relentless",
+      "Scale",
+      "Impact",
+      "Pierce"
+    ],
+    "woundThreshold": 8,
+    "courage": 2,
+    "speed": 2,
+    "defense": "red",
+    "weapons": [],
+    "isUnique": true,
+    "imageRef": "General Grievous.jpeg",
+    "identifiers": {
+      "name": "General Grievous: Sinister Cyborg",
+      "legionhqId": "ia",
+      "tni": "unit|General Grievous: Sinister Cyborg|separatists"
+    },
+    "meta": {
+      "prevCost": 155
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 175 to 170 points."
+      },
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 170 to 155 points."
+      },
+      {
+        "date": "5 June 2023",
+        "description": "Cost reduced from 155 to 150 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "BARC Speeder",
+    "unitType": "repulsor vehicle",
+    "faction": "republic",
+    "unitRank": "support",
+    "points": 55,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "crew",
+      "comms"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Arsenal",
+      "Cover",
+      "Speeder",
+      "Fixed"
+    ],
+    "woundThreshold": 5,
+    "resilience": 3,
+    "speed": 3,
+    "defense": "red",
+    "weapons": [],
+    "surgeChart": [
+      "hit",
+      null
+    ],
+    "imageRef": "BARC Speeder.jpeg",
+    "identifiers": {
+      "name": "BARC Speeder",
+      "legionhqId": "ic",
+      "tni": "unit|BARC Speeder|republic"
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 75 to 60 points."
+      },
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 60 to 55 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "Droidekas",
+    "unitType": "ground vehicle",
+    "faction": "separatists",
+    "unitRank": "support",
+    "points": 70,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "comms"
+    ],
+    "keywords": [
+      "Vehicle",
+      "AI",
+      "Generator",
+      "Shielded",
+      "Wheel Mode",
+      "Suppressive",
+      "Fixed",
+      "Immune",
+      "Shield Token"
+    ],
+    "woundThreshold": 3,
+    "resilience": -1,
+    "speed": 1,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      null,
+      "block"
+    ],
+    "imageRef": "Droidekas.jpeg",
+    "identifiers": {
+      "name": "Droidekas",
+      "legionhqId": "ie",
+      "tni": "unit|Droidekas|separatists"
+    },
+    "meta": {
+      "prevCost": 75
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 100 to 80 points."
+      },
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 80 to 75 points."
+      },
+      {
+        "date": "5 June 2023",
+        "description": "Cost reduced from 75 to 70 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "Mark II Medium Blaster Trooper",
+    "unitType": "emplacement trooper",
+    "faction": "rebels",
+    "unitRank": "corps",
+    "points": 38,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "comms"
+    ],
+    "keywords": [
+      "Emplacement Trooper",
+      "Detachment",
+      "Fire Support",
+      "Full Pivot",
+      "Reposition",
+      "Sentinel",
+      "Critical",
+      "Cumbersome",
+      "Fixed"
+    ],
+    "woundThreshold": 4,
+    "courage": 2,
+    "speed": 1,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      "hit",
+      "block"
+    ],
+    "imageRef": "Mark II Medium Blaster Trooper.jpeg",
+    "identifiers": {
+      "name": "Mark II Medium Blaster Trooper",
+      "legionhqId": "if",
+      "tni": "unit|Mark II Medium Blaster Trooper|rebels"
+    },
+    "meta": {
+      "displayName": "Medium Blaster Trooper"
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Wound threshold increased from 3 to 4."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "R2-D2",
+    "subtitle": "Hero of a Thousand Devices",
+    "unitType": "droid trooper",
+    "faction": "rebels",
+    "unitRank": "operative",
+    "points": 55,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "comms"
+    ],
+    "keywords": [
+      "Repair",
+      "Secret Mission",
+      "Grounded",
+      "Inconspicuous",
+      "Suppressive"
+    ],
+    "woundThreshold": 4,
+    "courage": 2,
+    "speed": 1,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      "hit",
+      "block"
+    ],
+    "isUnique": true,
+    "imageRef": "R2-D2.jpeg",
+    "identifiers": {
+      "name": "R2-D2: Hero of a Thousand Devices",
+      "legionhqId": "jg",
+      "tni": "unit|R2-D2: Hero of a Thousand Devices|rebels"
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost increased from 35 to 45."
+      },
+      {
+        "date": "27 October 2021",
+        "description": "Cost increased from 45 to 55 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "R2-D2",
+    "subtitle": "Independent Astromech",
+    "unitType": "droid trooper",
+    "faction": "republic",
+    "unitRank": "operative",
+    "points": 55,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "comms"
+    ],
+    "keywords": [
+      "Repair",
+      "Secret Mission",
+      "Grounded",
+      "Inconspicuous",
+      "Suppressive"
+    ],
+    "woundThreshold": 4,
+    "courage": 2,
+    "speed": 1,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      "hit",
+      "block"
+    ],
+    "isUnique": true,
+    "imageRef": "R2-D22.jpeg",
+    "identifiers": {
+      "name": "R2-D2: Independent Astromech",
+      "legionhqId": "jh",
+      "tni": "unit|R2-D2: Independent Astromech|republic"
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost increased from 35 to 45 points."
+      },
+      {
+        "date": "27 October 2021",
+        "description": "Cost increased from 45 to 55 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "Cassian Andor",
+    "subtitle": "Capable Intelligence Agent",
+    "unitType": "trooper",
+    "faction": "rebels",
+    "unitRank": "commander",
+    "points": 90,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "training",
+      "training",
+      "gear",
+      "armament"
+    ],
+    "keywords": [
+      "Covert Ops",
+      "Danger Sense",
+      "Loadout",
+      "Marksman",
+      "Tactical"
+    ],
+    "woundThreshold": 6,
+    "courage": 2,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      "hit",
+      "block"
+    ],
+    "isUnique": true,
+    "imageRef": "Cassian Andor.jpeg",
+    "identifiers": {
+      "name": "Cassian Andor: Capable Intelligence Agent",
+      "legionhqId": "kf",
+      "tni": "unit|Cassian Andor: Capable Intelligence Agent|rebels"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "Iden Versio",
+    "subtitle": "Inferno Squad Leader",
+    "unitType": "trooper",
+    "faction": "empire",
+    "unitRank": "commander",
+    "points": 100,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "training",
+      "training",
+      "gear",
+      "armament"
+    ],
+    "keywords": [
+      "Quick Thinking",
+      "Covert Ops",
+      "Loadout",
+      "Marksman",
+      "Nimble"
+    ],
+    "woundThreshold": 6,
+    "courage": 3,
+    "speed": 2,
+    "defense": "red",
+    "weapons": [],
+    "surgeChart": [
+      "hit",
+      null
+    ],
+    "isUnique": true,
+    "imageRef": "Iden Versio.jpeg",
+    "identifiers": {
+      "name": "Iden Versio: Inferno Squad Leader",
+      "legionhqId": "kg",
+      "tni": "unit|Iden Versio: Inferno Squad Leader|empire"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "Padme Amidala",
+    "subtitle": "Spirited Senator",
+    "unitType": "trooper",
+    "faction": "republic",
+    "unitRank": "operative",
+    "points": 85,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "command",
+      "training",
+      "gear",
+      "armament"
+    ],
+    "keywords": [
+      "Quick Thinking",
+      "Authoritative",
+      "Exemplar",
+      "Nimble",
+      "Sharpshooter",
+      "Pierce"
+    ],
+    "woundThreshold": 6,
+    "courage": 2,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      "hit",
+      "block"
+    ],
+    "isUnique": true,
+    "imageRef": "Padme Amidala.jpeg",
+    "identifiers": {
+      "name": "Padme Amidala: Spirited Senator",
+      "legionhqId": "kw",
+      "tni": "unit|Padme Amidala: Spirited Senator|republic"
+    },
+    "meta": {
+      "prevCost": 90,
+      "displayName": "Padmé Amidala"
+    },
+    "history": [
+      {
+        "date": "5 June 2023",
+        "description": "Cost reduced from 90 to 85 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "Cad Bane",
+    "subtitle": "Needs No Introduction",
+    "unitType": "trooper",
+    "faction": "mercenaries",
+    "affiliation": "Rogues",
+    "unitRank": "operative",
+    "points": 105,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "training",
+      "training",
+      "comms",
+      "gear",
+      "armament",
+      "grenades"
+    ],
+    "keywords": [
+      "Jump",
+      "Bounty",
+      "Danger Sense",
+      "Independent",
+      "Sharpshooter",
+      "Steady",
+      "Pierce"
+    ],
+    "woundThreshold": 6,
+    "courage": 3,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      "hit",
+      "block"
+    ],
+    "isUnique": true,
+    "imageRef": "Cad Bane.jpeg",
+    "identifiers": {
+      "name": "Cad Bane: Needs No Introduction",
+      "legionhqId": "kx",
+      "tni": "unit|Cad Bane: Needs No Introduction|mercenaries"
+    },
+    "meta": {
+      "mercernary": [
+        "empire",
+        "separatists"
+      ]
+    },
+    "history": [
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 125 to 120 points."
+      },
+      {
+        "date": "31 May 2022",
+        "description": "Cost reduced from 120 to 105 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "ARC Troopers Strike Team",
+    "unitType": "clone trooper",
+    "faction": "republic",
+    "unitRank": "special",
+    "points": 24,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "heavy weapon",
+      "training",
+      "comms",
+      "gear",
+      "gear",
+      "grenades"
+    ],
+    "keywords": [
+      "Heavy Weapon Team",
+      "Impervious",
+      "Scout",
+      "Sharpshooter",
+      "Tactical"
+    ],
+    "woundThreshold": 1,
+    "courage": 2,
+    "speed": 2,
+    "defense": "red",
+    "weapons": [],
+    "imageRef": "ARC Troopers Strike Team.jpeg",
+    "identifiers": {
+      "name": "ARC Troopers Strike Team",
+      "legionhqId": "ky",
+      "tni": "unit|ARC Troopers Strike Team|republic"
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost increased from 21 to 27."
+      },
+      {
+        "date": "8 December 2022",
+        "description": "Cost decreased from 27 to 24."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "ARC Troopers",
+    "unitType": "clone trooper",
+    "faction": "republic",
+    "unitRank": "special",
+    "points": 66,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "heavy weapon",
+      "training",
+      "comms",
+      "gear",
+      "gear",
+      "grenades"
+    ],
+    "keywords": [
+      "Impervious",
+      "Scout",
+      "Sharpshooter",
+      "Tactical"
+    ],
+    "woundThreshold": 1,
+    "courage": 2,
+    "speed": 2,
+    "defense": "red",
+    "weapons": [],
+    "imageRef": "ARC Troopers.jpeg",
+    "identifiers": {
+      "name": "ARC Troopers",
+      "legionhqId": "kz",
+      "tni": "unit|ARC Troopers|republic"
+    },
+    "meta": {
+      "prevCost": 72
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost increased from 72 to 78."
+      },
+      {
+        "date": "8 December 2022",
+        "description": "Cost decreased from 78 to 72."
+      },
+      {
+        "date": "5 June 2023",
+        "description": "Cost reduced from 72 to 66 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "BX-Series Droid Commandos",
+    "unitType": "droid trooper",
+    "faction": "separatists",
+    "unitRank": "special",
+    "points": 64,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "heavy weapon",
+      "training",
+      "comms",
+      "armament",
+      "grenades"
+    ],
+    "keywords": [
+      "AI",
+      "Impervious",
+      "Scale",
+      "Scout",
+      "Sharpshooter"
+    ],
+    "woundThreshold": 1,
+    "courage": 2,
+    "speed": 2,
+    "defense": "red",
+    "weapons": [],
+    "imageRef": "BX-Series Droid Commandos.jpeg",
+    "identifiers": {
+      "name": "BX-Series Droid Commandos",
+      "legionhqId": "la",
+      "tni": "unit|BX-Series Droid Commandos|separatists"
+    },
+    "meta": {
+      "prevCost": 68
+    },
+    "history": [
+      {
+        "date": "5 June 2023",
+        "description": "Cost reduced from 68 to 64 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "BX-Series Droid Commandos Strike Team",
+    "unitType": "droid trooper",
+    "faction": "separatists",
+    "unitRank": "special",
+    "points": 20,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "heavy weapon",
+      "training",
+      "comms",
+      "grenades",
+      "armament"
+    ],
+    "keywords": [
+      "AI",
+      "Heavy Weapon Team",
+      "Impervious",
+      "Scale",
+      "Scout",
+      "Sharpshooter"
+    ],
+    "woundThreshold": 1,
+    "courage": 2,
+    "speed": 2,
+    "defense": "red",
+    "weapons": [],
+    "imageRef": "BX-Series Droid Commandos Strike Team.jpeg",
+    "identifiers": {
+      "name": "BX-Series Droid Commandos Strike Team",
+      "legionhqId": "lb",
+      "tni": "unit|BX-Series Droid Commandos Strike Team|separatists"
+    },
+    "meta": {
+      "displayName": "BX Droid Strike Team"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "K-2SO",
+    "subtitle": "Sardonic Security Droid",
+    "unitType": "droid trooper",
+    "faction": "rebels",
+    "unitRank": "operative",
+    "points": 70,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "comms",
+      "armament"
+    ],
+    "keywords": [
+      "Calculate Odds",
+      "Armor",
+      "Detachment",
+      "Incognito",
+      "Teamwork"
+    ],
+    "weapons": [],
+    "isUnique": true,
+    "imageRef": "K-2SO.jpeg",
+    "identifiers": {
+      "name": "K-2SO: Sardonic Security Droid",
+      "legionhqId": "lv",
+      "tni": "unit|K-2SO: Sardonic Security Droid|rebels"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "AT-RT",
+    "unitType": "ground vehicle",
+    "faction": "republic",
+    "unitRank": "support",
+    "points": 60,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "hardpoint",
+      "comms"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Armor",
+      "Climbing Vehicle",
+      "Expert Climber",
+      "Impact",
+      "Critical"
+    ],
+    "woundThreshold": 6,
+    "resilience": 4,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      "hit",
+      "block"
+    ],
+    "imageRef": "AT-RT2.jpeg",
+    "identifiers": {
+      "name": "AT-RT",
+      "legionhqId": "mb",
+      "tni": "unit|AT-RT|republic"
+    },
+    "history": [
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 65 to 60 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "STAP Riders",
+    "unitType": "repulsor vehicle",
+    "faction": "separatists",
+    "unitRank": "support",
+    "points": 75,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "comms"
+    ],
+    "keywords": [
+      "Agile",
+      "AI",
+      "Coordinate",
+      "Cover",
+      "Speeder",
+      "Critical",
+      "Fixed"
+    ],
+    "woundThreshold": 3,
+    "resilience": 0,
+    "speed": 3,
+    "defense": "white",
+    "weapons": [],
+    "imageRef": "STAP Riders.jpeg",
+    "identifiers": {
+      "name": "STAP Riders",
+      "legionhqId": "mc",
+      "tni": "unit|STAP Riders|separatists"
+    },
+    "history": [
+      {
+        "date": "27 October 2021",
+        "description": "Cost increased from 73 to 75 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "Mandalorian Resistance",
+    "unitType": "trooper",
+    "faction": "rebels",
+    "unitRank": "special",
+    "points": 68,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "heavy weapon",
+      "training",
+      "comms",
+      "gear",
+      "armament",
+      "grenades"
+    ],
+    "keywords": [
+      "Jump",
+      "Impervious",
+      "Nimble"
+    ],
+    "woundThreshold": 1,
+    "courage": 2,
+    "speed": 3,
+    "defense": "red",
+    "weapons": [],
+    "surgeChart": [
+      "hit",
+      "block"
+    ],
+    "imageRef": "Mandalorian Resistance.jpeg",
+    "identifiers": {
+      "name": "Mandalorian Resistance",
+      "legionhqId": "mk",
+      "tni": "unit|Mandalorian Resistance|rebels"
+    },
+    "meta": {
+      "prevCost": 72
+    },
+    "history": [
+      {
+        "date": "5 June 2023",
+        "description": "Cost reduced from 72 to 68 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "Mandalorian Resistance",
+    "subtitle": "Clan Wren",
+    "unitType": "trooper",
+    "faction": "rebels",
+    "unitRank": "special",
+    "points": 30,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "heavy weapon",
+      "heavy weapon",
+      "training",
+      "comms",
+      "gear",
+      "armament",
+      "grenades"
+    ],
+    "keywords": [
+      "Equip",
+      "Jump",
+      "Impervious",
+      "Nimble",
+      "Retinue"
+    ],
+    "woundThreshold": 2,
+    "courage": 3,
+    "speed": 3,
+    "defense": "red",
+    "weapons": [],
+    "surgeChart": [
+      "hit",
+      "block"
+    ],
+    "isUnique": true,
+    "imageRef": "Mandalorian Resistance Clan Wren.jpeg",
+    "identifiers": {
+      "name": "Mandalorian Resistance: Clan Wren",
+      "legionhqId": "ml",
+      "tni": "unit|Mandalorian Resistance: Clan Wren|rebels"
+    },
+    "meta": {
+      "prevCost": 34,
+      "displayName": "Mandalorian Resistance (Clan Wren)",
+      "equip": [
+        "Ursa Wren",
+        "Tristan Wren"
+      ]
+    },
+    "history": [
+      {
+        "date": "5 June 2023",
+        "description": "Cost reduced from 34 to 30 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "Imperial Special Forces",
+    "unitType": "trooper",
+    "faction": "empire",
+    "unitRank": "special",
+    "points": 68,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "heavy weapon",
+      "training",
+      "training",
+      "comms",
+      "gear",
+      "grenades"
+    ],
+    "keywords": [
+      "Infiltrate",
+      "Marksman",
+      "Reliable"
+    ],
+    "woundThreshold": 1,
+    "courage": 2,
+    "speed": 2,
+    "defense": "red",
+    "weapons": [],
+    "surgeChart": [
+      "hit",
+      null
+    ],
+    "imageRef": "Imperial Special Forces.jpeg",
+    "identifiers": {
+      "name": "Imperial Special Forces",
+      "legionhqId": "mx",
+      "tni": "unit|Imperial Special Forces|empire"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "Imperial Special Forces Inferno Squad",
+    "unitType": "trooper",
+    "faction": "empire",
+    "unitRank": "special",
+    "points": 34,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "heavy weapon",
+      "heavy weapon",
+      "training",
+      "training",
+      "comms",
+      "gear",
+      "grenades"
+    ],
+    "keywords": [
+      "Equip",
+      "Infiltrate",
+      "Marksman",
+      "Reliable",
+      "Retinue"
+    ],
+    "woundThreshold": 2,
+    "courage": 2,
+    "speed": 2,
+    "defense": "red",
+    "weapons": [],
+    "surgeChart": [
+      "hit",
+      null
+    ],
+    "isUnique": true,
+    "imageRef": "Imperial Special Forces Inferno Squad.jpeg",
+    "identifiers": {
+      "name": "Imperial Special Forces Inferno Squad",
+      "legionhqId": "my",
+      "tni": "unit|Imperial Special Forces Inferno Squad|empire"
+    },
+    "meta": {
+      "displayName": "Inferno Squad",
+      "equip": [
+        "Gideon Hask",
+        "Del Meeko"
+      ]
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "Anakin Skywalker",
+    "subtitle": "The Chosen One",
+    "unitType": "trooper",
+    "faction": "republic",
+    "unitRank": "commander",
+    "points": 155,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "force",
+      "force",
+      "training",
+      "training"
+    ],
+    "keywords": [
+      "Jump",
+      "Djem So Mastery",
+      "Flawed",
+      "Immune",
+      "Tempted",
+      "Impact",
+      "Pierce"
+    ],
+    "woundThreshold": 6,
+    "courage": 3,
+    "speed": 2,
+    "defense": "red",
+    "weapons": [],
+    "isUnique": true,
+    "imageRef": "Anakin Skywalker.jpeg",
+    "identifiers": {
+      "name": "Anakin Skywalker: The Chosen One",
+      "legionhqId": "na",
+      "tni": "unit|Anakin Skywalker: The Chosen One|republic"
+    },
+    "meta": {
+      "flaw": "Not a Story the Jedi Would Tell"
+    },
+    "history": [
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 160 to 155 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "Maul",
+    "subtitle": "Impatient Apprentice",
+    "unitType": "trooper",
+    "faction": "separatists",
+    "unitRank": "operative",
+    "points": 160,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "force",
+      "force",
+      "training",
+      "training"
+    ],
+    "keywords": [
+      "Jump",
+      "Deflect",
+      "Immune",
+      "Juyo Mastery",
+      "Impact",
+      "Pierce"
+    ],
+    "woundThreshold": 6,
+    "courage": 3,
+    "speed": 2,
+    "defense": "red",
+    "weapons": [],
+    "isUnique": true,
+    "imageRef": "Maul.jpeg",
+    "identifiers": {
+      "name": "Maul: Impatient Apprentice",
+      "legionhqId": "nb",
+      "tni": "unit|Maul: Impatient Apprentice|separatists"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "DRK-1 Sith Probe Droids",
+    "unitType": "droid trooper",
+    "faction": "separatists",
+    "unitRank": "special",
+    "points": 35,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "comms"
+    ],
+    "keywords": [
+      "Detachment",
+      "Observe",
+      "Hover",
+      "Incognito",
+      "Suppressive"
+    ],
+    "woundThreshold": 1,
+    "courage": 1,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "isUnique": true,
+    "imageRef": "DRK-1 Sith Probe Droids.jpeg",
+    "identifiers": {
+      "name": "DRK-1 Sith Probe Droids",
+      "legionhqId": "nk",
+      "tni": "unit|DRK-1 Sith Probe Droids|separatists"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "Lando Calrissian",
+    "subtitle": "Smooth Operator",
+    "unitType": "trooper",
+    "faction": "rebels",
+    "unitRank": "commander",
+    "points": 95,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "command",
+      "training",
+      "gear"
+    ],
+    "keywords": [
+      "Contingencies",
+      "Covert Ops",
+      "Flawed",
+      "Sharpshooter",
+      "Uncanny Luck",
+      "Pierce"
+    ],
+    "woundThreshold": 6,
+    "courage": 2,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "isUnique": true,
+    "imageRef": "Lando Calrissian.jpeg",
+    "identifiers": {
+      "name": "Lando Calrissian: Smooth Operator",
+      "legionhqId": "nl",
+      "tni": "unit|Lando Calrissian: Smooth Operator|rebels"
+    },
+    "meta": {
+      "prevCost": 105,
+      "contingencies": 3,
+      "flaw": "I've Altered the Deal"
+    },
+    "history": [
+      {
+        "date": "5 June 2023",
+        "description": "Cost reduced from 105 to 95 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "Agent Kallus",
+    "subtitle": "Hunter of Spectres",
+    "unitType": "trooper",
+    "faction": "empire",
+    "unitRank": "commander",
+    "points": 85,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "command",
+      "training",
+      "gear",
+      "armament"
+    ],
+    "keywords": [
+      "Contingencies",
+      "Cunning",
+      "Flawed",
+      "Sharpshooter",
+      "Tactical",
+      "Pierce"
+    ],
+    "woundThreshold": 6,
+    "courage": 2,
+    "speed": 2,
+    "defense": "red",
+    "weapons": [],
+    "isUnique": true,
+    "imageRef": "Agent Kallus.jpeg",
+    "identifiers": {
+      "name": "Agent Kallus: Hunter of Spectres",
+      "legionhqId": "nm",
+      "tni": "unit|Agent Kallus: Hunter of Spectres|empire"
+    },
+    "meta": {
+      "prevCost": 90,
+      "contingencies": 2,
+      "flaw": "Developing Sympathies"
+    },
+    "history": [
+      {
+        "date": "5 June 2023",
+        "description": "Cost reduced from 90 to 85 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "T-Series Tactical Droid",
+    "subtitle": "Programmed For Strategy",
+    "unitType": "droid trooper",
+    "faction": "separatists",
+    "unitRank": "commander",
+    "points": 55,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "command",
+      "comms",
+      "gear"
+    ],
+    "keywords": [
+      "Bolster",
+      "Direct",
+      "Sharpshooter"
+    ],
+    "woundThreshold": 4,
+    "courage": 2,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "imageRef": "T-Series Tactical Droid.jpeg",
+    "identifiers": {
+      "name": "T-Series Tactical Droid: Programmed For Strategy",
+      "legionhqId": "nr",
+      "tni": "unit|T-Series Tactical Droid: Programmed For Strategy|separatists"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "Clone Commander",
+    "subtitle": "Trained For Leadership",
+    "unitType": "clone trooper",
+    "faction": "republic",
+    "unitRank": "commander",
+    "points": 60,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "command",
+      "training",
+      "gear"
+    ],
+    "keywords": [
+      "Bolster",
+      "Direct",
+      "Sharpshooter"
+    ],
+    "woundThreshold": 4,
+    "courage": 2,
+    "speed": 2,
+    "defense": "red",
+    "weapons": [],
+    "imageRef": "Clone Commander.jpeg",
+    "identifiers": {
+      "name": "Clone Commander: Trained For Leadership",
+      "legionhqId": "ns",
+      "tni": "unit|Clone Commander: Trained For Leadership|republic"
+    },
+    "history": [
+      {
+        "date": "27 October 2021",
+        "description": "Cost increased from 55 to 60 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "Yoda",
+    "subtitle": "Grand Master of the Jedi Order",
+    "unitType": "trooper",
+    "faction": "republic",
+    "unitRank": "commander",
+    "points": 200,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "force",
+      "force",
+      "force",
+      "command"
+    ],
+    "keywords": [
+      "Guidance",
+      "Ataru Mastery",
+      "Immune",
+      "Master of the Force",
+      "Impact",
+      "Pierce",
+      "Blast",
+      "Suppressive"
+    ],
+    "woundThreshold": 5,
+    "courage": 4,
+    "speed": 1,
+    "defense": "red",
+    "weapons": [],
+    "surgeChart": [
+      "critical",
+      "block"
+    ],
+    "isUnique": true,
+    "imageRef": "Yoda.jpeg",
+    "identifiers": {
+      "name": "Yoda: Grand Master of the Jedi Order",
+      "legionhqId": "ol",
+      "tni": "unit|Yoda: Grand Master of the Jedi Order|republic"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "A-A5 Speeder Truck",
+    "unitType": "repulsor vehicle",
+    "faction": "rebels",
+    "unitRank": "heavy",
+    "points": 75,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "pilot",
+      "crew",
+      "crew",
+      "hardpoint",
+      "comms"
+    ],
+    "keywords": [
+      "Armor",
+      "Hover: Ground",
+      "Reposition",
+      "Transport: Closed",
+      "Weak Point"
+    ],
+    "woundThreshold": 8,
+    "resilience": 4,
+    "speed": 1,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      null,
+      "block"
+    ],
+    "imageRef": "A-A5 Speeder Truck.jpeg",
+    "identifiers": {
+      "name": "A-A5 Speeder Truck",
+      "legionhqId": "om",
+      "tni": "unit|A-A5 Speeder Truck|rebels"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "LAAT Patrol Transport",
+    "unitType": "repulsor vehicle",
+    "faction": "empire",
+    "unitRank": "heavy",
+    "points": 105,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "pilot",
+      "ordnance",
+      "comms"
+    ],
+    "keywords": [
+      "Armor",
+      "Arsenal",
+      "Cover",
+      "Hover: Air",
+      "Immune",
+      "Transport: Closed",
+      "Fixed"
+    ],
+    "woundThreshold": 8,
+    "resilience": 4,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      null,
+      "block"
+    ],
+    "imageRef": "LAAT Patrol Transport E.jpeg",
+    "identifiers": {
+      "name": "LAAT Patrol Transport",
+      "legionhqId": "on",
+      "tni": "unit|LAAT Patrol Transport|empire"
+    },
+    "history": [
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 120 to 105 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "LAAT Patrol Transport",
+    "unitType": "repulsor vehicle",
+    "faction": "republic",
+    "unitRank": "heavy",
+    "points": 100,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "pilot",
+      "ordnance",
+      "comms"
+    ],
+    "keywords": [
+      "Armor",
+      "Arsenal",
+      "Cover",
+      "Hover: Air",
+      "Immune",
+      "Transport: Closed",
+      "Fixed"
+    ],
+    "woundThreshold": 8,
+    "resilience": 4,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      null,
+      "block"
+    ],
+    "imageRef": "LAAT Patrol Transport R.jpeg",
+    "identifiers": {
+      "name": "LAAT Patrol Transport",
+      "legionhqId": "oo",
+      "tni": "unit|LAAT Patrol Transport|republic"
+    },
+    "meta": {
+      "prevCost": 105
+    },
+    "history": [
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 120 to 105 points."
+      },
+      {
+        "date": "5 June 2023",
+        "description": "Cost reduced from 105 to 100 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "Wookiee Warriors",
+    "subtitle": "Kashyyyk Defenders",
+    "unitType": "wookiee trooper",
+    "faction": "republic",
+    "unitRank": "special",
+    "points": 72,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "heavy weapon",
+      "training",
+      "gear",
+      "grenades"
+    ],
+    "keywords": [
+      "Indomitable",
+      "Scale",
+      "Sharpshooter"
+    ],
+    "woundThreshold": 3,
+    "courage": 2,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      "hit",
+      null
+    ],
+    "imageRef": "Wookiee Warriors2.jpeg",
+    "identifiers": {
+      "name": "Wookiee Warriors: Kashyyyk Defenders",
+      "legionhqId": "pg",
+      "tni": "unit|Wookiee Warriors: Kashyyyk Defenders|republic"
+    },
+    "meta": {
+      "displayName": "Wookiee Warriors (Kashyyyk Defenders)"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "Wookiee Chieftain",
+    "subtitle": "Clan Leader",
+    "unitType": "wookiee trooper",
+    "faction": "republic",
+    "unitRank": "commander",
+    "points": 100,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "command",
+      "training",
+      "training",
+      "gear"
+    ],
+    "keywords": [
+      "Agile",
+      "Charge",
+      "Duelist",
+      "Indomitable",
+      "Scale",
+      "Impact",
+      "Pierce"
+    ],
+    "woundThreshold": 7,
+    "courage": 2,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      "hit",
+      "block"
+    ],
+    "isUnique": true,
+    "imageRef": "Wookiee Chieftain.jpeg",
+    "identifiers": {
+      "name": "Wookiee Chieftain: Clan Leader",
+      "legionhqId": "ph",
+      "tni": "unit|Wookiee Chieftain: Clan Leader|republic"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "Wookiee Warriors",
+    "subtitle": "Kashyyyk Resistance",
+    "unitType": "wookiee trooper",
+    "faction": "rebels",
+    "unitRank": "special",
+    "points": 72,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "heavy weapon",
+      "training",
+      "gear",
+      "grenades"
+    ],
+    "keywords": [
+      "Indomitable",
+      "Scale",
+      "Sharpshooter"
+    ],
+    "woundThreshold": 3,
+    "courage": 2,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      "hit",
+      null
+    ],
+    "imageRef": "Wookiee Warriors3.jpeg",
+    "identifiers": {
+      "name": "Wookiee Warriors: Kashyyyk Resistance",
+      "legionhqId": "pl",
+      "tni": "unit|Wookiee Warriors: Kashyyyk Resistance|rebels"
+    },
+    "meta": {
+      "displayName": "Wookiee Warriors (Kashyyyk Resistance)"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "Wookiee Warriors",
+    "unitType": "wookiee trooper",
+    "faction": "republic",
+    "unitRank": "special",
+    "points": 69,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "heavy weapon",
+      "training",
+      "training",
+      "gear",
+      "grenades"
+    ],
+    "keywords": [
+      "Charge",
+      "Duelist",
+      "Indomitable",
+      "Scale"
+    ],
+    "woundThreshold": 3,
+    "courage": 2,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      "hit",
+      null
+    ],
+    "imageRef": "Wookiee Warriors4.jpeg",
+    "identifiers": {
+      "name": "Wookiee Warriors",
+      "legionhqId": "pm",
+      "tni": "unit|Wookiee Warriors|republic"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "Chewbacca",
+    "subtitle": "Hero of Kashyyyk",
+    "unitType": "wookiee trooper",
+    "faction": "republic",
+    "unitRank": "commander",
+    "points": 90,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "training",
+      "training",
+      "gear"
+    ],
+    "keywords": [
+      "Enrage",
+      "Guardian",
+      "Reliable",
+      "Scale",
+      "Lethal",
+      "Critical",
+      "Impact",
+      "Pierce"
+    ],
+    "woundThreshold": 9,
+    "courage": 2,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      "hit",
+      null
+    ],
+    "isUnique": true,
+    "imageRef": "Chewbacca2.jpeg",
+    "identifiers": {
+      "name": "Chewbacca: Hero of Kashyyyk",
+      "legionhqId": "po",
+      "tni": "unit|Chewbacca: Hero of Kashyyyk|republic"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "IG-100 MagnaGuard",
+    "unitType": "droid trooper",
+    "faction": "separatists",
+    "unitRank": "special",
+    "points": 72,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "heavy weapon",
+      "training",
+      "training",
+      "comms",
+      "grenades"
+    ],
+    "keywords": [
+      "AI",
+      "Charge",
+      "Guardian",
+      "Immune",
+      "Retinue",
+      "Unhindered"
+    ],
+    "woundThreshold": 2,
+    "courage": 2,
+    "speed": 2,
+    "defense": "red",
+    "weapons": [],
+    "surgeChart": [
+      "hit",
+      null
+    ],
+    "imageRef": "IG-100 MagnaGuard.jpeg",
+    "identifiers": {
+      "name": "IG-100 MagnaGuard",
+      "legionhqId": "px",
+      "tni": "unit|IG-100 MagnaGuard|separatists"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "Super Tactical Droid",
+    "unitType": "droid trooper",
+    "faction": "separatists",
+    "unitRank": "commander",
+    "points": 90,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "command",
+      "command",
+      "comms",
+      "gear"
+    ],
+    "keywords": [
+      "Strategize",
+      "Direct",
+      "Override",
+      "Sharpshooter",
+      "Lethal"
+    ],
+    "woundThreshold": 5,
+    "courage": 2,
+    "speed": 2,
+    "defense": "red",
+    "weapons": [],
+    "surgeChart": [
+      "hit",
+      null
+    ],
+    "isUnique": true,
+    "imageRef": "Super Tactical Droid.jpeg",
+    "identifiers": {
+      "name": "Super Tactical Droid",
+      "legionhqId": "py",
+      "tni": "unit|Super Tactical Droid|separatists"
+    },
+    "meta": {
+      "prevCost": 95
+    },
+    "history": [
+      {
+        "date": "5 June 2023",
+        "description": "Cost reduced from 95 to 90 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "Super Tactical Droid",
+    "subtitle": "Kraken",
+    "unitType": "droid trooper",
+    "faction": "separatists",
+    "unitRank": "commander",
+    "points": 100,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "command",
+      "command",
+      "training",
+      "comms",
+      "gear"
+    ],
+    "keywords": [
+      "Strategize",
+      "Charge",
+      "Override",
+      "Sharpshooter",
+      "Lethal",
+      "Pierce"
+    ],
+    "woundThreshold": 5,
+    "courage": 2,
+    "speed": 2,
+    "defense": "red",
+    "weapons": [],
+    "surgeChart": [
+      "critical",
+      null
+    ],
+    "isUnique": true,
+    "imageRef": "Super Tactical Droid (Kraken).jpeg",
+    "identifiers": {
+      "name": "Super Tactical Droid: Kraken",
+      "legionhqId": "pz",
+      "tni": "unit|Super Tactical Droid: Kraken|separatists"
+    },
+    "meta": {
+      "displayName": "Kraken"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "Super Tactical Droid",
+    "subtitle": "Kalani",
+    "unitType": "droid trooper",
+    "faction": "separatists",
+    "unitRank": "commander",
+    "points": 100,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "command",
+      "command",
+      "command",
+      "comms",
+      "gear"
+    ],
+    "keywords": [
+      "Strategize",
+      "Direct",
+      "Reinforcements",
+      "Sharpshooter",
+      "Lethal"
+    ],
+    "woundThreshold": 5,
+    "courage": 2,
+    "speed": 2,
+    "defense": "red",
+    "weapons": [],
+    "surgeChart": [
+      "hit",
+      null
+    ],
+    "isUnique": true,
+    "imageRef": "Super Tactical Droid (Kalani).jpeg",
+    "identifiers": {
+      "name": "Super Tactical Droid: Kalani",
+      "legionhqId": "qa",
+      "tni": "unit|Super Tactical Droid: Kalani|separatists"
+    },
+    "meta": {
+      "displayName": "Kalani"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "Raddaugh Gnasp Fluttercraft",
+    "unitType": "repulsor vehicle",
+    "faction": "republic",
+    "unitRank": "support",
+    "points": 55,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "crew",
+      "comms"
+    ],
+    "keywords": [
+      "Cover",
+      "Immune",
+      "Reposition",
+      "Speeder"
+    ],
+    "woundThreshold": 6,
+    "resilience": 3,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      "hit",
+      "block"
+    ],
+    "imageRef": "Raddaugh Gnasp Fluttercraft.jpeg",
+    "identifiers": {
+      "name": "Raddaugh Gnasp Fluttercraft",
+      "legionhqId": "qh",
+      "tni": "unit|Raddaugh Gnasp Fluttercraft|republic"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "DSD1 Dwarf Spider Droid",
+    "unitType": "ground vehicle",
+    "faction": "separatists",
+    "unitRank": "support",
+    "points": 55,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "programming",
+      "hardpoint",
+      "comms"
+    ],
+    "keywords": [
+      "Self-Destruct",
+      "Armor X",
+      "Climbing Vehicle",
+      "Expert Climber",
+      "Programmed",
+      "Blast",
+      "Impact"
+    ],
+    "woundThreshold": 6,
+    "resilience": 4,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      "hit",
+      "block"
+    ],
+    "imageRef": "DSD1 Dwarf Spider Droid.jpeg",
+    "identifiers": {
+      "name": "DSD1 Dwarf Spider Droid",
+      "legionhqId": "qk",
+      "tni": "unit|DSD1 Dwarf Spider Droid|separatists"
+    },
+    "meta": {
+      "displayName": "Dwarf Spider Droid"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "Infantry Support Platform",
+    "unitType": "repulsor vehicle",
+    "faction": "republic",
+    "unitRank": "heavy",
+    "points": 65,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "pilot",
+      "hardpoint",
+      "comms"
+    ],
+    "keywords": [
+      "Armor",
+      "Cover",
+      "Hover",
+      "Weak Point"
+    ],
+    "woundThreshold": 7,
+    "resilience": 5,
+    "speed": 3,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      "hit",
+      "block"
+    ],
+    "imageRef": "Infantry Support Platform.jpeg",
+    "identifiers": {
+      "name": "Infantry Support Platform",
+      "legionhqId": "qs",
+      "tni": "unit|Infantry Support Platform|republic"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "NR-N99 Persuader-class Tank Droid",
+    "unitType": "ground vehicle",
+    "faction": "separatists",
+    "unitRank": "heavy",
+    "points": 145,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "programming",
+      "ordnance",
+      "comms"
+    ],
+    "keywords": [
+      "Armor",
+      "Arsenal",
+      "Programmed",
+      "Reposition",
+      "Transport",
+      "Weak Point"
+    ],
+    "woundThreshold": 11,
+    "resilience": 7,
+    "speed": 1,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      "hit",
+      "block"
+    ],
+    "imageRef": "NR-N99 Persuader-class Tank Droid.jpeg",
+    "identifiers": {
+      "name": "NR-N99 Persuader-class Tank Droid",
+      "legionhqId": "qt",
+      "tni": "unit|NR-N99 Persuader-class Tank Droid|separatists"
+    },
+    "meta": {
+      "displayName": "Snail Droid"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "Pyke Syndicate Capo",
+    "unitType": "trooper",
+    "faction": "mercenaries",
+    "affiliation": "The Pyke Syndicate",
+    "unitRank": "commander",
+    "points": 48,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "command",
+      "gear"
+    ],
+    "keywords": [
+      "Aid",
+      "Independent",
+      "Danger Sense"
+    ],
+    "woundThreshold": 4,
+    "courage": 2,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      null,
+      "block"
+    ],
+    "imageRef": "Pyke Syndicate Capo.jpeg",
+    "identifiers": {
+      "name": "Pyke Syndicate Capo",
+      "legionhqId": "qy",
+      "tni": "unit|Pyke Syndicate Capo|mercenaries"
+    },
+    "meta": {
+      "mercernary": [
+        "rebels",
+        "republic",
+        "empire",
+        "separatists"
+      ]
+    },
+    "history": [
+      {
+        "date": "8 December 2022",
+        "description": "Cost increased from 45 to 48 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "Pyke Syndicate Foot Soldiers",
+    "unitType": "trooper",
+    "faction": "mercenaries",
+    "affiliation": "The Pyke Syndicate",
+    "unitRank": "corps",
+    "points": 44,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "heavy weapon",
+      "personnel",
+      "gear",
+      "grenades"
+    ],
+    "keywords": [
+      "Self-Preservation",
+      "Danger Sense",
+      "Outmaneuver",
+      "Independent"
+    ],
+    "woundThreshold": 1,
+    "courage": 1,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      null,
+      "block"
+    ],
+    "imageRef": "Pyke Syndicate Foot Soldiers.jpeg",
+    "identifiers": {
+      "name": "Pyke Syndicate Foot Soldiers",
+      "legionhqId": "qz",
+      "tni": "unit|Pyke Syndicate Foot Soldiers|mercenaries"
+    },
+    "meta": {
+      "mercernary": [
+        "rebels",
+        "republic",
+        "empire",
+        "separatists"
+      ]
+    },
+    "history": [
+      {
+        "date": "8 December 2022",
+        "description": "Cost increased from 40 to 44 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "Black Sun Vigo",
+    "unitType": "trooper",
+    "faction": "mercenaries",
+    "affiliation": "Black Sun",
+    "unitRank": "commander",
+    "points": 50,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "command",
+      "gear"
+    ],
+    "keywords": [
+      "Aid",
+      "Dauntless",
+      "Independent"
+    ],
+    "woundThreshold": 4,
+    "courage": 2,
+    "speed": 2,
+    "defense": "red",
+    "weapons": [],
+    "imageRef": "Black Sun Vigo.jpeg",
+    "identifiers": {
+      "name": "Black Sun Vigo",
+      "legionhqId": "ra",
+      "tni": "unit|Black Sun Vigo|mercenaries"
+    },
+    "meta": {
+      "mercernary": [
+        "empire",
+        "separatists"
+      ]
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "Black Sun Enforcers",
+    "unitType": "trooper",
+    "faction": "mercenaries",
+    "affiliation": "Black Sun",
+    "unitRank": "corps",
+    "points": 50,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "heavy weapon",
+      "personnel",
+      "gear",
+      "grenades"
+    ],
+    "keywords": [
+      "Dauntless",
+      "Precise",
+      "Self-Preservation",
+      "Independent"
+    ],
+    "woundThreshold": 1,
+    "courage": 1,
+    "speed": 2,
+    "defense": "red",
+    "weapons": [],
+    "imageRef": "Black Sun Enforcers.jpeg",
+    "identifiers": {
+      "name": "Black Sun Enforcers",
+      "legionhqId": "rb",
+      "tni": "unit|Black Sun Enforcers|mercenaries"
+    },
+    "meta": {
+      "prevCost": 48,
+      "mercernary": [
+        "empire",
+        "separatists"
+      ]
+    },
+    "history": [
+      {
+        "date": "5 June 2023",
+        "description": "Cost increased from 48 to 50 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "Maul",
+    "subtitle": "A Rival",
+    "unitType": "trooper",
+    "faction": "mercenaries",
+    "affiliation": "Maul Loyalists",
+    "unitRank": "operative",
+    "points": 170,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "force",
+      "force",
+      "command",
+      "training",
+      "armament"
+    ],
+    "keywords": [
+      "Jump",
+      "Allies of Convenience",
+      "Deflect",
+      "Immune",
+      "Juyo Mastery",
+      "Wound",
+      "Impact",
+      "Pierce"
+    ],
+    "woundThreshold": 6,
+    "courage": 3,
+    "speed": 2,
+    "defense": "red",
+    "weapons": [],
+    "isUnique": true,
+    "imageRef": "Maul2.jpeg",
+    "identifiers": {
+      "name": "Maul: A Rival",
+      "legionhqId": "rc",
+      "tni": "unit|Maul: A Rival|mercenaries"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "Gar Saxon",
+    "subtitle": "Militant Commando",
+    "unitType": "trooper",
+    "faction": "mercenaries",
+    "affiliation": "Maul Loyalists",
+    "unitRank": "commander",
+    "points": 100,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "training",
+      "training",
+      "comms",
+      "gear",
+      "gear",
+      "armament",
+      "armament"
+    ],
+    "keywords": [
+      "Jump",
+      "Allies of Convenience",
+      "Compel",
+      "Impervious",
+      "Sharpshooter",
+      "Pierce"
+    ],
+    "woundThreshold": 5,
+    "courage": 2,
+    "speed": 2,
+    "defense": "red",
+    "weapons": [],
+    "surgeChart": [
+      "critical",
+      "block"
+    ],
+    "isUnique": true,
+    "imageRef": "Gar Saxon.jpeg",
+    "identifiers": {
+      "name": "Gar Saxon: Militant Commando",
+      "legionhqId": "rd",
+      "tni": "unit|Gar Saxon: Militant Commando|mercenaries"
+    },
+    "meta": {
+      "prevCost": 105
+    },
+    "history": [
+      {
+        "date": "5 June 2023",
+        "description": "Cost reduced from 105 to 100 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "Mandalorian Super Commandos",
+    "unitType": "trooper",
+    "faction": "mercenaries",
+    "unitRank": "special",
+    "points": 70,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "heavy weapon",
+      "training",
+      "comms",
+      "gear",
+      "grenades",
+      "armament"
+    ],
+    "keywords": [
+      "Jump",
+      "Defend",
+      "Impervious",
+      "Independent"
+    ],
+    "woundThreshold": 1,
+    "courage": 2,
+    "speed": 3,
+    "defense": "red",
+    "weapons": [],
+    "surgeChart": [
+      null,
+      "block"
+    ],
+    "imageRef": "Mandalorian Super Commandos.jpeg",
+    "identifiers": {
+      "name": "Mandalorian Super Commandos",
+      "legionhqId": "re",
+      "tni": "unit|Mandalorian Super Commandos|mercenaries"
+    },
+    "meta": {
+      "prevCost": 75
+    },
+    "history": [
+      {
+        "date": "5 June 2023",
+        "description": "Cost reduced from 75 to 70 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "A-A5 Speeder Truck",
+    "unitType": "repulsor vehicle",
+    "faction": "mercenaries",
+    "affiliation": "Raiders",
+    "unitRank": "heavy",
+    "points": 75,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "pilot",
+      "crew",
+      "crew",
+      "hardpoint",
+      "comms"
+    ],
+    "keywords": [
+      "Armor",
+      "Hover: Ground",
+      "Reposition",
+      "Transport: Closed",
+      "Weak Point"
+    ],
+    "woundThreshold": 8,
+    "resilience": 4,
+    "speed": 1,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      null,
+      "block"
+    ],
+    "imageRef": "A-A5 Speeder Truck2.jpeg",
+    "identifiers": {
+      "name": "A-A5 Speeder Truck",
+      "legionhqId": "sm",
+      "tni": "unit|A-A5 Speeder Truck|mercenaries"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "Swoop Bike Riders",
+    "unitType": "repulsor vehicle",
+    "faction": "mercenaries",
+    "affiliation": "Raiders",
+    "unitRank": "support",
+    "points": 65,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "comms"
+    ],
+    "keywords": [
+      "Cover",
+      "Independent",
+      "Reinforcements",
+      "Speeder",
+      "Overrun"
+    ],
+    "woundThreshold": 3,
+    "resilience": 0,
+    "speed": 3,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      "hit",
+      "block"
+    ],
+    "imageRef": "Swoop Bike Riders.jpeg",
+    "identifiers": {
+      "name": "Swoop Bike Riders",
+      "legionhqId": "sq",
+      "tni": "unit|Swoop Bike Riders|mercenaries"
+    },
+    "meta": {
+      "prevCost": 70,
+      "mercernary": [
+        "rebels",
+        "republic"
+      ]
+    },
+    "history": [
+      {
+        "date": "5 June 2023",
+        "description": "Cost reduced from 70 to 65 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "Stormtroopers",
+    "unitType": "trooper",
+    "faction": "empire",
+    "unitRank": "corps",
+    "points": 40,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "heavy weapon",
+      "heavy weapon"
+    ],
+    "keywords": [
+      "Flexible Response",
+      "Precise",
+      "Unhindered",
+      "Special Issue"
+    ],
+    "woundThreshold": 1,
+    "courage": 1,
+    "speed": 2,
+    "defense": "red",
+    "weapons": [],
+    "surgeChart": [
+      "hit",
+      null
+    ],
+    "imageRef": "Stormtroopers2.jpeg",
+    "identifiers": {
+      "name": "Stormtroopers",
+      "legionhqId": "sr",
+      "tni": "unit|Stormtroopers|empire"
+    },
+    "meta": {
+      "prevCost": 30,
+      "displayName": "Stormtroopers Heavy Response Unit",
+      "specialIssue": "Blizzard Force"
+    },
+    "history": [
+      {
+        "date": "5 June 2023",
+        "description": "Cost increased from 30 to 40 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "IG-88",
+    "subtitle": "Notorious Assassin Droid",
+    "unitType": "droid trooper",
+    "faction": "mercenaries",
+    "unitRank": "operative",
+    "points": 110,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "training",
+      "comms",
+      "gear"
+    ],
+    "keywords": [
+      "Armor X",
+      "Bounty",
+      "Impervious",
+      "Sharpshooter",
+      "Pierce",
+      "Versatile"
+    ],
+    "woundThreshold": 5,
+    "courage": 2,
+    "speed": 2,
+    "defense": "red",
+    "weapons": [],
+    "surgeChart": [
+      "critical",
+      null
+    ],
+    "isUnique": true,
+    "imageRef": "IG-88.jpeg",
+    "identifiers": {
+      "name": "IG-88: Notorious Assassin Droid",
+      "legionhqId": "ti",
+      "tni": "unit|IG-88: Notorious Assassin Droid|mercenaries"
+    },
+    "meta": {
+      "mercernary": [
+        "empire"
+      ]
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "IG-11",
+    "subtitle": "Nurse and Protect",
+    "unitType": "droid trooper",
+    "faction": "mercenaries",
+    "affiliation": "Rogues",
+    "unitRank": "operative",
+    "points": 105,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "training",
+      "comms",
+      "gear",
+      "programming"
+    ],
+    "keywords": [
+      "Armor X",
+      "Gunslinger",
+      "Impervious",
+      "Programmed",
+      "Sharpshooter"
+    ],
+    "woundThreshold": 5,
+    "courage": 2,
+    "speed": 2,
+    "defense": "red",
+    "weapons": [],
+    "surgeChart": [
+      "critical",
+      null
+    ],
+    "isUnique": true,
+    "imageRef": "IG-11.jpeg",
+    "identifiers": {
+      "name": "IG-11: Nurse and Protect",
+      "legionhqId": "tj",
+      "tni": "unit|IG-11: Nurse and Protect|mercenaries"
+    },
+    "meta": {
+      "mercernary": [
+        "rebels",
+        "empire"
+      ]
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "Din Djarin",
+    "subtitle": "The Mandalorian",
+    "unitType": "trooper",
+    "faction": "mercenaries",
+    "affiliation": "Rogues",
+    "unitRank": "operative",
+    "points": 105,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "training",
+      "training",
+      "comms",
+      "gear",
+      "gear",
+      "armament"
+    ],
+    "keywords": [
+      "Arsenal",
+      "Bounty",
+      "Impervious",
+      "Independent",
+      "Tactical",
+      "Lethal",
+      "Longshot",
+      "Versatile"
+    ],
+    "woundThreshold": 5,
+    "courage": 3,
+    "speed": 2,
+    "defense": "red",
+    "weapons": [],
+    "surgeChart": [
+      "critical",
+      "block"
+    ],
+    "isUnique": true,
+    "imageRef": "Din Djarin.jpeg",
+    "identifiers": {
+      "name": "Din Djarin: The Mandalorian",
+      "legionhqId": "tk",
+      "tni": "unit|Din Djarin: The Mandalorian|mercenaries"
+    },
+    "meta": {
+      "mercernary": [
+        "rebels",
+        "empire"
+      ]
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "Boba Fett",
+    "subtitle": "Daimyo of Mos Espa",
+    "unitType": "trooper",
+    "faction": "mercenaries",
+    "affiliation": "Rogues",
+    "unitRank": "operative",
+    "points": 120,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "training",
+      "training",
+      "gear",
+      "gear"
+    ],
+    "keywords": [
+      "Jump",
+      "Arsenal",
+      "Impervious",
+      "Independent",
+      "Sentinel",
+      "Sharpshooter",
+      "Tactical",
+      "Pierce"
+    ],
+    "woundThreshold": 5,
+    "courage": 3,
+    "speed": 2,
+    "defense": "red",
+    "weapons": [],
+    "surgeChart": [
+      "critical",
+      "block"
+    ],
+    "isUnique": true,
+    "imageRef": "Boba Fett2.jpeg",
+    "identifiers": {
+      "name": "Boba Fett: Daimyo of Mos Espa",
+      "legionhqId": "tl",
+      "tni": "unit|Boba Fett: Daimyo of Mos Espa|mercenaries"
+    },
+    "meta": {
+      "mercernary": [
+        "rebels"
+      ]
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "Imperial Dark Troopers",
+    "unitType": "droid trooper",
+    "faction": "empire",
+    "unitRank": "heavy",
+    "points": 95,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "heavy weapon",
+      "heavy weapon",
+      "personnel",
+      "programming"
+    ],
+    "keywords": [
+      "Armor",
+      "Plodding",
+      "Unconcerned",
+      "Unstoppable"
+    ],
+    "woundThreshold": 2,
+    "courage": "-",
+    "speed": 1,
+    "defense": "red",
+    "weapons": [],
+    "imageRef": "Imperial Dark Troopers.jpeg",
+    "identifiers": {
+      "name": "Imperial Dark Troopers",
+      "legionhqId": "tm",
+      "tni": "unit|Imperial Dark Troopers|empire"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "Clone Commander Cody",
+    "subtitle": "Leader of the 212th",
+    "unitType": "clone trooper",
+    "faction": "republic",
+    "unitRank": "commander",
+    "points": 105,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "command",
+      "training",
+      "gear"
+    ],
+    "keywords": [
+      "Observe",
+      "Jump",
+      "Take Cover",
+      "Direct",
+      "Target"
+    ],
+    "woundThreshold": 5,
+    "courage": 2,
+    "speed": 2,
+    "defense": "red",
+    "weapons": [],
+    "surgeChart": [
+      "critical",
+      null
+    ],
+    "isUnique": true,
+    "imageRef": "Clone Commander Cody.jpeg",
+    "identifiers": {
+      "name": "Clone Commander Cody: Leader of the 212th",
+      "legionhqId": "ue",
+      "tni": "unit|Clone Commander Cody: Leader of the 212th|republic"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "Moff Gideon",
+    "subtitle": "Long Live the Empire",
+    "unitType": "trooper",
+    "faction": "empire",
+    "unitRank": "commander",
+    "points": 100,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "command",
+      "command",
+      "training",
+      "gear",
+      "armament"
+    ],
+    "keywords": [
+      "Observe",
+      "Entourage",
+      "Ruthless",
+      "Sharpshooter",
+      "Tactical"
+    ],
+    "woundThreshold": 5,
+    "courage": 3,
+    "speed": 2,
+    "defense": "red",
+    "weapons": [],
+    "surgeChart": [
+      "critical",
+      "block"
+    ],
+    "isUnique": true,
+    "imageRef": "Moff Gideon.jpeg",
+    "identifiers": {
+      "name": "Moff Gideon: Long Live the Empire",
+      "legionhqId": "ui",
+      "tni": "unit|Moff Gideon: Long Live the Empire|empire"
+    },
+    "meta": {
+      "entourage": {
+        "name": "Imperial Dark Troopers",
+        "type": "special"
+      }
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "Asajj Ventress",
+    "subtitle": "Separatist Assassin",
+    "unitType": "trooper",
+    "faction": "separatists",
+    "unitRank": "operative",
+    "points": 150,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "force",
+      "force",
+      "training",
+      "training"
+    ],
+    "keywords": [
+      "Jump",
+      "Deflect",
+      "Independent",
+      "Indomitable",
+      "Immune",
+      "Jar'Kai Mastery",
+      "Relentless"
+    ],
+    "woundThreshold": 5,
+    "courage": 2,
+    "speed": 2,
+    "defense": "red",
+    "weapons": [],
+    "isUnique": true,
+    "imageRef": "Asajj Ventress.jpeg",
+    "identifiers": {
+      "name": "Asajj Ventress: Separatist Assassin",
+      "legionhqId": "ut",
+      "tni": "unit|Asajj Ventress: Separatist Assassin|separatists"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "Imperial Death Troopers",
+    "unitType": "trooper",
+    "faction": "empire",
+    "unitRank": "corps",
+    "points": 72,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "heavy weapon",
+      "training",
+      "comms",
+      "gear",
+      "armament",
+      "grenades"
+    ],
+    "keywords": [
+      "Disciplined",
+      "Precise",
+      "Ready"
+    ],
+    "woundThreshold": 1,
+    "courage": 2,
+    "speed": 2,
+    "defense": "red",
+    "weapons": [],
+    "surgeChart": [
+      "critical",
+      "block"
+    ],
+    "imageRef": "Imperial Death Troopers.jpeg",
+    "identifiers": {
+      "name": "Imperial Death Troopers",
+      "legionhqId": "uy",
+      "tni": "unit|Imperial Death Troopers|empire"
+    },
+    "meta": {
+      "displayName": "Death Troopers",
+      "specialIssue": "Imperial Remnant"
+    },
+    "history": [
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 76 to 72 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "Scout Troopers",
+    "unitType": "trooper",
+    "faction": "empire",
+    "unitRank": "corps",
+    "points": 48,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "heavy weapon",
+      "training",
+      "comms",
+      "gear",
+      "grenades"
+    ],
+    "keywords": [
+      "Low Profile",
+      "Scout",
+      "Sharpshooter"
+    ],
+    "woundThreshold": 1,
+    "courage": 2,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      null,
+      "block"
+    ],
+    "imageRef": "Scout Troopers.jpeg",
+    "identifiers": {
+      "name": "Scout Troopers",
+      "legionhqId": "uz",
+      "tni": "unit|Scout Troopers|empire"
+    },
+    "meta": {
+      "specialIssue": "Imperial Remnant"
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 60 to 48 points."
+      }
+    ]
+  },
+  {
+    "__typename": "unit",
+    "name": "Ahsoka Tano",
+    "subtitle": "Fulcrum",
+    "unitType": "trooper",
+    "faction": "rebels",
+    "unitRank": "operative",
+    "points": 165,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "force",
+      "force",
+      "training",
+      "training"
+    ],
+    "keywords": [
+      "Jump",
+      "Charge",
+      "Defend",
+      "Deflect",
+      "Immune",
+      "Jar'Kai Mastery",
+      "Impact",
+      "Pierce"
+    ],
+    "woundThreshold": 6,
+    "courage": 3,
+    "speed": 2,
+    "defense": "red",
+    "weapons": [],
+    "surgeChart": [
+      "critical",
+      null
+    ],
+    "isUnique": true,
+    "imageRef": "Ahsoka Tano.jpeg",
+    "identifiers": {
+      "name": "Ahsoka Tano: Fulcrum",
+      "legionhqId": "vd",
+      "tni": "unit|Ahsoka Tano: Fulcrum|rebels"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "Wicket",
+    "subtitle": "Hero of Bright Tree",
+    "unitType": "trooper",
+    "faction": "mercenaries",
+    "affiliation": "Ewoks",
+    "unitRank": "commander",
+    "points": 70,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "training",
+      "training",
+      "training"
+    ],
+    "keywords": [
+      "Independent",
+      "Low Profile",
+      "Nimble",
+      "Scout",
+      "Scouting Party",
+      "Sharpshooter",
+      "Unhindered",
+      "Pierce",
+      "Primitive"
+    ],
+    "woundThreshold": 5,
+    "courage": 2,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      "critical",
+      "block"
+    ],
+    "isUnique": true,
+    "imageRef": "Wicket.jpeg",
+    "identifiers": {
+      "name": "Wicket: Hero of Bright Tree",
+      "legionhqId": "ve",
+      "tni": "unit|Wicket: Hero of Bright Tree|mercenaries"
+    },
+    "meta": {
+      "mercernary": [
+        "rebels"
+      ]
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "Chewbacca",
+    "subtitle": "Let the Wookiee Win",
+    "unitType": "ground vehicle",
+    "faction": "mercenaries",
+    "affiliation": "Ewoks",
+    "unitRank": "heavy",
+    "points": 190,
+    "numberOfMiniatures": 1,
+    "keywords": [
+      "Armor",
+      "Arsenal",
+      "Inspire",
+      "Incognito",
+      "Weak Point",
+      "Fixed",
+      "Blast",
+      "Impact"
+    ],
+    "woundThreshold": 11,
+    "resilience": 8,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      "critical",
+      "block"
+    ],
+    "isUnique": true,
+    "imageRef": "Chewbacca3.jpeg",
+    "identifiers": {
+      "name": "Chewbacca: Let the Wookiee Win",
+      "legionhqId": "vj",
+      "tni": "unit|Chewbacca: Let the Wookiee Win|mercenaries"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "Ewok Skirmishers",
+    "unitType": "trooper",
+    "faction": "mercenaries",
+    "affiliation": "Ewoks",
+    "unitRank": "corps",
+    "points": 40,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "heavy weapon",
+      "personnel",
+      "training"
+    ],
+    "keywords": [
+      "Low Profile",
+      "Unhindered"
+    ],
+    "woundThreshold": 1,
+    "courage": 1,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "imageRef": "Ewok Skirmishers.jpeg",
+    "identifiers": {
+      "name": "Ewok Skirmishers",
+      "legionhqId": "vk",
+      "tni": "unit|Ewok Skirmishers|mercenaries"
+    },
+    "meta": {
+      "mercernary": [
+        "rebels"
+      ]
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "Ewok Slingers",
+    "unitType": "trooper",
+    "faction": "mercenaries",
+    "affiliation": "Ewoks",
+    "unitRank": "special",
+    "points": 35,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "heavy weapon",
+      "personnel",
+      "training"
+    ],
+    "keywords": [
+      "Independent",
+      "Low Profile",
+      "Target",
+      "Unhindered",
+      "Primitive"
+    ],
+    "woundThreshold": 1,
+    "courage": 1,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "imageRef": "Ewok Slingers.jpeg",
+    "identifiers": {
+      "name": "Ewok Slingers",
+      "legionhqId": "vu",
+      "tni": "unit|Ewok Slingers|mercenaries"
+    },
+    "meta": {
+      "mercernary": [
+        "rebels"
+      ]
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "C-3P0",
+    "subtitle": "Golden God",
+    "unitType": "droid trooper",
+    "faction": "mercenaries",
+    "affiliation": "Ewoks",
+    "unitRank": "commander",
+    "points": 40,
+    "numberOfMiniatures": 1,
+    "keywords": [
+      "Master Storyteller",
+      "Compel",
+      "Divine Influence"
+    ],
+    "woundThreshold": 3,
+    "courage": 2,
+    "weapons": [],
+    "isUnique": true,
+    "imageRef": "C-3PO3.jpeg",
+    "identifiers": {
+      "name": "C-3P0: Golden God",
+      "legionhqId": "vv",
+      "tni": "unit|C-3P0: Golden God|mercenaries"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "Logray",
+    "subtitle": "Superstitious Shaman",
+    "unitType": "trooper",
+    "faction": "mercenaries",
+    "affiliation": "Ewoks",
+    "unitRank": "commander",
+    "points": 45,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "command",
+      "training",
+      "training",
+      "training"
+    ],
+    "keywords": [
+      "Aid",
+      "Independent",
+      "Inspire",
+      "Low Profile",
+      "Nimble",
+      "Suppressive"
+    ],
+    "woundThreshold": 4,
+    "courage": 3,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      null,
+      "block"
+    ],
+    "isUnique": true,
+    "imageRef": "Logray.jpeg",
+    "identifiers": {
+      "name": "Logray: Superstitious Shaman",
+      "legionhqId": "wd",
+      "tni": "unit|Logray: Superstitious Shaman|mercenaries"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "Major Marquand",
+    "subtitle": "Tempest Scout 2",
+    "unitType": "ground vehicle",
+    "faction": "empire",
+    "unitRank": "heavy",
+    "points": 190,
+    "numberOfMiniatures": 1,
+    "keywords": [
+      "Vehicle",
+      "Armor",
+      "Arsenal",
+      "Direct",
+      "Weak Point",
+      "Special Issue",
+      "Fixed",
+      "Impact"
+    ],
+    "woundThreshold": 11,
+    "resilience": 8,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      "hit",
+      "block"
+    ],
+    "isUnique": true,
+    "imageRef": "Major Marquand.jpeg",
+    "identifiers": {
+      "name": "Major Marquand: Tempest Scout 2",
+      "legionhqId": "we",
+      "tni": "unit|Major Marquand: Tempest Scout 2|empire"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "Fifth Brother",
+    "subtitle": "The Kill is Mine",
+    "unitType": "trooper",
+    "faction": "empire",
+    "unitRank": "operative",
+    "points": 105,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "training",
+      "training",
+      "force"
+    ],
+    "keywords": [
+      "Dauntless",
+      "Block",
+      "Enrage",
+      "Immune",
+      "Ram",
+      "Impact",
+      "Pierce"
+    ],
+    "woundThreshold": 6,
+    "courage": 2,
+    "speed": 2,
+    "defense": "red",
+    "weapons": [],
+    "surgeChart": [
+      "hit",
+      null
+    ],
+    "isUnique": true,
+    "imageRef": "Fifth Brother.jpeg",
+    "identifiers": {
+      "name": "Fifth Brother: The Kill is Mine",
+      "legionhqId": "wl",
+      "tni": "unit|Fifth Brother: The Kill is Mine|empire"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "Seventh Sister",
+    "subtitle": "Compelled to Inflict Pain",
+    "unitType": "trooper",
+    "faction": "empire",
+    "unitRank": "operative",
+    "points": 110,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "training",
+      "training",
+      "force"
+    ],
+    "keywords": [
+      "Associate",
+      "Block",
+      "Charge",
+      "Disciplined",
+      "Immune",
+      "Impact",
+      "Pierce"
+    ],
+    "woundThreshold": 5,
+    "courage": 3,
+    "speed": 2,
+    "defense": "red",
+    "weapons": [],
+    "surgeChart": [
+      "hit",
+      null
+    ],
+    "isUnique": true,
+    "imageRef": "Seventh Sister.jpeg",
+    "identifiers": {
+      "name": "Seventh Sister: Compelled to Inflict Pain",
+      "legionhqId": "wm",
+      "tni": "unit|Seventh Sister: Compelled to Inflict Pain|empire"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "Poggle the Lesser",
+    "subtitle": "Public Leader of the Geonosians",
+    "unitType": "trooper",
+    "faction": "separatists",
+    "unitRank": "commander",
+    "points": 85,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "command",
+      "command",
+      "comms",
+      "gear"
+    ],
+    "keywords": [
+      "Jump",
+      "Compel",
+      "Entourage",
+      "Override",
+      "Weighed Down"
+    ],
+    "woundThreshold": 4,
+    "courage": 3,
+    "speed": 1,
+    "defense": "red",
+    "weapons": [],
+    "surgeChart": [
+      "hit",
+      null
+    ],
+    "isUnique": true,
+    "imageRef": "Poggle the Lesser.jpeg",
+    "identifiers": {
+      "name": "Poggle the Lesser: Public Leader of the Geonosians",
+      "legionhqId": "wn",
+      "tni": "unit|Poggle the Lesser: Public Leader of the Geonosians|separatists"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "Sun Fac",
+    "subtitle": "Ruthless Lieutenant",
+    "unitType": "trooper",
+    "faction": "separatists",
+    "unitRank": "operative",
+    "points": 90,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "training",
+      "comms",
+      "gear"
+    ],
+    "keywords": [
+      "Jump",
+      "Cover",
+      "Death From Above",
+      "Direct",
+      "Retinue",
+      "Scale",
+      "Weighed Down",
+      "Pierce",
+      "Suppressive"
+    ],
+    "woundThreshold": 5,
+    "courage": 2,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      "hit",
+      "block"
+    ],
+    "isUnique": true,
+    "imageRef": "Sun Fac.jpeg",
+    "identifiers": {
+      "name": "Sun Fac: Ruthless Lieutenant",
+      "legionhqId": "wo",
+      "tni": "unit|Sun Fac: Ruthless Lieutenant|separatists"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "Geonosian Warriors",
+    "subtitle": "Soldiers of the Hive",
+    "unitType": "trooper",
+    "faction": "separatists",
+    "unitRank": "corps",
+    "points": 45,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "heavy weapon",
+      "personnel"
+    ],
+    "keywords": [
+      "Jump",
+      "Scale",
+      "Death From Above",
+      "Weighed Down"
+    ],
+    "woundThreshold": 1,
+    "courage": 1,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      null,
+      "block"
+    ],
+    "imageRef": "Geonosian Warriors.jpeg",
+    "identifiers": {
+      "name": "Geonosian Warriors: Soldiers of the Hive",
+      "legionhqId": "wp",
+      "tni": "unit|Geonosian Warriors: Soldiers of the Hive|separatists"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "IG-100 MagnaGuard",
+    "subtitle": "Prototype Assassin Droids",
+    "unitType": "droid trooper",
+    "faction": "separatists",
+    "unitRank": "corps",
+    "points": 60,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "heavy weapon",
+      "training",
+      "grenades"
+    ],
+    "keywords": [
+      "AI",
+      "Charge",
+      "Guardian",
+      "Unhindered",
+      "Special Issue"
+    ],
+    "woundThreshold": 1,
+    "courage": 1,
+    "speed": 2,
+    "defense": "red",
+    "weapons": [],
+    "surgeChart": [
+      "hit",
+      null
+    ],
+    "imageRef": "IG-100 MagnaGuard2.jpeg",
+    "identifiers": {
+      "name": "IG-100 MagnaGuard: Prototype Assassin Droids",
+      "legionhqId": "xd",
+      "tni": "unit|IG-100 MagnaGuard: Prototype Assassin Droids|separatists"
+    },
+    "meta": {
+      "specialIssue": "Experimental Droids"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "NR-N99 Persuader-class Tank Droid",
+    "subtitle": "Prototype Tank Droid",
+    "unitType": "ground vehicle",
+    "faction": "separatists",
+    "unitRank": "heavy",
+    "points": 145,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "programming",
+      "ordnance",
+      "comms"
+    ],
+    "keywords": [
+      "Armor",
+      "Arsenal",
+      "Command Node",
+      "Programmed",
+      "Reposition",
+      "Weak Point",
+      "Ion",
+      "Fixed",
+      "Special Issue"
+    ],
+    "woundThreshold": 11,
+    "resilience": 7,
+    "speed": 1,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      null,
+      "block"
+    ],
+    "imageRef": "NR-N99 Persuader-class Tank Droid2.jpeg",
+    "identifiers": {
+      "name": "NR-N99 Persuader-class Tank Droid: Prototype Tank Droid",
+      "legionhqId": "xe",
+      "tni": "unit|NR-N99 Persuader-class Tank Droid: Prototype Tank Droid|separatists"
+    },
+    "meta": {
+      "displayName": "Snail Droid",
+      "specialIssue": "Experimental Droids"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "Raddaugh Gnasp Fluttercraft",
+    "subtitle": "Attack Craft",
+    "unitType": "repulsor vehicle",
+    "faction": "republic",
+    "unitRank": "support",
+    "points": 57,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "crew",
+      "comms"
+    ],
+    "keywords": [
+      "Attack Run",
+      "Cover",
+      "Immune",
+      "Reposition",
+      "Speeder",
+      "Special Issue"
+    ],
+    "woundThreshold": 6,
+    "resilience": 3,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      "hit",
+      "block"
+    ],
+    "imageRef": "Raddaugh Gnasp Fluttercraft2.jpeg",
+    "identifiers": {
+      "name": "Raddaugh Gnasp Fluttercraft: Attack Craft",
+      "legionhqId": "xf",
+      "tni": "unit|Raddaugh Gnasp Fluttercraft: Attack Craft|republic"
+    },
+    "meta": {
+      "specialIssue": "Wookiee Defenders"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "Wookiee Warriors",
+    "subtitle": "Noble Fighters",
+    "unitType": "wookiee trooper",
+    "faction": "republic",
+    "unitRank": "corps",
+    "points": 69,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "heavy weapon",
+      "training",
+      "training",
+      "gear",
+      "grenades"
+    ],
+    "keywords": [
+      "Charge",
+      "Duelist",
+      "Indomitable",
+      "Scale"
+    ],
+    "woundThreshold": 3,
+    "courage": 2,
+    "speed": 2,
+    "defense": "white",
+    "weapons": [],
+    "surgeChart": [
+      "hit",
+      null
+    ],
+    "imageRef": "Wookiee Warriors4.jpeg",
+    "identifiers": {
+      "name": "Wookiee Warriors: Noble Fighters",
+      "legionhqId": "xg",
+      "tni": "unit|Wookiee Warriors: Noble Fighters|republic"
+    },
+    "meta": {
+      "specialIssue": "Wookiee Defenders"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "Range Troopers",
+    "unitType": "trooper",
+    "faction": "empire",
+    "unitRank": "support",
+    "points": 60,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "heavy weapon",
+      "personnel",
+      "grenades",
+      "comms"
+    ],
+    "keywords": [
+      "Advanced Targeting",
+      "Armor",
+      "Indomitable",
+      "Scale",
+      "Spur"
+    ],
+    "woundThreshold": 1,
+    "courage": 2,
+    "speed": 1,
+    "defense": "red",
+    "weapons": [],
+    "imageRef": "Range Troopers.jpeg",
+    "identifiers": {
+      "name": "Range Troopers",
+      "legionhqId": "xh",
+      "tni": "unit|Range Troopers|empire"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "The Bad Batch",
+    "unitType": "clone trooper",
+    "faction": "republic",
+    "unitRank": "operative",
+    "points": 160,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "heavy weapon",
+      "heavy weapon",
+      "heavy weapon",
+      "heavy weapon",
+      "heavy weapon"
+    ],
+    "keywords": [
+      "Equip",
+      "Impervious",
+      "Scale",
+      "Steady",
+      "Sharpshooter",
+      "We're Not Regs"
+    ],
+    "woundThreshold": 2,
+    "courage": 3,
+    "speed": 2,
+    "defense": "red",
+    "weapons": [],
+    "isUnique": true,
+    "imageRef": "The Bad Batch.jpeg",
+    "identifiers": {
+      "name": "The Bad Batch",
+      "legionhqId": "xi",
+      "tni": "unit|The Bad Batch|republic"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "Clone Commandos",
+    "unitType": "clone trooper",
+    "faction": "republic",
+    "unitRank": "support",
+    "points": 75,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "training",
+      "gear",
+      "grenades",
+      "comms",
+      "armament"
+    ],
+    "keywords": [
+      "Complete the Mission",
+      "Equip",
+      "Infiltrate",
+      "Recharge",
+      "Target",
+      "Shielded"
+    ],
+    "woundThreshold": 1,
+    "courage": 2,
+    "speed": 2,
+    "defense": "red",
+    "weapons": [],
+    "imageRef": "Clone Commandos.jpeg",
+    "identifiers": {
+      "name": "Clone Commandos",
+      "legionhqId": "xj",
+      "tni": "unit|Clone Commandos|republic"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "Clone Commandos",
+    "subtitle": "Delta Squad",
+    "unitType": "clone trooper",
+    "faction": "republic",
+    "unitRank": "support",
+    "points": 100,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "training",
+      "training",
+      "gear",
+      "grenades",
+      "comms",
+      "armament"
+    ],
+    "keywords": [
+      "Complete the Mission",
+      "Equip",
+      "Infiltrate",
+      "Recharge",
+      "Target",
+      "Shielded",
+      "Suppressive"
+    ],
+    "woundThreshold": 1,
+    "courage": "-",
+    "speed": 2,
+    "defense": "red",
+    "weapons": [],
+    "isUnique": true,
+    "imageRef": "Delta Squad.jpeg",
+    "identifiers": {
+      "name": "Clone Commandos: Delta Squad",
+      "legionhqId": "xp",
+      "tni": "unit|Clone Commandos: Delta Squad|republic"
+    },
+    "meta": {
+      "displayName": "Delta Squad"
+    }
+  },
+  {
+    "__typename": "unit",
+    "name": "The Bad Batch",
+    "subtitle": "Clone Force 99",
+    "unitType": "clone trooper",
+    "faction": "mercenaries",
+    "affiliation": "Rogues",
+    "unitRank": "operative",
+    "points": 140,
+    "numberOfMiniatures": 1,
+    "upgradeBar": [
+      "heavy weapon",
+      "heavy weapon",
+      "heavy weapon",
+      "heavy weapon"
+    ],
+    "keywords": [
+      "Equip",
+      "Impervious",
+      "Scale",
+      "Steady",
+      "Sharpshooter",
+      "We're Not Regs",
+      "Fire Support"
+    ],
+    "woundThreshold": 2,
+    "courage": 3,
+    "speed": 2,
+    "defense": "red",
+    "weapons": [],
+    "isUnique": true,
+    "imageRef": "The Bad Batch2.jpeg",
+    "identifiers": {
+      "name": "The Bad Batch: Clone Force 99",
+      "legionhqId": "xv",
+      "tni": "unit|The Bad Batch: Clone Force 99|mercenaries"
+    },
+    "meta": {
+      "mercernary": [
+        "rebels"
+      ]
+    }
+  }
+]

@@ -41,10 +41,12 @@ const definePageConfig = ({
   header,
   hero,
   socialMedia,
+  assets = {},
 }: Partial<PageConfig> = {}): PageConfig => ({
   header: defineHeaderConfig(header),
   hero: defineHeroConfig(hero),
   socialMedia: defineSocialMedia(socialMedia),
+  assets,
 });
 
 export {definePageConfig};

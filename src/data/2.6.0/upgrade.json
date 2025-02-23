@@ -1,0 +1,7119 @@
+[
+  {
+    "__typename": "upgrade",
+    "name": "Improvised Orders",
+    "upgradeType": "command",
+    "points": 5,
+    "imageRef": "Improvised Orders.jpeg",
+    "identifiers": {
+      "name": "Improvised Orders",
+      "legionhqId": "cw",
+      "tni": "upgrade|Improvised Orders"
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 10 to 5 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Commanding Presence",
+    "upgradeType": "command",
+    "points": 5,
+    "imageRef": "Commanding Presence.jpeg",
+    "identifiers": {
+      "name": "Commanding Presence",
+      "legionhqId": "cx",
+      "tni": "upgrade|Commanding Presence"
+    },
+    "history": [
+      {
+        "date": "12 September 2019",
+        "description": "Cost reduced from 10 to 5 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Esteemed Leader",
+    "upgradeType": "command",
+    "points": 5,
+    "keywords": [
+      "Guardian"
+    ],
+    "imageRef": "Esteemed Leader.jpeg",
+    "identifiers": {
+      "name": "Esteemed Leader",
+      "legionhqId": "cy",
+      "tni": "upgrade|Esteemed Leader"
+    }
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Strict Orders",
+    "upgradeType": "command",
+    "points": 5,
+    "imageRef": "Strict Orders.jpeg",
+    "identifiers": {
+      "name": "Strict Orders",
+      "legionhqId": "cz",
+      "tni": "upgrade|Strict Orders"
+    }
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Recon Intel",
+    "upgradeType": "gear",
+    "points": 2,
+    "keywords": [
+      "Scout"
+    ],
+    "imageRef": "Recon Intel.jpeg",
+    "identifiers": {
+      "name": "Recon Intel",
+      "legionhqId": "da",
+      "tni": "upgrade|Recon Intel"
+    }
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Emergency Stims",
+    "upgradeType": "gear",
+    "points": 8,
+    "imageRef": "Emergency Stims.jpeg",
+    "identifiers": {
+      "name": "Emergency Stims",
+      "legionhqId": "db",
+      "tni": "upgrade|Emergency Stims"
+    },
+    "history": [
+      {
+        "date": "12 September 2019",
+        "description": "Cost increased from 8 to 12 points."
+      },
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 12 to 10 points."
+      },
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 10 to 8 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Targeting Scopes",
+    "upgradeType": "gear",
+    "points": 4,
+    "keywords": [
+      "Precise"
+    ],
+    "imageRef": "Targeting Scopes.jpeg",
+    "identifiers": {
+      "name": "Targeting Scopes",
+      "legionhqId": "dc",
+      "tni": "upgrade|Targeting Scopes"
+    },
+    "history": [
+      {
+        "date": "12 September 2019",
+        "description": "Cost reduced from 6 to 4 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Grappling Hooks",
+    "upgradeType": "gear",
+    "points": 2,
+    "keywords": [
+      "Expert Climber"
+    ],
+    "imageRef": "Grappling Hooks.jpeg",
+    "identifiers": {
+      "name": "Grappling Hooks",
+      "legionhqId": "dd",
+      "tni": "upgrade|Grappling Hooks"
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost decreased from 3 to 1 point."
+      },
+      {
+        "date": "8 December 2022",
+        "description": "Cost increased from 1 to 2 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Environmental Gear",
+    "upgradeType": "gear",
+    "points": 2,
+    "keywords": [
+      "Unhindered"
+    ],
+    "imageRef": "Environmental Gear.jpeg",
+    "identifiers": {
+      "name": "Environmental Gear",
+      "legionhqId": "de",
+      "tni": "upgrade|Environmental Gear"
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 3 to 2 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Tenacity",
+    "upgradeType": "training",
+    "points": 6,
+    "imageRef": "Tenacity.jpeg",
+    "identifiers": {
+      "name": "Tenacity",
+      "legionhqId": "df",
+      "tni": "upgrade|Tenacity"
+    },
+    "history": [
+      {
+        "date": "8 December 2022",
+        "description": "Cost increased from 4 to 6 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Hunter",
+    "upgradeType": "training",
+    "points": 6,
+    "imageRef": "Hunter.jpeg",
+    "identifiers": {
+      "name": "Hunter",
+      "legionhqId": "dg",
+      "tni": "upgrade|Hunter"
+    }
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Duck and Cover",
+    "upgradeType": "training",
+    "points": 2,
+    "imageRef": "Duck and Cover.jpeg",
+    "identifiers": {
+      "name": "Duck and Cover",
+      "legionhqId": "dh",
+      "tni": "upgrade|Duck and Cover"
+    },
+    "history": [
+      {
+        "date": "12 September 2019",
+        "description": "Cost reduced from 8 to 4 points."
+      },
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 4 to 2 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Endurance",
+    "upgradeType": "training",
+    "points": 6,
+    "imageRef": "Endurance.jpeg",
+    "identifiers": {
+      "name": "Endurance",
+      "legionhqId": "di",
+      "tni": "upgrade|Endurance"
+    }
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Fragmentation Grenades",
+    "upgradeType": "grenades",
+    "points": 5,
+    "imageRef": "Fragmentation Grenades.jpeg",
+    "identifiers": {
+      "name": "Fragmentation Grenades",
+      "legionhqId": "dj",
+      "tni": "upgrade|Fragmentation Grenades"
+    }
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Impact Grenades",
+    "upgradeType": "grenades",
+    "points": 3,
+    "keywords": [
+      "Impact"
+    ],
+    "imageRef": "Impact Grenades.jpeg",
+    "identifiers": {
+      "name": "Impact Grenades",
+      "legionhqId": "dk",
+      "tni": "upgrade|Impact Grenades"
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 5 to 3 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Concussion Grenades",
+    "upgradeType": "grenades",
+    "points": 3,
+    "keywords": [
+      "Blast"
+    ],
+    "imageRef": "Concussion Grenades.jpeg",
+    "identifiers": {
+      "name": "Concussion Grenades",
+      "legionhqId": "dl",
+      "tni": "upgrade|Concussion Grenades"
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 5 to 3 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "HQ Uplink",
+    "upgradeType": "comms",
+    "points": 10,
+    "imageRef": "HQ Uplink.jpeg",
+    "identifiers": {
+      "name": "HQ Uplink",
+      "legionhqId": "dm",
+      "tni": "upgrade|HQ Uplink"
+    }
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Comms Jammer",
+    "upgradeType": "comms",
+    "points": 5,
+    "imageRef": "Comms Jammer.jpeg",
+    "identifiers": {
+      "name": "Comms Jammer",
+      "legionhqId": "dn",
+      "tni": "upgrade|Comms Jammer"
+    },
+    "history": [
+      {
+        "date": "12 September 2019",
+        "description": "Cost reduced from 15 to 5 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Long-Range Comlink",
+    "upgradeType": "comms",
+    "points": 5,
+    "imageRef": "Long-Range Comlink.jpeg",
+    "identifiers": {
+      "name": "Long-Range Comlink",
+      "legionhqId": "do",
+      "tni": "upgrade|Long-Range Comlink"
+    },
+    "history": [
+      {
+        "date": "12 September 2019",
+        "description": "Cost reduced from 10 to 5 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Comms Relay",
+    "upgradeType": "comms",
+    "points": 5,
+    "imageRef": "Comms Relay.jpeg",
+    "identifiers": {
+      "name": "Comms Relay",
+      "legionhqId": "dp",
+      "tni": "upgrade|Comms Relay"
+    },
+    "restrictions": [
+      "NOT",
+      {
+        "unitType": "emplacement trooper"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Overcharged Generator",
+    "upgradeType": "generator",
+    "points": 3,
+    "keywords": [
+      "Fixed",
+      "Impact"
+    ],
+    "imageRef": "Overcharged Generator.jpeg",
+    "identifiers": {
+      "name": "Overcharged Generator",
+      "legionhqId": "dq",
+      "tni": "upgrade|Overcharged Generator"
+    },
+    "history": [
+      {
+        "date": "12 September 2019",
+        "description": "Cost reduced from 10 to 7 points."
+      },
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 7 to 3 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Barrage Generator",
+    "upgradeType": "generator",
+    "points": 3,
+    "keywords": [
+      "Fixed",
+      "Suppressive"
+    ],
+    "imageRef": "Barrage Generator.jpeg",
+    "identifiers": {
+      "name": "Barrage Generator",
+      "legionhqId": "dr",
+      "tni": "upgrade|Barrage Generator"
+    },
+    "history": [
+      {
+        "date": "12 September 2019",
+        "description": "Cost reduced from 10 to 7 points."
+      },
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 7 to 3 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Battle Meditation",
+    "upgradeType": "force",
+    "points": 5,
+    "imageRef": "Battle Meditation.jpeg",
+    "identifiers": {
+      "name": "Battle Meditation",
+      "legionhqId": "ds",
+      "tni": "upgrade|Battle Meditation"
+    },
+    "history": [
+      {
+        "date": "12 September 2019",
+        "description": "Cost reduced from 10 to 5 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Force Push",
+    "upgradeType": "force",
+    "points": 10,
+    "imageRef": "Force Push.jpeg",
+    "identifiers": {
+      "name": "Force Push",
+      "legionhqId": "dt",
+      "tni": "upgrade|Force Push"
+    }
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Force Reflexes",
+    "upgradeType": "force",
+    "points": 5,
+    "imageRef": "Force Reflexes.jpeg",
+    "identifiers": {
+      "name": "Force Reflexes",
+      "legionhqId": "du",
+      "tni": "upgrade|Force Reflexes"
+    },
+    "history": [
+      {
+        "date": "12 September 2019",
+        "description": "Cost reduced from 15 to 10 points."
+      },
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 10 to 5 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Saber Throw",
+    "upgradeType": "force",
+    "points": 5,
+    "imageRef": "Saber Throw.jpeg",
+    "identifiers": {
+      "name": "Saber Throw",
+      "legionhqId": "dv",
+      "tni": "upgrade|Saber Throw"
+    },
+    "history": [
+      {
+        "date": "12 September 2019",
+        "description": "Cost reduced from 10 to 5 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Jedi Mind Trick",
+    "upgradeType": "force",
+    "points": 5,
+    "imageRef": "Jedi Mind Trick.jpeg",
+    "identifiers": {
+      "name": "Jedi Mind Trick",
+      "legionhqId": "dw",
+      "tni": "upgrade|Jedi Mind Trick"
+    },
+    "restrictions": [
+      {
+        "forceAlignment": "light side"
+      }
+    ],
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Restricted to target non-commander, non-operative enemy trooper units instead of any enemy trooper units."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Anger",
+    "upgradeType": "force",
+    "points": 3,
+    "imageRef": "Anger.jpeg",
+    "identifiers": {
+      "name": "Anger",
+      "legionhqId": "dx",
+      "tni": "upgrade|Anger"
+    },
+    "restrictions": [
+      {
+        "forceAlignment": "dark side"
+      }
+    ],
+    "history": [
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 5 to 3 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Force Choke",
+    "upgradeType": "force",
+    "points": 10,
+    "imageRef": "Force Choke.jpeg",
+    "identifiers": {
+      "name": "Force Choke",
+      "legionhqId": "dy",
+      "tni": "upgrade|Force Choke"
+    },
+    "restrictions": [
+      {
+        "forceAlignment": "dark side"
+      }
+    ],
+    "meta": {
+      "prevCost": 5
+    },
+    "history": [
+      {
+        "date": "5 June 2023",
+        "description": "Cost increased from 5 to 10 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "A-180 Configuration",
+    "upgradeType": "armament",
+    "points": 0,
+    "keywords": [
+      "Pierce",
+      "Reconfigure"
+    ],
+    "imageRef": "A-180 Configuration.jpeg",
+    "identifiers": {
+      "name": "A-180 Configuration",
+      "legionhqId": "dz",
+      "tni": "upgrade|A-180 Configuration"
+    },
+    "restrictions": [
+      {
+        "name": "Jyn Erso"
+      }
+    ],
+    "meta": {
+      "displayName": "A-180 Config"
+    }
+  },
+  {
+    "__typename": "upgrade",
+    "name": "A-300 Configuration",
+    "upgradeType": "armament",
+    "points": 0,
+    "keywords": [
+      "Reconfigure"
+    ],
+    "imageRef": "A-300 Configuration.jpeg",
+    "identifiers": {
+      "name": "A-300 Configuration",
+      "legionhqId": "ea",
+      "tni": "upgrade|A-300 Configuration"
+    },
+    "restrictions": [
+      {
+        "name": "Rebel Pathfinders"
+      }
+    ],
+    "meta": {
+      "displayName": "A-300 Config"
+    },
+    "history": [
+      {
+        "date": "12 September 2019",
+        "description": "Cost reduced from 6 to 0 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "The Darksaber",
+    "upgradeType": "armament",
+    "points": 15,
+    "keywords": [
+      "Dauntless",
+      "Immune",
+      "Impact",
+      "Pierce"
+    ],
+    "isUnique": true,
+    "imageRef": "The Darksaber.jpeg",
+    "identifiers": {
+      "name": "The Darksaber",
+      "legionhqId": "eb",
+      "tni": "upgrade|The Darksaber"
+    },
+    "restrictions": [
+      {
+        "name": "Sabine Wren"
+      }
+    ],
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 25 to 15 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "MPL-57 Ion Trooper",
+    "upgradeType": "heavy weapon",
+    "points": 17,
+    "keywords": [
+      "Impact",
+      "Ion",
+      "Ion Token"
+    ],
+    "imageRef": "MPL-57 Ion Trooper.jpeg",
+    "identifiers": {
+      "name": "MPL-57 Ion Trooper",
+      "legionhqId": "ec",
+      "tni": "upgrade|MPL-57 Ion Trooper"
+    },
+    "restrictions": [
+      {
+        "name": "Rebel Troopers"
+      }
+    ],
+    "history": [
+      {
+        "date": "12 September 2019",
+        "description": "Cost reduced from 32 to 24 points."
+      },
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 24 to 18 points."
+      },
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 18 to 17 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Z-6 Trooper",
+    "upgradeType": "heavy weapon",
+    "points": 20,
+    "imageRef": "Z-6 Trooper.jpeg",
+    "identifiers": {
+      "name": "Z-6 Trooper",
+      "legionhqId": "ed",
+      "tni": "upgrade|Z-6 Trooper"
+    },
+    "restrictions": [
+      {
+        "name": "Rebel Troopers"
+      }
+    ],
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 22 to 20 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Bowcaster Wookiee",
+    "upgradeType": "heavy weapon",
+    "points": 31,
+    "keywords": [
+      "Impact",
+      "Pierce"
+    ],
+    "imageRef": "Bowcaster Wookiee.jpeg",
+    "identifiers": {
+      "name": "Bowcaster Wookiee",
+      "legionhqId": "ee",
+      "tni": "upgrade|Bowcaster Wookiee"
+    },
+    "restrictions": [
+      {
+        "name": "Wookiee Warriors"
+      }
+    ],
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 35 to 31 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Proton Charge Saboteur",
+    "upgradeType": "heavy weapon",
+    "points": 23,
+    "keywords": [
+      "Arm",
+      "Detonate",
+      "Blast",
+      "Impact"
+    ],
+    "imageRef": "Proton Charge Saboteur.jpeg",
+    "identifiers": {
+      "name": "Proton Charge Saboteur",
+      "legionhqId": "ef",
+      "tni": "upgrade|Proton Charge Saboteur"
+    },
+    "restrictions": [
+      "OR",
+      {
+        "name": "Rebel Commandos"
+      },
+      {
+        "name": "Rebel Commandos Strike Team"
+      }
+    ],
+    "history": [
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 26 to 23 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "DH-447 Sniper",
+    "upgradeType": "heavy weapon",
+    "points": 28,
+    "keywords": [
+      "High Velocity",
+      "Pierce"
+    ],
+    "imageRef": "DH-447 Sniper.jpeg",
+    "identifiers": {
+      "name": "DH-447 Sniper",
+      "legionhqId": "eg",
+      "tni": "upgrade|DH-447 Sniper"
+    },
+    "restrictions": [
+      "OR",
+      {
+        "name": "Rebel Commandos"
+      },
+      {
+        "name": "Rebel Commandos Strike Team"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Scatter Gun Trooper",
+    "upgradeType": "heavy weapon",
+    "points": 23,
+    "keywords": [
+      "Pierce"
+    ],
+    "imageRef": "Scatter Gun Trooper.jpeg",
+    "identifiers": {
+      "name": "Scatter Gun Trooper",
+      "legionhqId": "eh",
+      "tni": "upgrade|Scatter Gun Trooper"
+    },
+    "restrictions": [
+      {
+        "name": "Fleet Troopers"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "MPL-57 Barrage Trooper",
+    "upgradeType": "heavy weapon",
+    "points": 19,
+    "keywords": [
+      "Blast",
+      "Impact"
+    ],
+    "imageRef": "MPL-57 Barrage Trooper.jpeg",
+    "identifiers": {
+      "name": "MPL-57 Barrage Trooper",
+      "legionhqId": "ei",
+      "tni": "upgrade|MPL-57 Barrage Trooper"
+    },
+    "restrictions": [
+      {
+        "name": "Fleet Troopers"
+      }
+    ],
+    "meta": {
+      "displayName": "Barrage Trooper"
+    },
+    "history": [
+      {
+        "date": "12 September 2019",
+        "description": "Cost reduced from 33 to 25 points."
+      },
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 25 to 22 points."
+      },
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 22 to 19 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "DLT-19 Stormtrooper",
+    "upgradeType": "heavy weapon",
+    "points": 20,
+    "keywords": [
+      "Impact"
+    ],
+    "imageRef": "DLT-19 Stormtrooper.jpeg",
+    "identifiers": {
+      "name": "DLT-19 Stormtrooper",
+      "legionhqId": "ej",
+      "tni": "upgrade|DLT-19 Stormtrooper"
+    },
+    "restrictions": [
+      {
+        "name": "Stormtroopers"
+      }
+    ],
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 24 to 22 points."
+      },
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 22 to 20 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "HH-12 Stormtrooper",
+    "upgradeType": "heavy weapon",
+    "points": 16,
+    "keywords": [
+      "Cumbersome",
+      "Impact"
+    ],
+    "imageRef": "HH-12 Stormtrooper.jpeg",
+    "identifiers": {
+      "name": "HH-12 Stormtrooper",
+      "legionhqId": "ek",
+      "tni": "upgrade|HH-12 Stormtrooper"
+    },
+    "restrictions": [
+      {
+        "name": "Stormtroopers"
+      }
+    ],
+    "history": [
+      {
+        "date": "12 September 2019",
+        "description": "Cost reduced from 34 to 26 points."
+      },
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 26 to 20 points."
+      },
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 20 to 16 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Electrostaff Guard",
+    "upgradeType": "heavy weapon",
+    "points": 21,
+    "keywords": [
+      "Sidearm",
+      "Immune"
+    ],
+    "imageRef": "Electrostaff Guard.jpeg",
+    "identifiers": {
+      "name": "Electrostaff Guard",
+      "legionhqId": "el",
+      "tni": "upgrade|Electrostaff Guard"
+    },
+    "restrictions": [
+      {
+        "name": "Imperial Royal Guards"
+      }
+    ],
+    "history": [
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 25 to 21 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "DLT-19x Sniper",
+    "upgradeType": "heavy weapon",
+    "points": 28,
+    "keywords": [
+      "High Velocity",
+      "Pierce"
+    ],
+    "imageRef": "DLT-19x Sniper.jpeg",
+    "identifiers": {
+      "name": "DLT-19x Sniper",
+      "legionhqId": "em",
+      "tni": "upgrade|DLT-19x Sniper"
+    },
+    "restrictions": [
+      "OR",
+      {
+        "name": "Scout Troopers"
+      },
+      {
+        "name": "Scout Troopers Strike Team"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Sonic Charge Saboteur",
+    "upgradeType": "heavy weapon",
+    "points": 26,
+    "keywords": [
+      "Arm",
+      "Detonate",
+      "Blast",
+      "Suppressive"
+    ],
+    "imageRef": "Sonic Charge Saboteur.jpeg",
+    "identifiers": {
+      "name": "Sonic Charge Saboteur",
+      "legionhqId": "en",
+      "tni": "upgrade|Sonic Charge Saboteur"
+    },
+    "restrictions": [
+      "OR",
+      {
+        "name": "Scout Troopers"
+      },
+      {
+        "name": "Scout Troopers Strike Team"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "T-7 Ion Snowtrooper",
+    "upgradeType": "heavy weapon",
+    "points": 18,
+    "keywords": [
+      "Impact",
+      "Ion",
+      "Ion Token"
+    ],
+    "imageRef": "T-7 Ion Snowtrooper.jpeg",
+    "identifiers": {
+      "name": "T-7 Ion Snowtrooper",
+      "legionhqId": "eo",
+      "tni": "upgrade|T-7 Ion Snowtrooper"
+    },
+    "restrictions": [
+      {
+        "name": "Snowtroopers"
+      }
+    ],
+    "meta": {
+      "displayName": "Ion Snowtrooper"
+    },
+    "history": [
+      {
+        "date": "12 September 2019",
+        "description": "Cost reduced from 34 to 26 points."
+      },
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 26 to 20 points."
+      },
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 20 to 18 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Flametrooper",
+    "upgradeType": "heavy weapon",
+    "points": 20,
+    "keywords": [
+      "Blast",
+      "Spray"
+    ],
+    "imageRef": "Flametrooper.jpeg",
+    "identifiers": {
+      "name": "Flametrooper",
+      "legionhqId": "ep",
+      "tni": "upgrade|Flametrooper"
+    },
+    "restrictions": [
+      {
+        "name": "Snowtroopers"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Rebel Comms Technician",
+    "upgradeType": "personnel",
+    "points": 9,
+    "imageRef": "Rebel Comms Technician.jpeg",
+    "identifiers": {
+      "name": "Rebel Comms Technician",
+      "legionhqId": "eq",
+      "tni": "upgrade|Rebel Comms Technician"
+    },
+    "restrictions": [
+      {
+        "faction": "rebels"
+      }
+    ],
+    "meta": {
+      "displayName": "Comms Technician",
+      "additionalUpgradeSlots": [
+        "comms"
+      ]
+    }
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Rebel Officer",
+    "upgradeType": "personnel",
+    "points": 16,
+    "keywords": [
+      "Inspire",
+      "Leader"
+    ],
+    "imageRef": "Rebel Officer.jpeg",
+    "identifiers": {
+      "name": "Rebel Officer",
+      "legionhqId": "er",
+      "tni": "upgrade|Rebel Officer"
+    },
+    "restrictions": [
+      {
+        "faction": "rebels"
+      }
+    ],
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 19 to 16 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Rebel Trooper",
+    "upgradeType": "personnel",
+    "points": 7,
+    "imageRef": "Rebel Trooper.jpeg",
+    "identifiers": {
+      "name": "Rebel Trooper",
+      "legionhqId": "es",
+      "tni": "upgrade|Rebel Trooper"
+    },
+    "restrictions": [
+      {
+        "name": "Rebel Troopers"
+      }
+    ],
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 10 to 7 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "R5 Astromech Droid",
+    "upgradeType": "personnel",
+    "points": 8,
+    "keywords": [
+      "Repair",
+      "Noncombatant"
+    ],
+    "imageRef": "R5 Astromech Droid.jpeg",
+    "identifiers": {
+      "name": "R5 Astromech Droid",
+      "legionhqId": "et",
+      "tni": "upgrade|R5 Astromech Droid"
+    },
+    "restrictions": [
+      {
+        "faction": "rebels"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "2-1B Medical Droid",
+    "upgradeType": "personnel",
+    "points": 18,
+    "keywords": [
+      "Treat",
+      "Noncombatant"
+    ],
+    "imageRef": "2-1B Medical Droid.jpeg",
+    "identifiers": {
+      "name": "2-1B Medical Droid",
+      "legionhqId": "eu",
+      "tni": "upgrade|2-1B Medical Droid"
+    },
+    "restrictions": [
+      {
+        "faction": "rebels"
+      }
+    ],
+    "meta": {
+      "displayName": "Medical Droid"
+    }
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Fleet Trooper",
+    "upgradeType": "personnel",
+    "points": 7,
+    "imageRef": "Fleet Trooper.jpeg",
+    "identifiers": {
+      "name": "Fleet Trooper",
+      "legionhqId": "ev",
+      "tni": "upgrade|Fleet Trooper"
+    },
+    "restrictions": [
+      {
+        "name": "Fleet Troopers"
+      }
+    ],
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 11 to 7 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Imperial Officer",
+    "upgradeType": "personnel",
+    "points": 17,
+    "keywords": [
+      "Inspire",
+      "Leader"
+    ],
+    "imageRef": "Imperial Officer.jpeg",
+    "identifiers": {
+      "name": "Imperial Officer",
+      "legionhqId": "ew",
+      "tni": "upgrade|Imperial Officer"
+    },
+    "restrictions": [
+      "AND",
+      {
+        "unitRank": "corps"
+      },
+      {
+        "faction": "empire"
+      }
+    ],
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 20 to 17 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Stormtrooper",
+    "upgradeType": "personnel",
+    "points": 8,
+    "imageRef": "Stormtrooper.jpeg",
+    "identifiers": {
+      "name": "Stormtrooper",
+      "legionhqId": "ex",
+      "tni": "upgrade|Stormtrooper"
+    },
+    "restrictions": [
+      {
+        "name": "Stormtroopers"
+      }
+    ],
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 11 to 8 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Imperial Comms Technician",
+    "upgradeType": "personnel",
+    "points": 10,
+    "imageRef": "Imperial Comms Technician.jpeg",
+    "identifiers": {
+      "name": "Imperial Comms Technician",
+      "legionhqId": "ey",
+      "tni": "upgrade|Imperial Comms Technician"
+    },
+    "restrictions": [
+      "AND",
+      {
+        "unitRank": "corps"
+      },
+      {
+        "faction": "empire"
+      }
+    ],
+    "meta": {
+      "displayName": "Comms Technician",
+      "additionalUpgradeSlots": [
+        "comms"
+      ]
+    }
+  },
+  {
+    "__typename": "upgrade",
+    "name": "FX-9 Medical Droid",
+    "upgradeType": "personnel",
+    "points": 19,
+    "keywords": [
+      "Treat",
+      "Noncombatant"
+    ],
+    "imageRef": "FX-9 Medical Droid.jpeg",
+    "identifiers": {
+      "name": "FX-9 Medical Droid",
+      "legionhqId": "ez",
+      "tni": "upgrade|FX-9 Medical Droid"
+    },
+    "restrictions": [
+      "AND",
+      {
+        "faction": "empire"
+      },
+      {
+        "unitRank": "corps"
+      }
+    ],
+    "meta": {
+      "displayName": "Medical Droid"
+    }
+  },
+  {
+    "__typename": "upgrade",
+    "name": "R4 Astromech Droid",
+    "upgradeType": "personnel",
+    "points": 9,
+    "keywords": [
+      "Repair",
+      "Noncombatant"
+    ],
+    "imageRef": "R4 Astromech Droid.jpeg",
+    "identifiers": {
+      "name": "R4 Astromech Droid",
+      "legionhqId": "fa",
+      "tni": "upgrade|R4 Astromech Droid"
+    },
+    "restrictions": [
+      "AND",
+      {
+        "unitRank": "corps"
+      },
+      {
+        "faction": "empire"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Snowtrooper",
+    "upgradeType": "personnel",
+    "points": 8,
+    "imageRef": "Snowtrooper.jpeg",
+    "identifiers": {
+      "name": "Snowtrooper",
+      "legionhqId": "fb",
+      "tni": "upgrade|Snowtrooper"
+    },
+    "restrictions": [
+      {
+        "name": "Snowtroopers"
+      }
+    ],
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 12 to 8 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "AT-RT Rotary Blaster",
+    "upgradeType": "hardpoint",
+    "points": 20,
+    "keywords": [
+      "Fixed"
+    ],
+    "imageRef": "AT-RT Rotary Blaster.jpeg",
+    "identifiers": {
+      "name": "AT-RT Rotary Blaster",
+      "legionhqId": "fc",
+      "tni": "upgrade|AT-RT Rotary Blaster"
+    },
+    "restrictions": [
+      {
+        "name": "AT-RT"
+      }
+    ],
+    "meta": {
+      "displayName": "Rotary Blaster"
+    },
+    "history": [
+      {
+        "date": "12 September 2019",
+        "description": "Cost reduced from 35 to 20 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "AT-RT Flamethrower",
+    "upgradeType": "hardpoint",
+    "points": 15,
+    "keywords": [
+      "Blast",
+      "Fixed",
+      "Spray"
+    ],
+    "imageRef": "AT-RT Flamethrower.jpeg",
+    "identifiers": {
+      "name": "AT-RT Flamethrower",
+      "legionhqId": "fd",
+      "tni": "upgrade|AT-RT Flamethrower"
+    },
+    "restrictions": [
+      {
+        "name": "AT-RT"
+      }
+    ],
+    "meta": {
+      "displayName": "Flamethrower"
+    },
+    "history": [
+      {
+        "date": "12 September 2019",
+        "description": "Cost reduced from 35 to 20 points."
+      },
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 20 to 15 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "AT-RT Laser Cannon",
+    "upgradeType": "hardpoint",
+    "points": 10,
+    "keywords": [
+      "Impact",
+      "Fixed"
+    ],
+    "imageRef": "AT-RT Laser Cannon.jpeg",
+    "identifiers": {
+      "name": "AT-RT Laser Cannon",
+      "legionhqId": "fe",
+      "tni": "upgrade|AT-RT Laser Cannon"
+    },
+    "restrictions": [
+      {
+        "name": "AT-RT"
+      }
+    ],
+    "meta": {
+      "displayName": "Laser Cannon"
+    },
+    "history": [
+      {
+        "date": "12 September 2019",
+        "description": "Cost reduced from 35 to 20 points."
+      },
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 20 to 10 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Ax-108 Ground Buzzer",
+    "upgradeType": "hardpoint",
+    "points": 10,
+    "keywords": [
+      "Fixed"
+    ],
+    "imageRef": "Ax-108 Ground Buzzer.jpeg",
+    "identifiers": {
+      "name": "Ax-108 Ground Buzzer",
+      "legionhqId": "ff",
+      "tni": "upgrade|Ax-108 Ground Buzzer"
+    },
+    "restrictions": [
+      {
+        "name": "T-47 Airspeeder"
+      }
+    ],
+    "meta": {
+      "displayName": "Ground Buzzer"
+    },
+    "history": [
+      {
+        "date": "12 September 2019",
+        "description": "Cost reduced from 20 to 10 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "MoDk Power Harpoon",
+    "upgradeType": "hardpoint",
+    "points": 0,
+    "keywords": [
+      "Fixed",
+      "Tow Cable"
+    ],
+    "imageRef": "MoDk Power Harpoon.jpeg",
+    "identifiers": {
+      "name": "MoDk Power Harpoon",
+      "legionhqId": "fg",
+      "tni": "upgrade|MoDk Power Harpoon"
+    },
+    "restrictions": [
+      {
+        "name": "T-47 Airspeeder"
+      }
+    ],
+    "meta": {
+      "displayName": "Power Harpoon"
+    },
+    "history": [
+      {
+        "date": "12 September 2019",
+        "description": "Cost reduced from 8 to 3 points."
+      },
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 3 to 0 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "88 Twin Light Blaster Cannon",
+    "upgradeType": "hardpoint",
+    "points": 10,
+    "keywords": [
+      "Impact",
+      "Fixed"
+    ],
+    "imageRef": "88 Twin Light Blaster Cannon.jpeg",
+    "identifiers": {
+      "name": "88 Twin Light Blaster Cannon",
+      "legionhqId": "fh",
+      "tni": "upgrade|88 Twin Light Blaster Cannon"
+    },
+    "restrictions": [
+      {
+        "name": "AT-ST"
+      }
+    ],
+    "meta": {
+      "displayName": "Twin Light Blaster Cannon"
+    },
+    "history": [
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 20 to 10 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "AT-ST Mortar Launcher",
+    "upgradeType": "hardpoint",
+    "points": 5,
+    "keywords": [
+      "Fixed",
+      "Suppressive"
+    ],
+    "imageRef": "AT-ST Mortar Launcher.jpeg",
+    "identifiers": {
+      "name": "AT-ST Mortar Launcher",
+      "legionhqId": "fi",
+      "tni": "upgrade|AT-ST Mortar Launcher"
+    },
+    "restrictions": [
+      {
+        "name": "AT-ST"
+      }
+    ],
+    "meta": {
+      "displayName": "Mortar Launcher"
+    },
+    "history": [
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 10 to 5 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "DW-3 Concussion Grenade Launcher",
+    "upgradeType": "hardpoint",
+    "points": 8,
+    "keywords": [
+      "Fixed",
+      "Blast"
+    ],
+    "imageRef": "DW-3 Concussion Grenade Launcher.jpeg",
+    "identifiers": {
+      "name": "DW-3 Concussion Grenade Launcher",
+      "legionhqId": "fj",
+      "tni": "upgrade|DW-3 Concussion Grenade Launcher"
+    },
+    "restrictions": [
+      {
+        "name": "AT-ST"
+      }
+    ],
+    "meta": {
+      "displayName": "Grenade Launcher"
+    },
+    "history": [
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 15 to 8 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Wedge Antilles",
+    "upgradeType": "pilot",
+    "points": 5,
+    "keywords": [
+      "Full Pivot",
+      "Field Commander"
+    ],
+    "isUnique": true,
+    "imageRef": "Wedge Antilles.jpeg",
+    "identifiers": {
+      "name": "Wedge Antilles",
+      "legionhqId": "fk",
+      "tni": "upgrade|Wedge Antilles"
+    },
+    "restrictions": [
+      "AND",
+      {
+        "unitType": "repulsor vehicle"
+      },
+      {
+        "faction": "rebels"
+      }
+    ],
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 5 to 1 point."
+      },
+      {
+        "date": "27 October 2021",
+        "description": "Cost increased from 1 to 5 points. Added Field Commander keyword."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "General Weiss",
+    "upgradeType": "pilot",
+    "points": 5,
+    "keywords": [
+      "Arsenal",
+      "Field Commander"
+    ],
+    "isUnique": true,
+    "imageRef": "General Weiss.jpeg",
+    "identifiers": {
+      "name": "General Weiss",
+      "legionhqId": "fl",
+      "tni": "upgrade|General Weiss"
+    },
+    "restrictions": [
+      {
+        "unitType": "ground vehicle"
+      }
+    ],
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 10 to 1 point."
+      },
+      {
+        "date": "27 October 2021",
+        "description": "Cost increased from 1 to 5 points. Added Field Commander keyword"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Fear",
+    "upgradeType": "force",
+    "points": 3,
+    "keywords": [
+      "Demoralize"
+    ],
+    "imageRef": "Fear.jpeg",
+    "identifiers": {
+      "name": "Fear",
+      "legionhqId": "fo",
+      "tni": "upgrade|Fear"
+    },
+    "restrictions": [
+      {
+        "forceAlignment": "dark side"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "BARC Ion Gunner",
+    "upgradeType": "crew",
+    "points": 24,
+    "keywords": [
+      "Fixed",
+      "Impact",
+      "Ion",
+      "Ion Token"
+    ],
+    "imageRef": "BARC Ion Gunner.jpeg",
+    "identifiers": {
+      "name": "BARC Ion Gunner",
+      "legionhqId": "fr",
+      "tni": "upgrade|BARC Ion Gunner"
+    },
+    "restrictions": [
+      {
+        "name": "BARC Speeder"
+      }
+    ],
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 28 to 22 points."
+      },
+      {
+        "date": "27 October 2021",
+        "description": "Cost increased from 22 to 24 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "BARC RPS-6 Gunner",
+    "upgradeType": "crew",
+    "points": 21,
+    "keywords": [
+      "Impact"
+    ],
+    "imageRef": "BARC RPS-6 Gunner.jpeg",
+    "identifiers": {
+      "name": "BARC RPS-6 Gunner",
+      "legionhqId": "fs",
+      "tni": "upgrade|BARC RPS-6 Gunner"
+    },
+    "restrictions": [
+      {
+        "name": "BARC Speeder"
+      }
+    ],
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 24 to 21 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "T-21B Trooper",
+    "upgradeType": "heavy weapon",
+    "points": 32,
+    "keywords": [
+      "Critical"
+    ],
+    "imageRef": "T-21B Trooper.jpeg",
+    "identifiers": {
+      "name": "T-21B Trooper",
+      "legionhqId": "fu",
+      "tni": "upgrade|T-21B Trooper"
+    },
+    "restrictions": [
+      {
+        "name": "Shoretroopers"
+      }
+    ],
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost increased from 32 to 35 points."
+      },
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 35 to 32 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "RT-97C Blaster Rifle",
+    "upgradeType": "armament",
+    "points": 5,
+    "imageRef": "RT-97C Blaster Rifle.jpeg",
+    "identifiers": {
+      "name": "RT-97C Blaster Rifle",
+      "legionhqId": "fv",
+      "tni": "upgrade|RT-97C Blaster Rifle"
+    },
+    "restrictions": [
+      {
+        "name": "Dewback Rider"
+      }
+    ],
+    "meta": {
+      "prevCost": 10
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 15 to 10 points."
+      },
+      {
+        "date": "5 June 2023",
+        "description": "Cost reduced from 10 to 5 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "CR-24 Flame Rifle",
+    "upgradeType": "armament",
+    "points": 10,
+    "imageRef": "CR-24 Flame Rifle.jpeg",
+    "identifiers": {
+      "name": "CR-24 Flame Rifle",
+      "legionhqId": "fw",
+      "tni": "upgrade|CR-24 Flame Rifle"
+    },
+    "restrictions": [
+      {
+        "name": "Dewback Rider"
+      }
+    ],
+    "meta": {
+      "prevCost": 15
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 20 to 15 points."
+      },
+      {
+        "date": "5 June 2023",
+        "description": "Cost reduced from 15 to 10 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Overwatch",
+    "upgradeType": "training",
+    "points": 4,
+    "keywords": [
+      "Sentinel"
+    ],
+    "imageRef": "Overwatch.jpeg",
+    "identifiers": {
+      "name": "Overwatch",
+      "legionhqId": "gj",
+      "tni": "upgrade|Overwatch"
+    }
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Personal Combat Shield",
+    "upgradeType": "gear",
+    "points": 5,
+    "keywords": [
+      "Shield Token",
+      "Shielded",
+      "Recharge"
+    ],
+    "imageRef": "Personal Combat Shield.jpeg",
+    "identifiers": {
+      "name": "Personal Combat Shield",
+      "legionhqId": "gk",
+      "tni": "upgrade|Personal Combat Shield"
+    },
+    "restrictions": [
+      {
+        "name": "Sabine Wren"
+      }
+    ],
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 10 to 5 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "DT-F16",
+    "upgradeType": "heavy weapon",
+    "points": 15,
+    "keywords": [
+      "Compel",
+      "Leader"
+    ],
+    "isUnique": true,
+    "imageRef": "DT-F16.jpeg",
+    "identifiers": {
+      "name": "DT-F16",
+      "legionhqId": "gl",
+      "tni": "upgrade|DT-F16"
+    },
+    "restrictions": [
+      {
+        "name": "Imperial Death Troopers"
+      }
+    ],
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Wound threshold increased from 1 to 2."
+      },
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 22 to 15 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "DLT-19D Trooper",
+    "upgradeType": "heavy weapon",
+    "points": 30,
+    "keywords": [
+      "Impact"
+    ],
+    "imageRef": "DLT-19D Trooper.jpeg",
+    "identifiers": {
+      "name": "DLT-19D Trooper",
+      "legionhqId": "gm",
+      "tni": "upgrade|DLT-19D Trooper"
+    },
+    "restrictions": [
+      {
+        "name": "Imperial Death Troopers"
+      }
+    ],
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Wound threshold increased from 1 to 2."
+      },
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 22 to 15 points."
+      },
+      {
+        "date": "12 December 2022",
+        "description": "Cost reduced from 34 to 30 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "E-11D Configuration",
+    "upgradeType": "armament",
+    "points": 0,
+    "keywords": [
+      "Blast",
+      "Suppressive",
+      "Reconfigure"
+    ],
+    "imageRef": "E-11D Configuration.jpeg",
+    "identifiers": {
+      "name": "E-11D Configuration",
+      "legionhqId": "gn",
+      "tni": "upgrade|E-11D Configuration"
+    },
+    "restrictions": [
+      {
+        "name": "Imperial Death Troopers"
+      }
+    ],
+    "meta": {
+      "displayName": "E-11D Config"
+    },
+    "history": [
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 8 to 0 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Imperial Hammers Elite Armor Pilot",
+    "upgradeType": "pilot",
+    "points": 10,
+    "imageRef": "Imperial Hammers Elite Armor Pilot.jpeg",
+    "identifiers": {
+      "name": "Imperial Hammers Elite Armor Pilot",
+      "legionhqId": "go",
+      "tni": "upgrade|Imperial Hammers Elite Armor Pilot"
+    },
+    "restrictions": [
+      {
+        "unitType": "ground vehicle"
+      }
+    ],
+    "meta": {
+      "displayName": "Elite Armor Pilot"
+    }
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Outer Rim Speeder Jockey",
+    "upgradeType": "pilot",
+    "points": 10,
+    "keywords": [
+      "Cover"
+    ],
+    "imageRef": "Outer Rim Speeder Jockey.jpeg",
+    "identifiers": {
+      "name": "Outer Rim Speeder Jockey",
+      "legionhqId": "gp",
+      "tni": "upgrade|Outer Rim Speeder Jockey"
+    },
+    "restrictions": [
+      "AND",
+      {
+        "unitType": "repulsor vehicle"
+      },
+      {
+        "faction": "rebels"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "RPS-6 Rocket Gunner",
+    "upgradeType": "crew",
+    "points": 21,
+    "keywords": [
+      "Impact"
+    ],
+    "imageRef": "RPS-6 Rocket Gunner.jpeg",
+    "identifiers": {
+      "name": "RPS-6 Rocket Gunner",
+      "legionhqId": "gq",
+      "tni": "upgrade|RPS-6 Rocket Gunner"
+    },
+    "restrictions": [
+      {
+        "name": "X-34 Landspeeder"
+      }
+    ],
+    "meta": {
+      "prevCost": 31,
+      "displayName": "Rocket Gunner"
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 36 to 31 points."
+      },
+      {
+        "date": "5 June 2023",
+        "description": "Cost reduced from 31 to 21 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "A-300 Rifle Gunner",
+    "upgradeType": "crew",
+    "points": 1,
+    "imageRef": "A-300 Rifle Gunner.jpeg",
+    "identifiers": {
+      "name": "A-300 Rifle Gunner",
+      "legionhqId": "gr",
+      "tni": "upgrade|A-300 Rifle Gunner"
+    },
+    "restrictions": [
+      {
+        "name": "X-34 Landspeeder"
+      }
+    ],
+    "meta": {
+      "displayName": "Rifle Gunner"
+    },
+    "history": [
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 9 to 1 point."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Bistan",
+    "upgradeType": "heavy weapon",
+    "points": 28,
+    "keywords": [
+      "Impact",
+      "Ion",
+      "Ion Token"
+    ],
+    "isUnique": true,
+    "imageRef": "Bistan.jpeg",
+    "identifiers": {
+      "name": "Bistan",
+      "legionhqId": "gs",
+      "tni": "upgrade|Bistan"
+    },
+    "restrictions": [
+      {
+        "name": "Rebel Pathfinders"
+      }
+    ],
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 32 to 28 points. Wound threshold increased from 1 to 2."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Pao",
+    "upgradeType": "heavy weapon",
+    "points": 20,
+    "keywords": [
+      "Inspire",
+      "Leader"
+    ],
+    "isUnique": true,
+    "imageRef": "Pao.jpeg",
+    "identifiers": {
+      "name": "Pao",
+      "legionhqId": "gt",
+      "tni": "upgrade|Pao"
+    },
+    "restrictions": [
+      {
+        "name": "Rebel Pathfinders"
+      }
+    ],
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Wound threshold increased from 1 to 2."
+      },
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 22 to 20 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Rebel Veteran",
+    "upgradeType": "personnel",
+    "points": 9,
+    "imageRef": "Rebel Veteran.jpeg",
+    "identifiers": {
+      "name": "Rebel Veteran",
+      "legionhqId": "gu",
+      "tni": "upgrade|Rebel Veteran"
+    },
+    "restrictions": [
+      {
+        "name": "Rebel Veterans"
+      }
+    ],
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 12 to 9 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "First Sergeant Arbmab",
+    "upgradeType": "pilot",
+    "points": 5,
+    "keywords": [
+      "Tactical"
+    ],
+    "isUnique": true,
+    "imageRef": "First Sergeant Arbmab.jpeg",
+    "identifiers": {
+      "name": "First Sergeant Arbmab",
+      "legionhqId": "gz",
+      "tni": "upgrade|First Sergeant Arbmab"
+    },
+    "restrictions": [
+      {
+        "unitType": "ground vehicle"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Mark II Medium Blaster",
+    "upgradeType": "hardpoint",
+    "points": 21,
+    "keywords": [
+      "Fixed"
+    ],
+    "imageRef": "Mark II Medium Blaster.jpeg",
+    "identifiers": {
+      "name": "Mark II Medium Blaster",
+      "legionhqId": "ha",
+      "tni": "upgrade|Mark II Medium Blaster"
+    },
+    "restrictions": [
+      {
+        "name": "X-34 Landspeeder"
+      }
+    ],
+    "meta": {
+      "prevCost": 26
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 34 to 26 points."
+      },
+      {
+        "date": "5 June 2023",
+        "description": "Cost reduced from 26 to 21 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "M-45 Ion Blaster",
+    "upgradeType": "hardpoint",
+    "points": 25,
+    "keywords": [
+      "Fixed",
+      "Impact",
+      "Ion",
+      "Ion Token"
+    ],
+    "imageRef": "M-45 Ion Blaster.jpeg",
+    "identifiers": {
+      "name": "M-45 Ion Blaster",
+      "legionhqId": "hb",
+      "tni": "upgrade|M-45 Ion Blaster"
+    },
+    "restrictions": [
+      {
+        "name": "X-34 Landspeeder"
+      }
+    ],
+    "meta": {
+      "prevCost": 31
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 38 to 31 points."
+      },
+      {
+        "date": "5 June 2023",
+        "description": "Cost reduced from 31 to 25 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "DLT-19 Rifle Pintle",
+    "upgradeType": "hardpoint",
+    "points": 18,
+    "keywords": [
+      "Impact"
+    ],
+    "imageRef": "DLT-19 Rifle Pintle.jpeg",
+    "identifiers": {
+      "name": "DLT-19 Rifle Pintle",
+      "legionhqId": "hc",
+      "tni": "upgrade|DLT-19 Rifle Pintle"
+    },
+    "restrictions": [
+      {
+        "name": "Occupier Combat Assault Tank"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "RT-97C Rifle Pintle",
+    "upgradeType": "hardpoint",
+    "points": 14,
+    "imageRef": "RT-97C Rifle Pintle.jpeg",
+    "identifiers": {
+      "name": "RT-97C Rifle Pintle",
+      "legionhqId": "hd",
+      "tni": "upgrade|RT-97C Rifle Pintle"
+    },
+    "restrictions": [
+      {
+        "name": "Occupier Combat Assault Tank"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Shoretrooper",
+    "upgradeType": "personnel",
+    "points": 10,
+    "imageRef": "Shoretrooper.jpeg",
+    "identifiers": {
+      "name": "Shoretrooper",
+      "legionhqId": "hh",
+      "tni": "upgrade|Shoretrooper"
+    },
+    "restrictions": [
+      {
+        "name": "Shoretroopers"
+      }
+    ],
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 13 to 10 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Phase I Clone Trooper",
+    "upgradeType": "personnel",
+    "points": 10,
+    "imageRef": "Phase I Clone Trooper.jpeg",
+    "identifiers": {
+      "name": "Phase I Clone Trooper",
+      "legionhqId": "hm",
+      "tni": "upgrade|Phase I Clone Trooper"
+    },
+    "restrictions": [
+      {
+        "name": "Phase I Clone Troopers"
+      }
+    ],
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 13 to 10 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "B1 Battle Droid",
+    "upgradeType": "personnel",
+    "points": 4,
+    "imageRef": "B1 Battle Droid.jpeg",
+    "identifiers": {
+      "name": "B1 Battle Droid",
+      "legionhqId": "hn",
+      "tni": "upgrade|B1 Battle Droid"
+    },
+    "restrictions": [
+      {
+        "name": "B1 Battle Droids"
+      }
+    ],
+    "meta": {
+      "displayName": "Battle Droid"
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 6 to 5 points."
+      },
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 5 to 4 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "E-5C B1 Trooper",
+    "upgradeType": "heavy weapon",
+    "points": 16,
+    "imageRef": "E-5C B1 Trooper.jpeg",
+    "identifiers": {
+      "name": "E-5C B1 Trooper",
+      "legionhqId": "ho",
+      "tni": "upgrade|E-5C B1 Trooper"
+    },
+    "restrictions": [
+      {
+        "name": "B1 Battle Droids"
+      }
+    ],
+    "meta": {
+      "displayName": "E-5C Trooper"
+    },
+    "history": [
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 18 to 16 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Z-6 Phase I Trooper",
+    "upgradeType": "heavy weapon",
+    "points": 22,
+    "imageRef": "Z-6 Phase I Clone Trooper.jpeg",
+    "identifiers": {
+      "name": "Z-6 Phase I Trooper",
+      "legionhqId": "hp",
+      "tni": "upgrade|Z-6 Phase I Trooper"
+    },
+    "restrictions": [
+      {
+        "name": "Phase I Clone Troopers"
+      }
+    ],
+    "meta": {
+      "displayName": "Z-6 Trooper"
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 25 to 23 points."
+      },
+      {
+        "date": "8 December 2022",
+        "description": "Cost decreased from 23 to 20 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "DC-15 Phase I Trooper",
+    "upgradeType": "heavy weapon",
+    "points": 24,
+    "keywords": [
+      "Critical"
+    ],
+    "imageRef": "DC-15 Phase I Clone Trooper.jpeg",
+    "identifiers": {
+      "name": "DC-15 Phase I Trooper",
+      "legionhqId": "hq",
+      "tni": "upgrade|DC-15 Phase I Trooper"
+    },
+    "restrictions": [
+      {
+        "name": "Phase I Clone Troopers"
+      }
+    ],
+    "meta": {
+      "displayName": "DC-15 Trooper"
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 30 to 27 points."
+      },
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 27 to 26 points."
+      },
+      {
+        "date": "8 December 2022",
+        "description": "Cost decreased from 26 to 24 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "E-60R B1 Trooper",
+    "upgradeType": "heavy weapon",
+    "points": 18,
+    "keywords": [
+      "Impact"
+    ],
+    "imageRef": "E-60R B1 Trooper.jpeg",
+    "identifiers": {
+      "name": "E-60R B1 Trooper",
+      "legionhqId": "hr",
+      "tni": "upgrade|E-60R B1 Trooper"
+    },
+    "restrictions": [
+      {
+        "name": "B1 Battle Droids"
+      }
+    ],
+    "meta": {
+      "displayName": "E-60R Trooper"
+    },
+    "history": [
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 20 to 18 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "T-21 Blaster Rifle",
+    "upgradeType": "armament",
+    "points": 5,
+    "keywords": [
+      "Critical"
+    ],
+    "imageRef": "T-21 Blaster Rifle.jpeg",
+    "identifiers": {
+      "name": "T-21 Blaster Rifle",
+      "legionhqId": "hs",
+      "tni": "upgrade|T-21 Blaster Rifle"
+    },
+    "restrictions": [
+      {
+        "name": "Dewback Rider"
+      }
+    ],
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 10 to 5 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Phase II Clone Trooper",
+    "upgradeType": "personnel",
+    "points": 13,
+    "imageRef": "Phase II Clone Trooper.jpeg",
+    "identifiers": {
+      "name": "Phase II Clone Trooper",
+      "legionhqId": "hv",
+      "tni": "upgrade|Phase II Clone Trooper"
+    },
+    "restrictions": [
+      {
+        "name": "Phase II Clone Troopers"
+      }
+    ],
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 15 to 13 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Force Guidance",
+    "upgradeType": "force",
+    "points": 5,
+    "keywords": [
+      "Surge Token"
+    ],
+    "imageRef": "Force Guidance.jpeg",
+    "identifiers": {
+      "name": "Force Guidance",
+      "legionhqId": "hx",
+      "tni": "upgrade|Force Guidance"
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 10 to 5 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Electrobinoculars",
+    "upgradeType": "gear",
+    "points": 8,
+    "keywords": [
+      "Spotter"
+    ],
+    "imageRef": "Electrobinoculars.jpeg",
+    "identifiers": {
+      "name": "Electrobinoculars",
+      "legionhqId": "hy",
+      "tni": "upgrade|Electrobinoculars"
+    }
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Linked Targeting Array",
+    "upgradeType": "comms",
+    "points": 5,
+    "keywords": [
+      "Target"
+    ],
+    "imageRef": "Linked Targeting Array.jpeg",
+    "identifiers": {
+      "name": "Linked Targeting Array",
+      "legionhqId": "hz",
+      "tni": "upgrade|Linked Targeting Array"
+    },
+    "restrictions": [
+      "OR",
+      [
+        "OR",
+        {
+          "unitType": "ground vehicle"
+        },
+        {
+          "unitType": "repulsor vehicle"
+        }
+      ],
+      {
+        "unitType": "emplacement trooper"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Smoke Grenades",
+    "upgradeType": "grenades",
+    "points": 3,
+    "keywords": [
+      "Smoke"
+    ],
+    "imageRef": "Smoke Grenades.jpeg",
+    "identifiers": {
+      "name": "Smoke Grenades",
+      "legionhqId": "ib",
+      "tni": "upgrade|Smoke Grenades"
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 6 to 2 points."
+      },
+      {
+        "date": "27 October 2021",
+        "description": "Cost increased from 2 to 3 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "BARC Twin Laser Gunner",
+    "upgradeType": "crew",
+    "points": 18,
+    "keywords": [
+      "Fixed"
+    ],
+    "imageRef": "BARC Twin Laser Gunner.jpeg",
+    "identifiers": {
+      "name": "BARC Twin Laser Gunner",
+      "legionhqId": "id",
+      "tni": "upgrade|BARC Twin Laser Gunner"
+    },
+    "restrictions": [
+      {
+        "name": "BARC Speeder"
+      }
+    ],
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 18 to 15 points."
+      },
+      {
+        "date": "27 October 2021",
+        "description": "Cost increased from 15 to 18 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "CM-O 93 Trooper",
+    "upgradeType": "heavy weapon",
+    "points": 26,
+    "keywords": [
+      "Critical"
+    ],
+    "imageRef": "CM-O 93 Trooper.jpeg",
+    "identifiers": {
+      "name": "CM-O 93 Trooper",
+      "legionhqId": "ig",
+      "tni": "upgrade|CM-O 93 Trooper"
+    },
+    "restrictions": [
+      {
+        "name": "Rebel Veterans"
+      }
+    ],
+    "meta": {
+      "displayName": "CM-0/93 Trooper"
+    },
+    "history": [
+      {
+        "date": "12 September 2019",
+        "description": "Cost reduced from 31 to 26 points."
+      },
+      {
+        "date": "19 November 2020",
+        "description": "Range band incresed from 1-3 to 1-4."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Electro Grappling Line",
+    "upgradeType": "gear",
+    "points": 5,
+    "imageRef": "Electro Grappling Line.jpeg",
+    "identifiers": {
+      "name": "Electro Grappling Line",
+      "legionhqId": "ih",
+      "tni": "upgrade|Electro Grappling Line"
+    },
+    "restrictions": [
+      {
+        "name": "Sabine Wren"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Ryder Azadi",
+    "upgradeType": "pilot",
+    "points": 5,
+    "isUnique": true,
+    "imageRef": "Ryder Azadi.jpeg",
+    "identifiers": {
+      "name": "Ryder Azadi",
+      "legionhqId": "ii",
+      "tni": "upgrade|Ryder Azadi"
+    },
+    "restrictions": [
+      "AND",
+      {
+        "unitType": "repulsor vehicle"
+      },
+      {
+        "faction": "rebels"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Hope",
+    "upgradeType": "force",
+    "points": 3,
+    "keywords": [
+      "Inspire"
+    ],
+    "imageRef": "Hope.jpeg",
+    "identifiers": {
+      "name": "Hope",
+      "legionhqId": "ij",
+      "tni": "upgrade|Hope"
+    },
+    "restrictions": [
+      {
+        "forceAlignment": "light side"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Aggressive Tactics",
+    "upgradeType": "command",
+    "points": 15,
+    "imageRef": "Aggressive Tactics.jpeg",
+    "identifiers": {
+      "name": "Aggressive Tactics",
+      "legionhqId": "ik",
+      "tni": "upgrade|Aggressive Tactics"
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost increased from 10 to 15 points. Added 'During the Command Phase' timing."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "DT-57 \"Annihilator\"",
+    "upgradeType": "armament",
+    "points": 0,
+    "keywords": [
+      "Critical",
+      "Pierce",
+      "Versatile"
+    ],
+    "isUnique": true,
+    "imageRef": "DT-57 %22Annihilator%22.jpeg",
+    "identifiers": {
+      "name": "DT-57 \"Annihilator\"",
+      "legionhqId": "il",
+      "tni": "upgrade|DT-57 \"Annihilator\""
+    },
+    "restrictions": [
+      {
+        "name": "General Grievous"
+      }
+    ],
+    "meta": {
+      "prevCost": 8
+    },
+    "history": [
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 12 to 8 points."
+      },
+      {
+        "date": "5 June 2023",
+        "description": "Cost reduced from 8 to 0 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "B2 Super Battle Droid",
+    "upgradeType": "personnel",
+    "points": 13,
+    "imageRef": "B2 Super Battle Droid.jpeg",
+    "identifiers": {
+      "name": "B2 Super Battle Droid",
+      "legionhqId": "io",
+      "tni": "upgrade|B2 Super Battle Droid"
+    },
+    "restrictions": [
+      {
+        "name": "B2 Super Battle Droids"
+      }
+    ],
+    "meta": {
+      "displayName": "Super Battle Droid"
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 16 to 13 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Aayla Secura",
+    "upgradeType": "pilot",
+    "points": 5,
+    "keywords": [
+      "Inspire",
+      "Field Commander"
+    ],
+    "isUnique": true,
+    "imageRef": "Aayla Secura.jpeg",
+    "identifiers": {
+      "name": "Aayla Secura",
+      "legionhqId": "ip",
+      "tni": "upgrade|Aayla Secura"
+    },
+    "restrictions": [
+      {
+        "name": "TX-130 Saber-Class Fighter Tank"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "T-Series Tactical Droid Pilot",
+    "upgradeType": "pilot",
+    "points": 5,
+    "keywords": [
+      "AI",
+      "Field Commander"
+    ],
+    "imageRef": "T-Series Tactical Droid Pilot.jpeg",
+    "identifiers": {
+      "name": "T-Series Tactical Droid Pilot",
+      "legionhqId": "iq",
+      "tni": "upgrade|T-Series Tactical Droid Pilot"
+    },
+    "restrictions": [
+      {
+        "name": "AAT Trade Federation Battle Tank"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "B1 Security Droid",
+    "upgradeType": "personnel",
+    "points": 6,
+    "imageRef": "B1 Security Droid.jpeg",
+    "identifiers": {
+      "name": "B1 Security Droid",
+      "legionhqId": "it",
+      "tni": "upgrade|B1 Security Droid"
+    },
+    "restrictions": [
+      {
+        "name": "B1 Battle Droids"
+      }
+    ],
+    "meta": {
+      "displayName": "Security Droid"
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 9 to 7 points."
+      },
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 7 to 6 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "DLT-20A Trooper",
+    "upgradeType": "heavy weapon",
+    "points": 26,
+    "keywords": [
+      "Critical"
+    ],
+    "imageRef": "DLT-20A Trooper.jpeg",
+    "identifiers": {
+      "name": "DLT-20A Trooper",
+      "legionhqId": "iu",
+      "tni": "upgrade|DLT-20A Trooper"
+    },
+    "restrictions": [
+      {
+        "name": "Rebel Troopers"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "DP-23 Phase I Trooper",
+    "upgradeType": "heavy weapon",
+    "points": 20,
+    "keywords": [
+      "Pierce"
+    ],
+    "imageRef": "DP-23 Phase I Trooper.jpeg",
+    "identifiers": {
+      "name": "DP-23 Phase I Trooper",
+      "legionhqId": "iv",
+      "tni": "upgrade|DP-23 Phase I Trooper"
+    },
+    "restrictions": [
+      {
+        "name": "Phase I Clone Troopers"
+      }
+    ],
+    "meta": {
+      "displayName": "DP-23 Trooper"
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 27 to 23 points."
+      },
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 23 to 22 points."
+      },
+      {
+        "date": "8 December 2022",
+        "description": "Cost decreased from 22 to 20 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "E-5s B1 Trooper",
+    "upgradeType": "heavy weapon",
+    "points": 18,
+    "keywords": [
+      "Critical"
+    ],
+    "imageRef": "E-5s B1 Trooper.jpeg",
+    "identifiers": {
+      "name": "E-5s B1 Trooper",
+      "legionhqId": "iw",
+      "tni": "upgrade|E-5s B1 Trooper"
+    },
+    "restrictions": [
+      {
+        "name": "B1 Battle Droids"
+      }
+    ],
+    "meta": {
+      "displayName": "E-5s Trooper"
+    },
+    "history": [
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 20 to 18 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "RPS-6 Phase I Trooper",
+    "upgradeType": "heavy weapon",
+    "points": 21,
+    "keywords": [
+      "Cumbersome",
+      "Impact"
+    ],
+    "imageRef": "RPS-6 Phase I Trooper.jpeg",
+    "identifiers": {
+      "name": "RPS-6 Phase I Trooper",
+      "legionhqId": "ix",
+      "tni": "upgrade|RPS-6 Phase I Trooper"
+    },
+    "restrictions": [
+      {
+        "name": "Phase I Clone Troopers"
+      }
+    ],
+    "meta": {
+      "displayName": "RPS-6 Trooper"
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 26 to 21 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "RT-97C Stormtrooper",
+    "upgradeType": "heavy weapon",
+    "points": 24,
+    "imageRef": "RT-97C Stormtrooper.jpeg",
+    "identifiers": {
+      "name": "RT-97C Stormtrooper",
+      "legionhqId": "iy",
+      "tni": "upgrade|RT-97C Stormtrooper"
+    },
+    "restrictions": [
+      {
+        "name": "Stormtroopers"
+      }
+    ],
+    "history": [
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 26 to 24 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "SX-21 Trooper",
+    "upgradeType": "heavy weapon",
+    "points": 13,
+    "keywords": [
+      "Impact"
+    ],
+    "imageRef": "SX-21 Trooper.jpeg",
+    "identifiers": {
+      "name": "SX-21 Trooper",
+      "legionhqId": "iz",
+      "tni": "upgrade|SX-21 Trooper"
+    },
+    "restrictions": [
+      {
+        "name": "Rebel Troopers"
+      }
+    ],
+    "meta": {
+      "prevCost": 15
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 20 to 17 points."
+      },
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 17 to 15 points."
+      },
+      {
+        "date": "5 June 2023",
+        "description": "Cost reduced from 15 to 13 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "T-21 Stormtrooper",
+    "upgradeType": "heavy weapon",
+    "points": 22,
+    "keywords": [
+      "Critical"
+    ],
+    "imageRef": "T-21 Stormtrooper.jpeg",
+    "identifiers": {
+      "name": "T-21 Stormtrooper",
+      "legionhqId": "ja",
+      "tni": "upgrade|T-21 Stormtrooper"
+    },
+    "restrictions": [
+      {
+        "name": "Stormtroopers"
+      }
+    ],
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 27 to 24 points."
+      },
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 24 to 22 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Offensive Push",
+    "upgradeType": "training",
+    "points": 6,
+    "keywords": [
+      "Tactical"
+    ],
+    "imageRef": "Offensive Push.jpeg",
+    "identifiers": {
+      "name": "Offensive Push",
+      "legionhqId": "jb",
+      "tni": "upgrade|Offensive Push"
+    },
+    "history": [
+      {
+        "date": "8 December 2022",
+        "description": "Cost increased from 4 to 6 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Integrated Comms Antenna",
+    "upgradeType": "comms",
+    "points": 3,
+    "imageRef": "Integrated Comms Antenna.jpeg",
+    "identifiers": {
+      "name": "Integrated Comms Antenna",
+      "legionhqId": "jk",
+      "tni": "upgrade|Integrated Comms Antenna"
+    },
+    "restrictions": [
+      {
+        "unitType": "droid trooper"
+      }
+    ],
+    "meta": {
+      "displayName": "Comms Antenna"
+    }
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Stormtrooper Captain",
+    "upgradeType": "personnel",
+    "points": 10,
+    "keywords": [
+      "Leader"
+    ],
+    "imageRef": "Stormtrooper Captain.jpeg",
+    "identifiers": {
+      "name": "Stormtrooper Captain",
+      "legionhqId": "jn",
+      "tni": "upgrade|Stormtrooper Captain"
+    },
+    "restrictions": [
+      {
+        "name": "Stormtroopers"
+      }
+    ],
+    "meta": {
+      "additionalUpgradeSlots": [
+        "training"
+      ]
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 15 to 12 points."
+      },
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 12 to 10 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Rebel Trooper Captain",
+    "upgradeType": "personnel",
+    "points": 9,
+    "keywords": [
+      "Leader"
+    ],
+    "imageRef": "Rebel Trooper Captain.jpeg",
+    "identifiers": {
+      "name": "Rebel Trooper Captain",
+      "legionhqId": "jo",
+      "tni": "upgrade|Rebel Trooper Captain"
+    },
+    "restrictions": [
+      {
+        "name": "Rebel Troopers"
+      }
+    ],
+    "meta": {
+      "additionalUpgradeSlots": [
+        "training"
+      ]
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 14 to 11 points."
+      },
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 11 to 9 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Rebel Trooper Specialist",
+    "upgradeType": "personnel",
+    "points": 8,
+    "keywords": [
+      "Surge Token"
+    ],
+    "imageRef": "Rebel Trooper Specialist.jpeg",
+    "identifiers": {
+      "name": "Rebel Trooper Specialist",
+      "legionhqId": "jp",
+      "tni": "upgrade|Rebel Trooper Specialist"
+    },
+    "restrictions": [
+      {
+        "name": "Rebel Troopers"
+      }
+    ],
+    "meta": {
+      "additionalUpgradeSlots": [
+        "gear"
+      ]
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 14 to 12 points."
+      },
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 12 to 8 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Stormtrooper Specialist",
+    "upgradeType": "personnel",
+    "points": 9,
+    "keywords": [
+      "Surge Token"
+    ],
+    "imageRef": "Stormtrooper Specialist.jpeg",
+    "identifiers": {
+      "name": "Stormtrooper Specialist",
+      "legionhqId": "jq",
+      "tni": "upgrade|Stormtrooper Specialist"
+    },
+    "restrictions": [
+      {
+        "name": "Stormtroopers"
+      }
+    ],
+    "meta": {
+      "additionalUpgradeSlots": [
+        "gear"
+      ]
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 15 to 12 points."
+      },
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 12 to 9 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "OOM-Series Battle Droid",
+    "upgradeType": "personnel",
+    "points": 8,
+    "keywords": [
+      "Coordinate",
+      "Leader"
+    ],
+    "imageRef": "OOM-Series Battle Droid.jpeg",
+    "identifiers": {
+      "name": "OOM-Series Battle Droid",
+      "legionhqId": "jv",
+      "tni": "upgrade|OOM-Series Battle Droid"
+    },
+    "restrictions": [
+      {
+        "name": "B1 Battle Droids"
+      }
+    ],
+    "meta": {
+      "displayName": "OOM Battle Droid"
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 12 to 8 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Radiation Cannon B1 Trooper",
+    "upgradeType": "heavy weapon",
+    "points": 16,
+    "keywords": [
+      "Poison Token"
+    ],
+    "imageRef": "Radiation Cannon B1 Trooper.jpeg",
+    "identifiers": {
+      "name": "Radiation Cannon B1 Trooper",
+      "legionhqId": "jw",
+      "tni": "upgrade|Radiation Cannon B1 Trooper"
+    },
+    "restrictions": [
+      {
+        "name": "B1 Battle Droids"
+      }
+    ],
+    "meta": {
+      "displayName": "Radiation Cannon Trooper"
+    },
+    "history": [
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 22 to 16 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Phase I Clone Captain",
+    "upgradeType": "personnel",
+    "points": 12,
+    "keywords": [
+      "Leader"
+    ],
+    "imageRef": "Phase I Clone Captain.jpeg",
+    "identifiers": {
+      "name": "Phase I Clone Captain",
+      "legionhqId": "jx",
+      "tni": "upgrade|Phase I Clone Captain"
+    },
+    "restrictions": [
+      {
+        "name": "Phase I Clone Troopers"
+      }
+    ],
+    "meta": {
+      "additionalUpgradeSlots": [
+        "training"
+      ]
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 17 to 14 points."
+      },
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 14 to 12 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Phase I Clone Specialist",
+    "upgradeType": "personnel",
+    "points": 11,
+    "keywords": [
+      "Surge Token"
+    ],
+    "imageRef": "Phase I Clone Specialist.jpeg",
+    "identifiers": {
+      "name": "Phase I Clone Specialist",
+      "legionhqId": "jy",
+      "tni": "upgrade|Phase I Clone Specialist"
+    },
+    "restrictions": [
+      {
+        "name": "Phase I Clone Troopers"
+      }
+    ],
+    "meta": {
+      "additionalUpgradeSlots": [
+        "gear"
+      ]
+    },
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 17 to 14 points."
+      },
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 14 to 11 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Z-6 Phase II Clone Trooper",
+    "upgradeType": "heavy weapon",
+    "points": 27,
+    "imageRef": "Z-6 Phase II Clone Trooper.jpeg",
+    "identifiers": {
+      "name": "Z-6 Phase II Clone Trooper",
+      "legionhqId": "kd",
+      "tni": "upgrade|Z-6 Phase II Clone Trooper"
+    },
+    "restrictions": [
+      {
+        "name": "Phase II Clone Troopers"
+      }
+    ],
+    "meta": {
+      "displayName": "Z-6 Trooper"
+    }
+  },
+  {
+    "__typename": "upgrade",
+    "name": "B2-ACM Trooper",
+    "upgradeType": "heavy weapon",
+    "points": 24,
+    "imageRef": "B2-ACM Trooper.jpeg",
+    "identifiers": {
+      "name": "B2-ACM Trooper",
+      "legionhqId": "ke",
+      "tni": "upgrade|B2-ACM Trooper"
+    },
+    "restrictions": [
+      {
+        "name": "B2 Super Battle Droids"
+      }
+    ],
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 26 to 24 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "A280-CFE Config",
+    "upgradeType": "armament",
+    "points": 0,
+    "keywords": [
+      "Cumbersome",
+      "High Velocity",
+      "Pierce",
+      "Reconfigure"
+    ],
+    "imageRef": "A280-CFE Configuration.jpeg",
+    "identifiers": {
+      "name": "A280-CFE Config",
+      "legionhqId": "kh",
+      "tni": "upgrade|A280-CFE Config"
+    },
+    "restrictions": [
+      {
+        "name": "Cassian Andor"
+      }
+    ],
+    "meta": {
+      "prevCost": 10
+    },
+    "history": [
+      {
+        "date": "5 June 2023",
+        "description": "Cost reduced from 10 to 0 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Iden's DLT-20A Rifle",
+    "upgradeType": "armament",
+    "points": 15,
+    "keywords": [
+      "High Velocity",
+      "Pierce"
+    ],
+    "imageRef": "Iden's DLT-20A Rifle.jpeg",
+    "identifiers": {
+      "name": "Iden's DLT-20A Rifle",
+      "legionhqId": "ki",
+      "tni": "upgrade|Iden's DLT-20A Rifle"
+    },
+    "restrictions": [
+      {
+        "name": "Iden Versio"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Veteran Clone Pilot",
+    "upgradeType": "pilot",
+    "points": 7,
+    "imageRef": "Veteran Clone Pilot.jpeg",
+    "identifiers": {
+      "name": "Veteran Clone Pilot",
+      "legionhqId": "kl",
+      "tni": "upgrade|Veteran Clone Pilot"
+    },
+    "restrictions": [
+      {
+        "name": "TX-130 Saber-Class Fighter Tank"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "TX-130 Beam Cannon Turret",
+    "upgradeType": "hardpoint",
+    "points": 15,
+    "keywords": [
+      "Beam"
+    ],
+    "imageRef": "TX-130 Beam Cannon Turret.jpeg",
+    "identifiers": {
+      "name": "TX-130 Beam Cannon Turret",
+      "legionhqId": "km",
+      "tni": "upgrade|TX-130 Beam Cannon Turret"
+    },
+    "restrictions": [
+      {
+        "name": "TX-130 Saber-Class Fighter Tank"
+      }
+    ],
+    "meta": {
+      "prevCost": 30
+    },
+    "history": [
+      {
+        "date": "5 June 2023",
+        "description": "Cost reduced from 30 to 15 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Armor-Piercing Shells",
+    "upgradeType": "ordnance",
+    "points": 10,
+    "keywords": [
+      "Cycle",
+      "Fixed",
+      "Impact"
+    ],
+    "imageRef": "Armor-Piercing Shells.jpeg",
+    "identifiers": {
+      "name": "Armor-Piercing Shells",
+      "legionhqId": "kn",
+      "tni": "upgrade|Armor-Piercing Shells"
+    }
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Phase II Mortar Trooper",
+    "upgradeType": "heavy weapon",
+    "points": 18,
+    "keywords": [
+      "Critical",
+      "Suppressive",
+      "Cumbersome"
+    ],
+    "imageRef": "Phase II Mortar Trooper.jpeg",
+    "identifiers": {
+      "name": "Phase II Mortar Trooper",
+      "legionhqId": "ko",
+      "tni": "upgrade|Phase II Mortar Trooper"
+    },
+    "restrictions": [
+      {
+        "name": "Phase II Clone Troopers"
+      }
+    ],
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 25 to 20 points."
+      },
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 20 to 18 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "B2-HA Trooper",
+    "upgradeType": "heavy weapon",
+    "points": 32,
+    "keywords": [
+      "Blast",
+      "Cycle",
+      "Impact"
+    ],
+    "imageRef": "B2-HA Trooper.jpeg",
+    "identifiers": {
+      "name": "B2-HA Trooper",
+      "legionhqId": "kp",
+      "tni": "upgrade|B2-HA Trooper"
+    },
+    "restrictions": [
+      {
+        "name": "B2 Super Battle Droids"
+      }
+    ],
+    "history": [
+      {
+        "date": "19 November 2020",
+        "description": "Cost reduced from 32 to 30 points."
+      },
+      {
+        "date": "27 October 2021",
+        "description": "Cost increased from 30 to 32 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Lok Durd",
+    "upgradeType": "pilot",
+    "points": 9,
+    "keywords": [
+      "AI",
+      "Suppressive"
+    ],
+    "isUnique": true,
+    "imageRef": "Lok Durd.jpeg",
+    "identifiers": {
+      "name": "Lok Durd",
+      "legionhqId": "kq",
+      "tni": "upgrade|Lok Durd"
+    },
+    "restrictions": [
+      {
+        "name": "AAT Trade Federation Battle Tank"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "TX-130 Twin Laser Turret",
+    "upgradeType": "hardpoint",
+    "points": 14,
+    "keywords": [
+      "Critical"
+    ],
+    "imageRef": "TX-130 Twin Laser Turret.jpeg",
+    "identifiers": {
+      "name": "TX-130 Twin Laser Turret",
+      "legionhqId": "kr",
+      "tni": "upgrade|TX-130 Twin Laser Turret"
+    },
+    "restrictions": [
+      {
+        "name": "TX-130 Saber-Class Fighter Tank"
+      }
+    ],
+    "meta": {
+      "displayName": "Twin Laser Turret"
+    }
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Plo Koon",
+    "upgradeType": "pilot",
+    "points": 9,
+    "keywords": [
+      "Agile"
+    ],
+    "isUnique": true,
+    "imageRef": "Plo Koon.jpeg",
+    "identifiers": {
+      "name": "Plo Koon",
+      "legionhqId": "ks",
+      "tni": "upgrade|Plo Koon"
+    },
+    "restrictions": [
+      {
+        "name": "TX-130 Saber-Class Fighter Tank"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Bunker Buster Shells",
+    "upgradeType": "ordnance",
+    "points": 12,
+    "keywords": [
+      "Blast",
+      "Cycle",
+      "Fixed",
+      "Scatter"
+    ],
+    "imageRef": "Bunker Buster Shells.jpeg",
+    "identifiers": {
+      "name": "Bunker Buster Shells",
+      "legionhqId": "kt",
+      "tni": "upgrade|Bunker Buster Shells"
+    },
+    "meta": {
+      "displayName": "\"Bunker Buster\" Shells"
+    }
+  },
+  {
+    "__typename": "upgrade",
+    "name": "High-Energy Shells",
+    "upgradeType": "ordnance",
+    "points": 8,
+    "keywords": [
+      "Critical",
+      "Cycle",
+      "High Velocity",
+      "Fixed"
+    ],
+    "imageRef": "High-Energy Shells.jpeg",
+    "identifiers": {
+      "name": "High-Energy Shells",
+      "legionhqId": "ku",
+      "tni": "upgrade|High-Energy Shells"
+    }
+  },
+  {
+    "__typename": "upgrade",
+    "name": "OOM-Series Droid Pilot",
+    "upgradeType": "pilot",
+    "points": 7,
+    "keywords": [
+      "Coordinate"
+    ],
+    "imageRef": "OOM-Series Droid Pilot.jpeg",
+    "identifiers": {
+      "name": "OOM-Series Droid Pilot",
+      "legionhqId": "kv",
+      "tni": "upgrade|OOM-Series Droid Pilot"
+    },
+    "restrictions": [
+      {
+        "name": "AAT Trade Federation Battle Tank"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Deflector Shields",
+    "upgradeType": "armament",
+    "points": 10,
+    "keywords": [
+      "Shields",
+      "Recharge"
+    ],
+    "imageRef": "Deflector Shields.jpeg",
+    "identifiers": {
+      "name": "Deflector Shields",
+      "legionhqId": "lc",
+      "tni": "upgrade|Deflector Shields"
+    },
+    "restrictions": [
+      "OR",
+      {
+        "name": "BX-Series Droid Commandos"
+      },
+      {
+        "name": "BX-Series Droid Commandos Strike Team"
+      }
+    ],
+    "meta": {
+      "prevCost": 18
+    },
+    "history": [
+      {
+        "date": "5 June 2023",
+        "description": "Cost reduced from 18 to 10 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "BX-Series Droid Sniper",
+    "upgradeType": "heavy weapon",
+    "points": 30,
+    "keywords": [
+      "Lethal",
+      "Pierce",
+      "Immune",
+      "Deflect"
+    ],
+    "imageRef": "BX-Series Droid Sniper.jpeg",
+    "identifiers": {
+      "name": "BX-Series Droid Sniper",
+      "legionhqId": "ld",
+      "tni": "upgrade|BX-Series Droid Sniper"
+    },
+    "restrictions": [
+      "OR",
+      {
+        "name": "BX-Series Droid Commandos"
+      },
+      {
+        "name": "BX-Series Droid Commandos Strike Team"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "EMP Droid Poppers",
+    "upgradeType": "grenades",
+    "points": 3,
+    "keywords": [
+      "Ion"
+    ],
+    "imageRef": "EMP Droid Poppers.jpeg",
+    "identifiers": {
+      "name": "EMP Droid Poppers",
+      "legionhqId": "le",
+      "tni": "upgrade|EMP Droid Poppers"
+    },
+    "meta": {
+      "displayName": "EMP \"Droid Poppers\""
+    }
+  },
+  {
+    "__typename": "upgrade",
+    "name": "DC-15x ARC Trooper",
+    "upgradeType": "heavy weapon",
+    "points": 31,
+    "keywords": [
+      "Critical",
+      "Immune",
+      "Deflect",
+      "Lethal",
+      "Pierce"
+    ],
+    "imageRef": "DC-15x ARC Trooper.jpeg",
+    "identifiers": {
+      "name": "DC-15x ARC Trooper",
+      "legionhqId": "lf",
+      "tni": "upgrade|DC-15x ARC Trooper"
+    },
+    "restrictions": [
+      "OR",
+      {
+        "name": "ARC Troopers"
+      },
+      {
+        "name": "ARC Troopers Strike Team"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Fives",
+    "upgradeType": "heavy weapon",
+    "points": 40,
+    "isUnique": true,
+    "imageRef": "Fives.jpeg",
+    "identifiers": {
+      "name": "Fives",
+      "legionhqId": "lg",
+      "tni": "upgrade|Fives"
+    },
+    "restrictions": [
+      "OR",
+      [
+        "OR",
+        {
+          "name": "ARC Troopers"
+        },
+        {
+          "name": "ARC Troopers Strike Team"
+        }
+      ],
+      [
+        "AND",
+        {
+          "unitRank": "corps"
+        },
+        {
+          "unitType": "clone trooper"
+        }
+      ]
+    ],
+    "history": [
+      {
+        "date": "27 October 2021",
+        "description": "Cost increase from 36 to 40 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Echo",
+    "upgradeType": "heavy weapon",
+    "points": 42,
+    "isUnique": true,
+    "imageRef": "Echo.jpeg",
+    "identifiers": {
+      "name": "Echo",
+      "legionhqId": "lh",
+      "tni": "upgrade|Echo"
+    },
+    "restrictions": [
+      "OR",
+      [
+        "OR",
+        {
+          "name": "ARC Troopers"
+        },
+        {
+          "name": "ARC Troopers Strike Team"
+        }
+      ],
+      [
+        "AND",
+        {
+          "unitRank": "corps"
+        },
+        {
+          "unitType": "clone trooper"
+        }
+      ]
+    ],
+    "history": [
+      {
+        "date": "27 October 2021",
+        "description": "Cost increased from 40 to 42 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Situational Awareness",
+    "upgradeType": "training",
+    "points": 4,
+    "imageRef": "Situational Awareness.jpeg",
+    "identifiers": {
+      "name": "Situational Awareness",
+      "legionhqId": "li",
+      "tni": "upgrade|Situational Awareness"
+    },
+    "history": [
+      {
+        "date": "8 December 2022",
+        "description": "Cost increased from 2 to 4 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Vibroswords",
+    "upgradeType": "armament",
+    "points": 6,
+    "keywords": [
+      "Charge"
+    ],
+    "imageRef": "Vibroswords.jpeg",
+    "identifiers": {
+      "name": "Vibroswords",
+      "legionhqId": "lj",
+      "tni": "upgrade|Vibroswords"
+    },
+    "restrictions": [
+      "OR",
+      {
+        "name": "BX-Series Droid Commandos"
+      },
+      {
+        "name": "BX-Series Droid Commandos Strike Team"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "JT-12 Jetpacks",
+    "upgradeType": "gear",
+    "points": 10,
+    "keywords": [
+      "Jump"
+    ],
+    "imageRef": "JT-12 Jetpacks.jpeg",
+    "identifiers": {
+      "name": "JT-12 Jetpacks",
+      "legionhqId": "lk",
+      "tni": "upgrade|JT-12 Jetpacks"
+    },
+    "restrictions": [
+      "OR",
+      [
+        "OR",
+        {
+          "name": "ARC Troopers"
+        },
+        {
+          "name": "ARC Troopers Strike Team"
+        }
+      ],
+      {
+        "name": "Clone Captain Rex"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Electro Gauntlets",
+    "upgradeType": "armament",
+    "points": 10,
+    "keywords": [
+      "Immobilize",
+      "Suppressive"
+    ],
+    "imageRef": "Electro Gauntlets.jpeg",
+    "identifiers": {
+      "name": "Electro Gauntlets",
+      "legionhqId": "ll",
+      "tni": "upgrade|Electro Gauntlets"
+    },
+    "restrictions": [
+      {
+        "name": "Cad Bane"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Looted E-5 Blaster",
+    "upgradeType": "armament",
+    "points": 5,
+    "keywords": [
+      "Pierce"
+    ],
+    "imageRef": "Looted E-5 Blaster.jpeg",
+    "identifiers": {
+      "name": "Looted E-5 Blaster",
+      "legionhqId": "lm",
+      "tni": "upgrade|Looted E-5 Blaster"
+    },
+    "restrictions": [
+      {
+        "name": "Padme Amidala"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Jyn's SE-14 Blaster",
+    "upgradeType": "armament",
+    "points": 10,
+    "keywords": [
+      "Suppressive",
+      "Pierce"
+    ],
+    "isUnique": true,
+    "imageRef": "Jyn's SE-14 Blaster.jpeg",
+    "identifiers": {
+      "name": "Jyn's SE-14 Blaster",
+      "legionhqId": "lu",
+      "tni": "upgrade|Jyn's SE-14 Blaster"
+    },
+    "restrictions": [
+      "OR",
+      {
+        "name": "Jyn Erso"
+      },
+      {
+        "name": "K-2SO"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Iden's TL-50 Repeater",
+    "upgradeType": "armament",
+    "points": 15,
+    "keywords": [
+      "Critical",
+      "Impact"
+    ],
+    "isUnique": true,
+    "imageRef": "Iden's TL-50 Repeater.jpeg",
+    "identifiers": {
+      "name": "Iden's TL-50 Repeater",
+      "legionhqId": "lx",
+      "tni": "upgrade|Iden's TL-50 Repeater"
+    },
+    "restrictions": [
+      {
+        "name": "Iden Versio"
+      }
+    ],
+    "meta": {
+      "displayName": "TL-50 Repeater"
+    }
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Command Control Array",
+    "upgradeType": "comms",
+    "points": 2,
+    "keywords": [
+      "Coordinate"
+    ],
+    "imageRef": "Command Control Array.jpeg",
+    "identifiers": {
+      "name": "Command Control Array",
+      "legionhqId": "md",
+      "tni": "upgrade|Command Control Array"
+    },
+    "restrictions": [
+      "OR",
+      {
+        "unitType": "ground vehicle"
+      },
+      {
+        "unitType": "repulsor vehicle"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Gideon Hask",
+    "upgradeType": "heavy weapon",
+    "points": 29,
+    "keywords": [
+      "Coordinate",
+      "Leader"
+    ],
+    "isUnique": true,
+    "imageRef": "Gideon Hask.jpeg",
+    "identifiers": {
+      "name": "Gideon Hask",
+      "legionhqId": "me",
+      "tni": "upgrade|Gideon Hask"
+    },
+    "restrictions": [
+      "AND",
+      [
+        "OR",
+        [
+          "AND",
+          {
+            "unitRank": "corps"
+          },
+          {
+            "unitType": "trooper"
+          }
+        ],
+        [
+          "OR",
+          {
+            "name": "Imperial Special Forces"
+          },
+          {
+            "name": "Imperial Special Forces Inferno Squad"
+          }
+        ]
+      ],
+      {
+        "faction": "empire"
+      }
+    ],
+    "history": [
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 38 to 29 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Del Meeko",
+    "upgradeType": "heavy weapon",
+    "points": 25,
+    "keywords": [
+      "Repair",
+      "High Velocity",
+      "Lethal",
+      "Pierce"
+    ],
+    "isUnique": true,
+    "imageRef": "Del Meeko.jpeg",
+    "identifiers": {
+      "name": "Del Meeko",
+      "legionhqId": "mf",
+      "tni": "upgrade|Del Meeko"
+    },
+    "restrictions": [
+      "AND",
+      [
+        "OR",
+        [
+          "AND",
+          {
+            "unitRank": "corps"
+          },
+          {
+            "unitType": "trooper"
+          }
+        ],
+        [
+          "OR",
+          {
+            "name": "Imperial Special Forces"
+          },
+          {
+            "name": "Imperial Special Forces Inferno Squad"
+          }
+        ]
+      ],
+      {
+        "faction": "empire"
+      }
+    ],
+    "history": [
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 38 to 25 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Ascension Cables",
+    "upgradeType": "gear",
+    "points": 4,
+    "keywords": [
+      "Scale"
+    ],
+    "imageRef": "Ascension Cables.jpeg",
+    "identifiers": {
+      "name": "Ascension Cables",
+      "legionhqId": "mh",
+      "tni": "upgrade|Ascension Cables"
+    }
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Dioxis Mine Saboteur",
+    "upgradeType": "heavy weapon",
+    "points": 28,
+    "keywords": [
+      "Arm",
+      "Detonate",
+      "Dioxis Mine",
+      "Blast",
+      "Poison"
+    ],
+    "imageRef": "Dioxis Mine Saboteur.jpeg",
+    "identifiers": {
+      "name": "Dioxis Mine Saboteur",
+      "legionhqId": "mj",
+      "tni": "upgrade|Dioxis Mine Saboteur"
+    },
+    "restrictions": [
+      "OR",
+      {
+        "name": "BX-Series Droid Commandos"
+      },
+      {
+        "name": "BX-Series Droid Commandos Strike Team"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Jetpack Rockets",
+    "upgradeType": "armament",
+    "points": 5,
+    "keywords": [
+      "Blast",
+      "Impact"
+    ],
+    "imageRef": "Jetpack Rockets.jpeg",
+    "identifiers": {
+      "name": "Jetpack Rockets",
+      "legionhqId": "mm",
+      "tni": "upgrade|Jetpack Rockets"
+    },
+    "restrictions": [
+      "OR",
+      {
+        "name": "Mandalorian Resistance"
+      },
+      {
+        "name": "Mandalorian Resistance Clan Wren"
+      }
+    ],
+    "meta": {
+      "prevCost": 8
+    },
+    "history": [
+      {
+        "date": "5 June 2023",
+        "description": "Cost reduced from 8 to 5 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Beskad Duelist",
+    "upgradeType": "heavy weapon",
+    "points": 24,
+    "keywords": [
+      "Duelist",
+      "Pierce",
+      "Immune"
+    ],
+    "imageRef": "Beskad Duelist.jpeg",
+    "identifiers": {
+      "name": "Beskad Duelist",
+      "legionhqId": "mn",
+      "tni": "upgrade|Beskad Duelist"
+    },
+    "restrictions": [
+      {
+        "name": "Mandalorian Resistance"
+      }
+    ],
+    "meta": {
+      "prevCost": 28
+    },
+    "history": [
+      {
+        "date": "5 June 2023",
+        "description": "Cost reduced from 28 to 24 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Ursa Wren",
+    "upgradeType": "heavy weapon",
+    "points": 34,
+    "keywords": [
+      "Dauntless",
+      "Leader",
+      "Long Shot"
+    ],
+    "isUnique": true,
+    "imageRef": "Ursa Wren.jpeg",
+    "identifiers": {
+      "name": "Ursa Wren",
+      "legionhqId": "mo",
+      "tni": "upgrade|Ursa Wren"
+    },
+    "restrictions": [
+      "OR",
+      {
+        "name": "Mandalorian Resistance"
+      },
+      {
+        "name": "Mandalorian Resistance Clan Wren"
+      }
+    ],
+    "meta": {
+      "prevCost": 38
+    },
+    "history": [
+      {
+        "date": "5 June 2023",
+        "description": "Cost reduced from 38 to 34 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Tristan Wren",
+    "upgradeType": "heavy weapon",
+    "points": 34,
+    "keywords": [
+      "Lethal",
+      "Suppressive"
+    ],
+    "isUnique": true,
+    "imageRef": "Tristan Wren.jpeg",
+    "identifiers": {
+      "name": "Tristan Wren",
+      "legionhqId": "mp",
+      "tni": "upgrade|Tristan Wren"
+    },
+    "restrictions": [
+      "OR",
+      {
+        "name": "Mandalorian Resistance"
+      },
+      {
+        "name": "Mandalorian Resistance Clan Wren"
+      }
+    ],
+    "meta": {
+      "prevCost": 38
+    },
+    "history": [
+      {
+        "date": "5 June 2023",
+        "description": "Cost reduced from 38 to 34 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "T-Series Tactical Droid",
+    "upgradeType": "personnel",
+    "points": 18,
+    "keywords": [
+      "AI",
+      "Reliable",
+      "Leader",
+      "Sidearm"
+    ],
+    "imageRef": "T-Series Tactical Droid.jpeg",
+    "identifiers": {
+      "name": "T-Series Tactical Droid",
+      "legionhqId": "mq",
+      "tni": "upgrade|T-Series Tactical Droid"
+    },
+    "restrictions": [
+      "AND",
+      {
+        "faction": "separatists"
+      },
+      {
+        "unitType": "droid trooper"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Portable Scanner",
+    "upgradeType": "gear",
+    "points": 6,
+    "keywords": [
+      "Take Cover"
+    ],
+    "imageRef": "Portable Scanner.jpeg",
+    "identifiers": {
+      "name": "Portable Scanner",
+      "legionhqId": "mr",
+      "tni": "upgrade|Portable Scanner"
+    }
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Offensive Stance",
+    "upgradeType": "training",
+    "points": 5,
+    "keywords": [
+      "Reconfigure"
+    ],
+    "imageRef": "Defensive Stance.jpeg",
+    "identifiers": {
+      "name": "Offensive Stance",
+      "legionhqId": "ms",
+      "tni": "upgrade|Offensive Stance"
+    },
+    "restrictions": [
+      {
+        "upgrade": "force"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "T-21 Special Forces Trooper",
+    "upgradeType": "heavy weapon",
+    "points": 27,
+    "keywords": [
+      "Critical"
+    ],
+    "imageRef": "T-21 Special Forces Trooper.jpeg",
+    "identifiers": {
+      "name": "T-21 Special Forces Trooper",
+      "legionhqId": "mz",
+      "tni": "upgrade|T-21 Special Forces Trooper"
+    },
+    "restrictions": [
+      {
+        "name": "Imperial Special Forces"
+      }
+    ],
+    "meta": {
+      "displayName": "T-21 Trooper"
+    },
+    "history": [
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 29 to 27 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Defensive Stance",
+    "upgradeType": "training",
+    "points": 5,
+    "keywords": [
+      "Reconfigure"
+    ],
+    "imageRef": "Defensive Stance.jpeg",
+    "identifiers": {
+      "name": "Defensive Stance",
+      "legionhqId": "nc",
+      "tni": "upgrade|Defensive Stance"
+    },
+    "restrictions": [
+      {
+        "upgrade": "force"
+      }
+    ],
+    "meta": {
+      "displayName": "Defensive/Offensive Stance"
+    }
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Force Barrier",
+    "upgradeType": "force",
+    "points": 10,
+    "imageRef": "Force Barrier.jpeg",
+    "identifiers": {
+      "name": "Force Barrier",
+      "legionhqId": "nd",
+      "tni": "upgrade|Force Barrier"
+    }
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Seize the Initiative",
+    "upgradeType": "training",
+    "points": 5,
+    "imageRef": "Seize the Initiative.jpeg",
+    "identifiers": {
+      "name": "Seize the Initiative",
+      "legionhqId": "ne",
+      "tni": "upgrade|Seize the Initiative"
+    },
+    "restrictions": [
+      "OR",
+      {
+        "unitRank": "commander"
+      },
+      {
+        "unitRank": "operative"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "J-19 Bo-rifle Staff",
+    "upgradeType": "armament",
+    "points": 5,
+    "keywords": [
+      "Charge",
+      "Immune",
+      "Lethal",
+      "Reconfigure"
+    ],
+    "isUnique": true,
+    "imageRef": "J-19 Bo-Rifle Staff.jpeg",
+    "identifiers": {
+      "name": "J-19 Bo-rifle Staff",
+      "legionhqId": "np",
+      "tni": "upgrade|J-19 Bo-rifle Staff"
+    },
+    "restrictions": [
+      {
+        "name": "Agent Kallus"
+      }
+    ],
+    "meta": {
+      "prevCost": 15
+    },
+    "history": [
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 25 to 15 points."
+      },
+      {
+        "date": "5 June 2023",
+        "description": "Cost reduced from 15 to 5 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Inspiring Presence",
+    "upgradeType": "command",
+    "points": 5,
+    "imageRef": "Inspiring Presence.jpeg",
+    "identifiers": {
+      "name": "Inspiring Presence",
+      "legionhqId": "nq",
+      "tni": "upgrade|Inspiring Presence"
+    }
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Vigilance",
+    "upgradeType": "command",
+    "points": 12,
+    "imageRef": "Vigilance.jpeg",
+    "identifiers": {
+      "name": "Vigilance",
+      "legionhqId": "nz",
+      "tni": "upgrade|Vigilance"
+    },
+    "history": [
+      {
+        "date": "8 December 2022",
+        "description": "Cost increased from 5 to 12 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Clone Comms Technician",
+    "upgradeType": "personnel",
+    "points": 11,
+    "imageRef": "Clone Comms Technician.jpeg",
+    "identifiers": {
+      "name": "Clone Comms Technician",
+      "legionhqId": "oa",
+      "tni": "upgrade|Clone Comms Technician"
+    },
+    "restrictions": [
+      {
+        "unitType": "clone trooper"
+      }
+    ],
+    "meta": {
+      "additionalUpgradeSlots": [
+        "comms"
+      ]
+    },
+    "history": [
+      {
+        "date": "8 December 2022",
+        "description": "Cost decreased from 12 to 11 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Clone Engineer",
+    "upgradeType": "personnel",
+    "points": 14,
+    "keywords": [
+      "Repair"
+    ],
+    "imageRef": "Clone Engineer.jpeg",
+    "identifiers": {
+      "name": "Clone Engineer",
+      "legionhqId": "ob",
+      "tni": "upgrade|Clone Engineer"
+    },
+    "restrictions": [
+      {
+        "unitType": "clone trooper"
+      }
+    ],
+    "history": [
+      {
+        "date": "8 December 2022",
+        "description": "Cost decreased from 18 to 14 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Clone Medic",
+    "upgradeType": "personnel",
+    "points": 15,
+    "keywords": [
+      "Treat"
+    ],
+    "imageRef": "Clone Medic.jpeg",
+    "identifiers": {
+      "name": "Clone Medic",
+      "legionhqId": "oc",
+      "tni": "upgrade|Clone Medic"
+    },
+    "restrictions": [
+      {
+        "unitType": "clone trooper"
+      }
+    ],
+    "history": [
+      {
+        "date": "8 December 2022",
+        "description": "Cost decreased from 20 to 15 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Clone Commander",
+    "upgradeType": "personnel",
+    "points": 18,
+    "keywords": [
+      "Inspire",
+      "Reliable",
+      "Leader"
+    ],
+    "imageRef": "Clone Commander.jpeg",
+    "identifiers": {
+      "name": "Clone Commander",
+      "legionhqId": "od",
+      "tni": "upgrade|Clone Commander"
+    },
+    "restrictions": [
+      {
+        "unitType": "clone trooper"
+      }
+    ],
+    "history": [
+      {
+        "date": "8 December 2022",
+        "description": "Cost decreased from 20 to 18 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Viper Recon Droid",
+    "upgradeType": "personnel",
+    "points": 6,
+    "keywords": [
+      "Observe",
+      "Sidearm"
+    ],
+    "imageRef": "Viper Recon Droid.jpeg",
+    "identifiers": {
+      "name": "Viper Recon Droid",
+      "legionhqId": "oe",
+      "tni": "upgrade|Viper Recon Droid"
+    },
+    "restrictions": [
+      "AND",
+      {
+        "faction": "separatists"
+      },
+      {
+        "unitType": "droid trooper"
+      }
+    ],
+    "history": [
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 8 to 6 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "PK-Series Worker Droid",
+    "upgradeType": "personnel",
+    "points": 12,
+    "keywords": [
+      "Repair",
+      "Noncombatant"
+    ],
+    "imageRef": "PK-Series Worker Droid.jpeg",
+    "identifiers": {
+      "name": "PK-Series Worker Droid",
+      "legionhqId": "of",
+      "tni": "upgrade|PK-Series Worker Droid"
+    },
+    "restrictions": [
+      "AND",
+      {
+        "faction": "separatists"
+      },
+      {
+        "unitType": "droid trooper"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "EV-Series Medical Droid",
+    "upgradeType": "personnel",
+    "points": 14,
+    "keywords": [
+      "Treat",
+      "Noncombatant"
+    ],
+    "imageRef": "EV-Series Medical Droid.jpeg",
+    "identifiers": {
+      "name": "EV-Series Medical Droid",
+      "legionhqId": "og",
+      "tni": "upgrade|EV-Series Medical Droid"
+    },
+    "restrictions": [
+      "AND",
+      {
+        "faction": "separatists"
+      },
+      {
+        "unitType": "droid trooper"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Heavy Laser Retrofit",
+    "upgradeType": "hardpoint",
+    "points": 16,
+    "keywords": [
+      "Critical"
+    ],
+    "imageRef": "Heavy Laser Retrofit.jpeg",
+    "identifiers": {
+      "name": "Heavy Laser Retrofit",
+      "legionhqId": "op",
+      "tni": "upgrade|Heavy Laser Retrofit"
+    },
+    "restrictions": [
+      {
+        "name": "A-A5 Speeder Truck"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Shriv Suurgav",
+    "upgradeType": "pilot",
+    "points": 10,
+    "keywords": [
+      "Field Commander"
+    ],
+    "isUnique": true,
+    "imageRef": "Shriv Suurgav.jpeg",
+    "identifiers": {
+      "name": "Shriv Suurgav",
+      "legionhqId": "oq",
+      "tni": "upgrade|Shriv Suurgav"
+    },
+    "restrictions": [
+      "AND",
+      {
+        "faction": "rebels"
+      },
+      {
+        "unitRank": "heavy"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Governor Pryce",
+    "upgradeType": "pilot",
+    "points": 5,
+    "keywords": [
+      "Field Commander"
+    ],
+    "isUnique": true,
+    "imageRef": "Governor Pryce.jpeg",
+    "identifiers": {
+      "name": "Governor Pryce",
+      "legionhqId": "or",
+      "tni": "upgrade|Governor Pryce"
+    },
+    "restrictions": [
+      "AND",
+      {
+        "faction": "empire"
+      },
+      {
+        "unitRank": "heavy"
+      }
+    ],
+    "history": [
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 10 to 5 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Clone Commander Fox",
+    "upgradeType": "pilot",
+    "points": 10,
+    "keywords": [
+      "Field Commander"
+    ],
+    "isUnique": true,
+    "imageRef": "Clone Commander Fox.jpeg",
+    "identifiers": {
+      "name": "Clone Commander Fox",
+      "legionhqId": "os",
+      "tni": "upgrade|Clone Commander Fox"
+    },
+    "restrictions": [
+      "AND",
+      {
+        "faction": "republic"
+      },
+      {
+        "name": "LAAT Patrol Transport"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Onboard Comms Channel",
+    "upgradeType": "comms",
+    "points": 3,
+    "imageRef": "Onboard Comms Channel.jpeg",
+    "identifiers": {
+      "name": "Onboard Comms Channel",
+      "legionhqId": "ot",
+      "tni": "upgrade|Onboard Comms Channel"
+    },
+    "restrictions": [
+      "OR",
+      {
+        "unitType": "ground vehicle"
+      },
+      {
+        "unitType": "repulsor vehicle"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "AG-2G Quad Laser",
+    "upgradeType": "hardpoint",
+    "points": 25,
+    "keywords": [
+      "Impact"
+    ],
+    "imageRef": "AG-2G Quad Laser.jpeg",
+    "identifiers": {
+      "name": "AG-2G Quad Laser",
+      "legionhqId": "ou",
+      "tni": "upgrade|AG-2G Quad Laser"
+    },
+    "restrictions": [
+      {
+        "name": "A-A5 Speeder Truck"
+      }
+    ],
+    "meta": {
+      "prevCost": 28
+    },
+    "history": [
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 36 to 28 points."
+      },
+      {
+        "date": "5 June 2023",
+        "description": "Cost reduced from 28 to 25 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Hotshot Pilot",
+    "upgradeType": "pilot",
+    "points": 8,
+    "keywords": [
+      "Sharpshooter"
+    ],
+    "imageRef": "Hotshot Pilot.jpeg",
+    "identifiers": {
+      "name": "Hotshot Pilot",
+      "legionhqId": "ov",
+      "tni": "upgrade|Hotshot Pilot"
+    },
+    "restrictions": [
+      "AND",
+      {
+        "faction": "rebels"
+      },
+      {
+        "unitType": "repulsor vehicle"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Reckless Driver",
+    "upgradeType": "pilot",
+    "points": 12,
+    "imageRef": "Reckless Driver.jpeg",
+    "identifiers": {
+      "name": "Reckless Driver",
+      "legionhqId": "ow",
+      "tni": "upgrade|Reckless Driver"
+    },
+    "restrictions": [
+      {
+        "name": "A-A5 Speeder Truck"
+      }
+    ],
+    "history": [
+      {
+        "date": "27 October 2021",
+        "description": "Cost increased from 6 to 12 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Backworld Medic",
+    "upgradeType": "crew",
+    "points": 12,
+    "imageRef": "Backworld Medic.jpeg",
+    "identifiers": {
+      "name": "Backworld Medic",
+      "legionhqId": "ox",
+      "tni": "upgrade|Backworld Medic"
+    },
+    "restrictions": [
+      {
+        "name": "A-A5 Speeder Truck"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Refurbished \"Gonk\" Droid",
+    "upgradeType": "crew",
+    "points": 14,
+    "keywords": [
+      "Shielded",
+      "Shield Token"
+    ],
+    "imageRef": "Refurbished %22Gonk%22 Droid.jpeg",
+    "identifiers": {
+      "name": "Refurbished \"Gonk\" Droid",
+      "legionhqId": "oy",
+      "tni": "upgrade|Refurbished \"Gonk\" Droid"
+    },
+    "restrictions": [
+      "OR",
+      {
+        "name": "X-34 Landspeeder"
+      },
+      {
+        "name": "A-A5 Speeder Truck"
+      }
+    ],
+    "history": [
+      {
+        "date": "27 October 2021",
+        "description": "Cost increased from 10 to 14 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Unstable R5 Astromech",
+    "upgradeType": "crew",
+    "points": 6,
+    "imageRef": "Unstable R5 Astromech.jpeg",
+    "identifiers": {
+      "name": "Unstable R5 Astromech",
+      "legionhqId": "oz",
+      "tni": "upgrade|Unstable R5 Astromech"
+    },
+    "restrictions": [
+      "OR",
+      {
+        "name": "X-34 Landspeeder"
+      },
+      {
+        "name": "A-A5 Speeder Truck"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Unorthodox Tactician",
+    "upgradeType": "crew",
+    "points": 16,
+    "imageRef": "Unorthodox Tactician.jpeg",
+    "identifiers": {
+      "name": "Unorthodox Tactician",
+      "legionhqId": "pa",
+      "tni": "upgrade|Unorthodox Tactician"
+    },
+    "restrictions": [
+      {
+        "name": "A-A5 Speeder Truck"
+      }
+    ],
+    "history": [
+      {
+        "date": "27 October 2021",
+        "description": "Cost increased from 10 to 16 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Baron Rudor",
+    "upgradeType": "pilot",
+    "points": 8,
+    "keywords": [
+      "Marksman"
+    ],
+    "isUnique": true,
+    "imageRef": "Baron Rudor.jpeg",
+    "identifiers": {
+      "name": "Baron Rudor",
+      "legionhqId": "pb",
+      "tni": "upgrade|Baron Rudor"
+    },
+    "restrictions": [
+      "AND",
+      {
+        "faction": "empire"
+      },
+      {
+        "unitType": "repulsor vehicle"
+      }
+    ],
+    "history": [
+      {
+        "date": "27 October 2021",
+        "description": "Cost reduced from 12 to 8 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Hound & Grizzer",
+    "upgradeType": "pilot",
+    "points": 8,
+    "keywords": [
+      "Observe"
+    ],
+    "isUnique": true,
+    "imageRef": "Hound & Grizzer.jpeg",
+    "identifiers": {
+      "name": "Hound & Grizzer",
+      "legionhqId": "pc",
+      "tni": "upgrade|Hound & Grizzer"
+    },
+    "restrictions": [
+      "AND",
+      {
+        "faction": "republic"
+      },
+      {
+        "name": "LAAT Patrol Transport"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Imperial TIE Pilot",
+    "upgradeType": "pilot",
+    "points": 8,
+    "imageRef": "Imperial TIE Pilot.jpeg",
+    "identifiers": {
+      "name": "Imperial TIE Pilot",
+      "legionhqId": "pd",
+      "tni": "upgrade|Imperial TIE Pilot"
+    },
+    "restrictions": [
+      "AND",
+      {
+        "faction": "empire"
+      },
+      {
+        "unitType": "repulsor vehicle"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Clone Shock Trooper Pilot",
+    "upgradeType": "pilot",
+    "points": 4,
+    "imageRef": "Clone Shock Trooper Pilot.jpeg",
+    "identifiers": {
+      "name": "Clone Shock Trooper Pilot",
+      "legionhqId": "pe",
+      "tni": "upgrade|Clone Shock Trooper Pilot"
+    },
+    "restrictions": [
+      "AND",
+      {
+        "faction": "republic"
+      },
+      {
+        "name": "LAAT Patrol Transport"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Battle Shield Wookiee",
+    "upgradeType": "heavy weapon",
+    "points": 26,
+    "keywords": [
+      "Armor",
+      "Reconfigure"
+    ],
+    "imageRef": "Battle Shield Wookiee.jpeg",
+    "identifiers": {
+      "name": "Battle Shield Wookiee",
+      "legionhqId": "pf",
+      "tni": "upgrade|Battle Shield Wookiee"
+    },
+    "restrictions": [
+      {
+        "name": "Wookiee Warriors"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Long Gun Wookiee",
+    "upgradeType": "heavy weapon",
+    "points": 26,
+    "keywords": [
+      "Suppressive"
+    ],
+    "imageRef": "Long Gun Wookiee.jpeg",
+    "identifiers": {
+      "name": "Long Gun Wookiee",
+      "legionhqId": "pn",
+      "tni": "upgrade|Long Gun Wookiee"
+    },
+    "restrictions": [
+      {
+        "name": "Wookiee Warriors"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Burst of Speed",
+    "upgradeType": "force",
+    "points": 10,
+    "imageRef": "Burst of Speed.jpeg",
+    "identifiers": {
+      "name": "Burst of Speed",
+      "legionhqId": "pq",
+      "tni": "upgrade|Burst of Speed"
+    },
+    "history": [
+      {
+        "date": "8 December 2022",
+        "description": "Cost increased from 3 to 10 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Force Lift",
+    "upgradeType": "force",
+    "points": 5,
+    "imageRef": "Force Lift.jpeg",
+    "identifiers": {
+      "name": "Force Lift",
+      "legionhqId": "pr",
+      "tni": "upgrade|Force Lift"
+    }
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Into the Fray",
+    "upgradeType": "training",
+    "points": 4,
+    "imageRef": "Into the Fray.jpeg",
+    "identifiers": {
+      "name": "Into the Fray",
+      "legionhqId": "ps",
+      "tni": "upgrade|Into the Fray"
+    }
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Protector",
+    "upgradeType": "training",
+    "points": 5,
+    "imageRef": "Protector.jpeg",
+    "identifiers": {
+      "name": "Protector",
+      "legionhqId": "pt",
+      "tni": "upgrade|Protector"
+    }
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Electro-whip MagnaGuard",
+    "upgradeType": "heavy weapon",
+    "points": 28,
+    "keywords": [
+      "Immobilize",
+      "Versatile"
+    ],
+    "imageRef": "Electro-whip MagnaGuard.jpeg",
+    "identifiers": {
+      "name": "Electro-whip MagnaGuard",
+      "legionhqId": "qb",
+      "tni": "upgrade|Electro-whip MagnaGuard"
+    },
+    "restrictions": [
+      {
+        "name": "IG-100 MagnaGuard"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "IG-100 MagnaGuard",
+    "upgradeType": "heavy weapon",
+    "points": 22,
+    "imageRef": "IG-100 MagnaGuard.jpeg",
+    "identifiers": {
+      "name": "IG-100 MagnaGuard",
+      "legionhqId": "qc",
+      "tni": "upgrade|IG-100 MagnaGuard"
+    },
+    "restrictions": [
+      {
+        "name": "IG-100 MagnaGuard"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "RPS-6 MagnaGuard",
+    "upgradeType": "heavy weapon",
+    "points": 34,
+    "keywords": [
+      "Critical",
+      "Impact"
+    ],
+    "imageRef": "RPS-6 MagnaGuard.jpeg",
+    "identifiers": {
+      "name": "RPS-6 MagnaGuard",
+      "legionhqId": "qd",
+      "tni": "upgrade|RPS-6 MagnaGuard"
+    },
+    "restrictions": [
+      {
+        "name": "IG-100 MagnaGuard"
+      }
+    ],
+    "history": [
+      {
+        "date": "8 December 2022",
+        "description": "Cost increased from 28 to 34 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Gnasp Gunner",
+    "upgradeType": "crew",
+    "points": 15,
+    "keywords": [
+      "Fixed",
+      "Impact",
+      "Pierce"
+    ],
+    "imageRef": "Gnasp Gunner.jpeg",
+    "identifiers": {
+      "name": "Gnasp Gunner",
+      "legionhqId": "qi",
+      "tni": "upgrade|Gnasp Gunner"
+    },
+    "restrictions": [
+      {
+        "name": "Raddaugh Gnasp Fluttercraft"
+      }
+    ],
+    "meta": {
+      "prevCost": 25
+    },
+    "history": [
+      {
+        "date": "5 June 2023",
+        "description": "Cost reduced from 25 to 15 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Hacked Comms Unit",
+    "upgradeType": "comms",
+    "points": 5,
+    "imageRef": "Hacked Comms Unit.jpeg",
+    "identifiers": {
+      "name": "Hacked Comms Unit",
+      "legionhqId": "qj",
+      "tni": "upgrade|Hacked Comms Unit"
+    }
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Engagement Protocols",
+    "upgradeType": "programming",
+    "points": 5,
+    "keywords": [
+      "AI"
+    ],
+    "imageRef": "Engagement Protocols.jpeg",
+    "identifiers": {
+      "name": "Engagement Protocols",
+      "legionhqId": "ql",
+      "tni": "upgrade|Engagement Protocols"
+    },
+    "restrictions": [
+      {
+        "unitType": "ground vehicle"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Defense Protocols",
+    "upgradeType": "programming",
+    "points": 3,
+    "keywords": [
+      "AI",
+      "Dodge",
+      "Nimble",
+      "Outmaneuver"
+    ],
+    "imageRef": "Defense Protocols.jpeg",
+    "identifiers": {
+      "name": "Defense Protocols",
+      "legionhqId": "qm",
+      "tni": "upgrade|Defense Protocols"
+    },
+    "restrictions": [
+      {
+        "unitType": "ground vehicle"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Attack Protocols",
+    "upgradeType": "programming",
+    "points": 3,
+    "keywords": [
+      "AI",
+      "Precise"
+    ],
+    "imageRef": "Attack Protocols.jpeg",
+    "identifiers": {
+      "name": "Attack Protocols",
+      "legionhqId": "qn",
+      "tni": "upgrade|Attack Protocols"
+    },
+    "restrictions": [
+      {
+        "unitType": "ground vehicle"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Nose-Mounted Flamethrower",
+    "upgradeType": "hardpoint",
+    "points": 15,
+    "keywords": [
+      "Blast",
+      "Fixed",
+      "Spray"
+    ],
+    "imageRef": "Nose-Mounted Flamethrower.jpeg",
+    "identifiers": {
+      "name": "Nose-Mounted Flamethrower",
+      "legionhqId": "qo",
+      "tni": "upgrade|Nose-Mounted Flamethrower"
+    },
+    "restrictions": [
+      {
+        "name": "DSD1 Dwarf Spider Droid"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Gnasp Bombardier",
+    "upgradeType": "crew",
+    "points": 20,
+    "keywords": [
+      "Overrun",
+      "Suppressive"
+    ],
+    "imageRef": "Gnasp Bombardier.jpeg",
+    "identifiers": {
+      "name": "Gnasp Bombardier",
+      "legionhqId": "qp",
+      "tni": "upgrade|Gnasp Bombardier"
+    },
+    "restrictions": [
+      {
+        "name": "Raddaugh Gnasp Fluttercraft"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Nose-Mounted Ion Blaster",
+    "upgradeType": "hardpoint",
+    "points": 25,
+    "keywords": [
+      "Cycle",
+      "Fixed",
+      "Ion",
+      "Impact"
+    ],
+    "imageRef": "Nose-Mounted Ion Blaster.jpeg",
+    "identifiers": {
+      "name": "Nose-Mounted Ion Blaster",
+      "legionhqId": "qq",
+      "tni": "upgrade|Nose-Mounted Ion Blaster"
+    },
+    "restrictions": [
+      {
+        "name": "DSD1 Dwarf Spider Droid"
+      }
+    ],
+    "history": [
+      {
+        "date": "8 December 2022",
+        "description": "Cost increased from 10 to 25 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Nose-Mounted Laser Cannon",
+    "upgradeType": "hardpoint",
+    "points": 15,
+    "keywords": [
+      "Critical",
+      "Fixed"
+    ],
+    "imageRef": "Nose-Mounted Laser Cannon.jpeg",
+    "identifiers": {
+      "name": "Nose-Mounted Laser Cannon",
+      "legionhqId": "qr",
+      "tni": "upgrade|Nose-Mounted Laser Cannon"
+    },
+    "restrictions": [
+      {
+        "name": "DSD1 Dwarf Spider Droid"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "327th Star Corps Elite Armor Pilots",
+    "upgradeType": "pilot",
+    "points": 5,
+    "keywords": [
+      "Fire Support"
+    ],
+    "imageRef": "327th Star Corps Elite Armor Pilots.jpeg",
+    "identifiers": {
+      "name": "327th Star Corps Elite Armor Pilots",
+      "legionhqId": "qu",
+      "tni": "upgrade|327th Star Corps Elite Armor Pilots"
+    },
+    "restrictions": [
+      {
+        "name": "Infantry Support Platform"
+      }
+    ],
+    "meta": {
+      "displayName": "Elite Armor Pilots"
+    }
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Twin Blaster Cannons",
+    "upgradeType": "hardpoint",
+    "points": 25,
+    "keywords": [
+      "Gunslinger",
+      "Critical",
+      "Fixed"
+    ],
+    "imageRef": "Twin Blaster Cannons.jpeg",
+    "identifiers": {
+      "name": "Twin Blaster Cannons",
+      "legionhqId": "qv",
+      "tni": "upgrade|Twin Blaster Cannons"
+    },
+    "restrictions": [
+      {
+        "name": "Infantry Support Platform"
+      }
+    ],
+    "meta": {
+      "prevCost": 40
+    },
+    "history": [
+      {
+        "date": "5 June 2023",
+        "description": "Cost reduced from 40 to 25 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Twin Beam Cannons",
+    "upgradeType": "hardpoint",
+    "points": 25,
+    "keywords": [
+      "Beam",
+      "Fixed"
+    ],
+    "imageRef": "Twin Beam Cannons.jpeg",
+    "identifiers": {
+      "name": "Twin Beam Cannons",
+      "legionhqId": "qw",
+      "tni": "upgrade|Twin Beam Cannons"
+    },
+    "restrictions": [
+      {
+        "name": "Infantry Support Platform"
+      }
+    ],
+    "meta": {
+      "prevCost": 40
+    },
+    "history": [
+      {
+        "date": "5 June 2023",
+        "description": "Cost reduced from 40 to 25 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Twin Missile Pods",
+    "upgradeType": "hardpoint",
+    "points": 25,
+    "keywords": [
+      "Gunslinger",
+      "Impact",
+      "Fixed"
+    ],
+    "imageRef": "Twin Missile Pods.jpeg",
+    "identifiers": {
+      "name": "Twin Missile Pods",
+      "legionhqId": "qx",
+      "tni": "upgrade|Twin Missile Pods"
+    },
+    "restrictions": [
+      {
+        "name": "Infantry Support Platform"
+      }
+    ],
+    "meta": {
+      "prevCost": 40
+    },
+    "history": [
+      {
+        "date": "5 June 2023",
+        "description": "Cost reduced from 40 to 25 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Underworld Connections",
+    "upgradeType": "command",
+    "points": 5,
+    "keywords": [
+      "Allies of Convenience"
+    ],
+    "imageRef": "Underworld Connections.jpeg",
+    "identifiers": {
+      "name": "Underworld Connections",
+      "legionhqId": "rf",
+      "tni": "upgrade|Underworld Connections"
+    }
+  },
+  {
+    "__typename": "upgrade",
+    "name": "P13-M Disruptor Soldier",
+    "upgradeType": "heavy weapon",
+    "points": 24,
+    "keywords": [
+      "Impact"
+    ],
+    "imageRef": "P13-M Disruptor Soldier.jpeg",
+    "identifiers": {
+      "name": "P13-M Disruptor Soldier",
+      "legionhqId": "rg",
+      "tni": "upgrade|P13-M Disruptor Soldier"
+    },
+    "restrictions": [
+      {
+        "name": "Pyke Syndicate Foot Soldiers"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Electro-Whip Soldier",
+    "upgradeType": "heavy weapon",
+    "points": 10,
+    "keywords": [
+      "Immobilize",
+      "Suppressive"
+    ],
+    "imageRef": "Electro-Whip Soldier.jpeg",
+    "identifiers": {
+      "name": "Electro-Whip Soldier",
+      "legionhqId": "rh",
+      "tni": "upgrade|Electro-Whip Soldier"
+    },
+    "restrictions": [
+      {
+        "name": "Pyke Syndicate Foot Soldiers"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Pyke Syndicate Foot Soldier",
+    "upgradeType": "personnel",
+    "points": 9,
+    "keywords": [
+      "Cache"
+    ],
+    "imageRef": "Pyke Syndicate Foot Soldier.jpeg",
+    "identifiers": {
+      "name": "Pyke Syndicate Foot Soldier",
+      "legionhqId": "ri",
+      "tni": "upgrade|Pyke Syndicate Foot Soldier"
+    },
+    "restrictions": [
+      {
+        "name": "Pyke Syndicate Foot Soldiers"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Pyke Syndicate Capo",
+    "upgradeType": "personnel",
+    "points": 18,
+    "keywords": [
+      "Independent",
+      "Leader"
+    ],
+    "imageRef": "Pyke Syndicate Capo.jpeg",
+    "identifiers": {
+      "name": "Pyke Syndicate Capo",
+      "legionhqId": "rj",
+      "tni": "upgrade|Pyke Syndicate Capo"
+    },
+    "restrictions": [
+      {
+        "name": "Pyke Syndicate Foot Soldiers"
+      }
+    ],
+    "history": [
+      {
+        "date": "8 December 2022",
+        "description": "Cost increased from 16 to 18 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Black Sun Enforcer",
+    "upgradeType": "personnel",
+    "points": 11,
+    "keywords": [
+      "Cache"
+    ],
+    "imageRef": "Black Sun Enforcer.jpeg",
+    "identifiers": {
+      "name": "Black Sun Enforcer",
+      "legionhqId": "rk",
+      "tni": "upgrade|Black Sun Enforcer"
+    },
+    "restrictions": [
+      {
+        "name": "Black Sun Enforcers"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Black Sun Vigo",
+    "upgradeType": "personnel",
+    "points": 20,
+    "keywords": [
+      "Independent",
+      "Leader"
+    ],
+    "imageRef": "Black Sun Vigo.jpeg",
+    "identifiers": {
+      "name": "Black Sun Vigo",
+      "legionhqId": "rl",
+      "tni": "upgrade|Black Sun Vigo"
+    },
+    "restrictions": [
+      {
+        "name": "Black Sun Enforcers"
+      }
+    ],
+    "history": [
+      {
+        "date": "8 December 2022",
+        "description": "Cost increased from 18 to 20 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Mag-Det Enforcer",
+    "upgradeType": "heavy weapon",
+    "points": 16,
+    "keywords": [
+      "Blast",
+      "Impact"
+    ],
+    "imageRef": "Mag-Det Enforcer.jpeg",
+    "identifiers": {
+      "name": "Mag-Det Enforcer",
+      "legionhqId": "rm",
+      "tni": "upgrade|Mag-Det Enforcer"
+    },
+    "restrictions": [
+      {
+        "name": "Black Sun Enforcers"
+      }
+    ],
+    "meta": {
+      "prevCost": 14
+    },
+    "history": [
+      {
+        "date": "5 June 2023",
+        "description": "Cost increased from 14 to 16 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Scatter Gun Enforcer",
+    "upgradeType": "heavy weapon",
+    "points": 28,
+    "keywords": [
+      "Pierce"
+    ],
+    "imageRef": "Scatter Gun Enforcer.jpeg",
+    "identifiers": {
+      "name": "Scatter Gun Enforcer",
+      "legionhqId": "rn",
+      "tni": "upgrade|Scatter Gun Enforcer"
+    },
+    "restrictions": [
+      {
+        "name": "Black Sun Enforcers"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Prepared Supplies",
+    "upgradeType": "gear",
+    "points": 5,
+    "keywords": [
+      "Cache"
+    ],
+    "imageRef": "Prepared Supplies.jpeg",
+    "identifiers": {
+      "name": "Prepared Supplies",
+      "legionhqId": "ro",
+      "tni": "upgrade|Prepared Supplies"
+    }
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Sonic Imploders",
+    "upgradeType": "grenades",
+    "points": 3,
+    "keywords": [
+      "Suppressive"
+    ],
+    "imageRef": "Sonic Imploders.jpeg",
+    "identifiers": {
+      "name": "Sonic Imploders",
+      "legionhqId": "rp",
+      "tni": "upgrade|Sonic Imploders"
+    }
+  },
+  {
+    "__typename": "upgrade",
+    "name": "The Darksaber2",
+    "upgradeType": "armament",
+    "points": 10,
+    "keywords": [
+      "Cunning",
+      "Sidearm",
+      "Ranged",
+      "Impact",
+      "Pierce"
+    ],
+    "isUnique": true,
+    "imageRef": "The Darksaber2.jpeg",
+    "identifiers": {
+      "name": "The Darksaber2",
+      "legionhqId": "rq",
+      "tni": "upgrade|The Darksaber2"
+    },
+    "restrictions": [
+      "AND",
+      {
+        "name": "Maul"
+      },
+      {
+        "affiliation": "Maul Loyalists"
+      }
+    ],
+    "meta": {
+      "displayName": "The Darksaber"
+    }
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Up Close and Personal",
+    "upgradeType": "training",
+    "points": 8,
+    "imageRef": "Up Close and Personal.jpeg",
+    "identifiers": {
+      "name": "Up Close and Personal",
+      "legionhqId": "ru",
+      "tni": "upgrade|Up Close and Personal"
+    },
+    "history": [
+      {
+        "date": "8 December 2022",
+        "description": "Cost increased from 5 to 8 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Lead By Example",
+    "upgradeType": "command",
+    "points": 8,
+    "imageRef": "Lead By Example.jpeg",
+    "identifiers": {
+      "name": "Lead By Example",
+      "legionhqId": "rv",
+      "tni": "upgrade|Lead By Example"
+    }
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Super Commando Combat Shields",
+    "upgradeType": "gear",
+    "points": 10,
+    "keywords": [
+      "Shielded"
+    ],
+    "imageRef": "Super Commando Combat Shields.jpeg",
+    "identifiers": {
+      "name": "Super Commando Combat Shields",
+      "legionhqId": "rz",
+      "tni": "upgrade|Super Commando Combat Shields"
+    },
+    "restrictions": [
+      {
+        "name": "Mandalorian Super Commandos"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Super Commando Jetpack Rockets",
+    "upgradeType": "armament",
+    "points": 8,
+    "keywords": [
+      "Blast",
+      "Critical",
+      "Impact"
+    ],
+    "imageRef": "Super Commando Jetpack Rockets.jpeg",
+    "identifiers": {
+      "name": "Super Commando Jetpack Rockets",
+      "legionhqId": "sa",
+      "tni": "upgrade|Super Commando Jetpack Rockets"
+    },
+    "restrictions": [
+      {
+        "name": "Mandalorian Super Commandos"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Mandalorian Super Commando",
+    "upgradeType": "heavy weapon",
+    "points": 24,
+    "keywords": [
+      "Cache"
+    ],
+    "imageRef": "Mandalorian Super Commando.jpeg",
+    "identifiers": {
+      "name": "Mandalorian Super Commando",
+      "legionhqId": "sb",
+      "tni": "upgrade|Mandalorian Super Commando"
+    },
+    "restrictions": [
+      {
+        "name": "Mandalorian Super Commandos"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Super Commando Gunslinger",
+    "upgradeType": "heavy weapon",
+    "points": 28,
+    "keywords": [
+      "Lethal"
+    ],
+    "imageRef": "Super Commando Gunslinger.jpeg",
+    "identifiers": {
+      "name": "Super Commando Gunslinger",
+      "legionhqId": "sc",
+      "tni": "upgrade|Super Commando Gunslinger"
+    },
+    "restrictions": [
+      {
+        "name": "Mandalorian Super Commandos"
+      }
+    ],
+    "meta": {
+      "prevCost": 30
+    },
+    "history": [
+      {
+        "date": "5 June 2023",
+        "description": "Cost reduced from 30 to 28 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Super Commando Marksman",
+    "upgradeType": "heavy weapon",
+    "points": 28,
+    "keywords": [
+      "Precise"
+    ],
+    "imageRef": "Super Commando Marksman.jpeg",
+    "identifiers": {
+      "name": "Super Commando Marksman",
+      "legionhqId": "sd",
+      "tni": "upgrade|Super Commando Marksman"
+    },
+    "restrictions": [
+      {
+        "name": "Mandalorian Super Commandos"
+      }
+    ],
+    "meta": {
+      "prevCost": 30
+    },
+    "history": [
+      {
+        "date": "5 June 2023",
+        "description": "Cost reduced from 30 to 28 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Rook Kast",
+    "upgradeType": "heavy weapon",
+    "points": 35,
+    "keywords": [
+      "Retinue",
+      "Leader"
+    ],
+    "isUnique": true,
+    "imageRef": "Rook Kast.jpeg",
+    "identifiers": {
+      "name": "Rook Kast",
+      "legionhqId": "se",
+      "tni": "upgrade|Rook Kast"
+    },
+    "restrictions": [
+      {
+        "name": "Mandalorian Super Commandos"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Emergency Transponder",
+    "upgradeType": "comms",
+    "points": 4,
+    "imageRef": "Emergency Transponder.jpeg",
+    "identifiers": {
+      "name": "Emergency Transponder",
+      "legionhqId": "sf",
+      "tni": "upgrade|Emergency Transponder"
+    }
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Saxon's Galar-90 Rifle",
+    "upgradeType": "armament",
+    "points": 15,
+    "keywords": [
+      "High Velocity",
+      "Lethal",
+      "Long Shot"
+    ],
+    "isUnique": true,
+    "imageRef": "Saxon's Galar-90 Rifle.jpeg",
+    "identifiers": {
+      "name": "Saxon's Galar-90 Rifle",
+      "legionhqId": "sg",
+      "tni": "upgrade|Saxon's Galar-90 Rifle"
+    },
+    "restrictions": [
+      {
+        "name": "Gar Saxon"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Saxon's Z-3X Jetpack Rockets",
+    "upgradeType": "armament",
+    "points": 10,
+    "keywords": [
+      "Blast",
+      "Cycle",
+      "Impact"
+    ],
+    "isUnique": true,
+    "imageRef": "Saxon's Z-3X Jetpack Rockets.jpeg",
+    "identifiers": {
+      "name": "Saxon's Z-3X Jetpack Rockets",
+      "legionhqId": "sh",
+      "tni": "upgrade|Saxon's Z-3X Jetpack Rockets"
+    },
+    "restrictions": [
+      {
+        "name": "Gar Saxon"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Saxon's ZX Flame Projector",
+    "upgradeType": "armament",
+    "points": 5,
+    "keywords": [
+      "Blast",
+      "Spray",
+      "Suppressive"
+    ],
+    "isUnique": true,
+    "imageRef": "Saxon's ZX Flame Projector.jpeg",
+    "identifiers": {
+      "name": "Saxon's ZX Flame Projector",
+      "legionhqId": "si",
+      "tni": "upgrade|Saxon's ZX Flame Projector"
+    },
+    "restrictions": [
+      {
+        "name": "Gar Saxon"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Frenzied Gunner",
+    "upgradeType": "pilot",
+    "points": 5,
+    "imageRef": "Frenzied Gunner.jpeg",
+    "identifiers": {
+      "name": "Frenzied Gunner",
+      "legionhqId": "sn",
+      "tni": "upgrade|Frenzied Gunner"
+    },
+    "restrictions": [
+      "AND",
+      {
+        "unitRank": "heavy"
+      },
+      {
+        "faction": "fringe"
+      }
+    ],
+    "meta": {
+      "faction": "mercenaries"
+    }
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Raiding Party Leader",
+    "upgradeType": "pilot",
+    "points": 10,
+    "keywords": [
+      "Allies of Convenience",
+      "Field Commander",
+      "Demoralize"
+    ],
+    "isUnique": true,
+    "imageRef": "Raiding Party Leader.jpeg",
+    "identifiers": {
+      "name": "Raiding Party Leader",
+      "legionhqId": "so",
+      "tni": "upgrade|Raiding Party Leader"
+    },
+    "restrictions": [
+      "AND",
+      {
+        "unitRank": "heavy"
+      },
+      {
+        "faction": "fringe"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Saxon's Combat Shield",
+    "upgradeType": "gear",
+    "points": 10,
+    "keywords": [
+      "Shielded",
+      "Recharge"
+    ],
+    "isUnique": true,
+    "imageRef": "Saxon's Combat Shield.jpeg",
+    "identifiers": {
+      "name": "Saxon's Combat Shield",
+      "legionhqId": "sp",
+      "tni": "upgrade|Saxon's Combat Shield"
+    },
+    "restrictions": [
+      {
+        "name": "Gar Saxon"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Din's Amban Rifle",
+    "upgradeType": "armament",
+    "points": 10,
+    "keywords": [
+      "Immobilize",
+      "Suppressive"
+    ],
+    "isUnique": true,
+    "imageRef": "Din's Amban Rifle.jpeg",
+    "identifiers": {
+      "name": "Din's Amban Rifle",
+      "legionhqId": "to",
+      "tni": "upgrade|Din's Amban Rifle"
+    },
+    "restrictions": [
+      {
+        "name": "Din Djarin"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "\"Nanny\" Programming",
+    "upgradeType": "programming",
+    "points": 0,
+    "keywords": [
+      "Counterpart",
+      "AI"
+    ],
+    "isUnique": true,
+    "imageRef": "%22Nanny%22 Programming.jpeg",
+    "identifiers": {
+      "name": "\"Nanny\" Programming",
+      "legionhqId": "tp",
+      "tni": "upgrade|\"Nanny\" Programming"
+    },
+    "restrictions": [
+      {
+        "name": "IG-11"
+      }
+    ],
+    "meta": {
+      "faction": "rebels"
+    }
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Din's Flame Projector",
+    "upgradeType": "gear",
+    "points": 8,
+    "keywords": [
+      "Blast",
+      "Spray",
+      "Suppressive"
+    ],
+    "isUnique": true,
+    "imageRef": "Din's Flame Projector.jpeg",
+    "identifiers": {
+      "name": "Din's Flame Projector",
+      "legionhqId": "tq",
+      "tni": "upgrade|Din's Flame Projector"
+    },
+    "restrictions": [
+      {
+        "name": "Din Djarin"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "The Mando's Jetpack",
+    "upgradeType": "gear",
+    "points": 15,
+    "keywords": [
+      "Jump"
+    ],
+    "isUnique": true,
+    "imageRef": "The Mando's Jetpack.jpeg",
+    "identifiers": {
+      "name": "The Mando's Jetpack",
+      "legionhqId": "tr",
+      "tni": "upgrade|The Mando's Jetpack"
+    },
+    "restrictions": [
+      {
+        "name": "Din Djarin"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Beskar Spear",
+    "upgradeType": "armament",
+    "points": 15,
+    "keywords": [
+      "Duelist",
+      "Pierce"
+    ],
+    "isUnique": true,
+    "imageRef": "Beskar Spear.jpeg",
+    "identifiers": {
+      "name": "Beskar Spear",
+      "legionhqId": "ts",
+      "tni": "upgrade|Beskar Spear"
+    },
+    "restrictions": [
+      {
+        "name": "Din Djarin"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "\"Bounty\" Programming",
+    "upgradeType": "programming",
+    "points": 5,
+    "keywords": [
+      "Bounty",
+      "AI",
+      "Pierce",
+      "Suppressive"
+    ],
+    "imageRef": "%22Bounty%22 Programming.jpeg",
+    "identifiers": {
+      "name": "\"Bounty\" Programming",
+      "legionhqId": "ub",
+      "tni": "upgrade|\"Bounty\" Programming"
+    },
+    "restrictions": [
+      {
+        "name": "IG-11"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Boil",
+    "upgradeType": "personnel",
+    "points": 15,
+    "keywords": [
+      "Guardian",
+      "Scout",
+      "Leader"
+    ],
+    "isUnique": true,
+    "imageRef": "Boil.jpeg",
+    "identifiers": {
+      "name": "Boil",
+      "legionhqId": "uf",
+      "tni": "upgrade|Boil"
+    },
+    "restrictions": [
+      "AND",
+      {
+        "unitType": "clone trooper"
+      },
+      {
+        "unitRank": "corps"
+      }
+    ],
+    "meta": {
+      "faction": "republic"
+    }
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Waxer",
+    "upgradeType": "personnel",
+    "points": 15,
+    "keywords": [
+      "Disciplined",
+      "Scout",
+      "Leader"
+    ],
+    "isUnique": true,
+    "imageRef": "Waxer.jpeg",
+    "identifiers": {
+      "name": "Waxer",
+      "legionhqId": "ug",
+      "tni": "upgrade|Waxer"
+    },
+    "restrictions": [
+      "AND",
+      {
+        "unitType": "clone trooper"
+      },
+      {
+        "unitRank": "corps"
+      }
+    ],
+    "meta": {
+      "faction": "republic"
+    }
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Boba's Flame Projector",
+    "upgradeType": "gear",
+    "points": 5,
+    "keywords": [
+      "Blast",
+      "Spray",
+      "Suppressive"
+    ],
+    "isUnique": true,
+    "imageRef": "Boba's Flame Projector.jpeg",
+    "identifiers": {
+      "name": "Boba's Flame Projector",
+      "legionhqId": "uh",
+      "tni": "upgrade|Boba's Flame Projector"
+    },
+    "restrictions": [
+      {
+        "name": "Boba Fett"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "The Darksaber3",
+    "upgradeType": "armament",
+    "points": 15,
+    "keywords": [
+      "Demoralize",
+      "Immune",
+      "Impact",
+      "Pierce"
+    ],
+    "isUnique": true,
+    "imageRef": "The Darksaber3.jpeg",
+    "identifiers": {
+      "name": "The Darksaber3",
+      "legionhqId": "uj",
+      "tni": "upgrade|The Darksaber3"
+    },
+    "restrictions": [
+      {
+        "name": "Moff Gideon"
+      }
+    ],
+    "meta": {
+      "displayName": "The Darksaber"
+    }
+  },
+  {
+    "__typename": "upgrade",
+    "name": "XS-IV Assault Cannon",
+    "upgradeType": "heavy weapon",
+    "points": 55,
+    "keywords": [
+      "Critical"
+    ],
+    "imageRef": "XS-IV Assault Cannon.jpeg",
+    "identifiers": {
+      "name": "XS-IV Assault Cannon",
+      "legionhqId": "uo",
+      "tni": "upgrade|XS-IV Assault Cannon"
+    },
+    "restrictions": [
+      {
+        "name": "Imperial Dark Troopers"
+      }
+    ],
+    "meta": {
+      "prevCost": 48
+    },
+    "history": [
+      {
+        "date": "5 June 2023",
+        "description": "Cost increased from 48 to 55 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "SM-9 Frag Launcher",
+    "upgradeType": "heavy weapon",
+    "points": 45,
+    "keywords": [
+      "Blast",
+      "Impact",
+      "Cycle"
+    ],
+    "imageRef": "SM-9 Frag Launcher.jpeg",
+    "identifiers": {
+      "name": "SM-9 Frag Launcher",
+      "legionhqId": "up",
+      "tni": "upgrade|SM-9 Frag Launcher"
+    },
+    "restrictions": [
+      {
+        "name": "Imperial Dark Troopers"
+      }
+    ],
+    "meta": {
+      "prevCost": 40
+    },
+    "history": [
+      {
+        "date": "5 June 2023",
+        "description": "Cost increased from 40 to 45 points."
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Mertalizer",
+    "upgradeType": "heavy weapon",
+    "points": 36,
+    "keywords": [
+      "Suppressive"
+    ],
+    "imageRef": "Mertalizer.jpeg",
+    "identifiers": {
+      "name": "Mertalizer",
+      "legionhqId": "uq",
+      "tni": "upgrade|Mertalizer"
+    },
+    "restrictions": [
+      {
+        "name": "Imperial Dark Troopers"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Imperial Dark Trooper",
+    "upgradeType": "personnel",
+    "points": 32,
+    "imageRef": "Imperial Dark Trooper.jpeg",
+    "identifiers": {
+      "name": "Imperial Dark Trooper",
+      "legionhqId": "ur",
+      "tni": "upgrade|Imperial Dark Trooper"
+    },
+    "restrictions": [
+      {
+        "name": "Imperial Dark Troopers"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Programmed Loyalty",
+    "upgradeType": "programming",
+    "points": 5,
+    "imageRef": "Programmed Loyalty.jpeg",
+    "identifiers": {
+      "name": "Programmed Loyalty",
+      "legionhqId": "us",
+      "tni": "upgrade|Programmed Loyalty"
+    },
+    "restrictions": [
+      {
+        "name": "Imperial Dark Troopers"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Forest Dwellers",
+    "upgradeType": "training",
+    "points": 3,
+    "keywords": [
+      "Scout"
+    ],
+    "imageRef": "Forest Dwellers.jpeg",
+    "identifiers": {
+      "name": "Forest Dwellers",
+      "legionhqId": "vp",
+      "tni": "upgrade|Forest Dwellers"
+    },
+    "restrictions": [
+      "OR",
+      [
+        "OR",
+        {
+          "name": "Wicket"
+        },
+        {
+          "name": "Logray"
+        }
+      ],
+      [
+        "OR",
+        {
+          "name": "Ewok Skirmishers"
+        },
+        {
+          "name": "Ewok Slingers"
+        }
+      ]
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Call To Arms",
+    "upgradeType": "training",
+    "points": 5,
+    "keywords": [
+      "Charge"
+    ],
+    "imageRef": "Call To Arms.jpeg",
+    "identifiers": {
+      "name": "Call To Arms",
+      "legionhqId": "vq",
+      "tni": "upgrade|Call To Arms"
+    },
+    "restrictions": [
+      "OR",
+      [
+        "OR",
+        {
+          "name": "Wicket"
+        },
+        {
+          "name": "Logray"
+        }
+      ],
+      [
+        "OR",
+        {
+          "name": "Ewok Skirmishers"
+        },
+        {
+          "name": "Ewok Slingers"
+        }
+      ]
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Axe Ewok",
+    "upgradeType": "heavy weapon",
+    "points": 15,
+    "keywords": [
+      "Pierce",
+      "Impact"
+    ],
+    "imageRef": "Axe Ewok.jpeg",
+    "identifiers": {
+      "name": "Axe Ewok",
+      "legionhqId": "vr",
+      "tni": "upgrade|Axe Ewok"
+    },
+    "restrictions": [
+      "OR",
+      {
+        "name": "Ewok Skirmishers"
+      },
+      {
+        "name": "Ewok Slingers"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Insatiable Curiosity",
+    "upgradeType": "training",
+    "points": 8,
+    "imageRef": "Insatiable Curiosity.jpeg",
+    "identifiers": {
+      "name": "Insatiable Curiosity",
+      "legionhqId": "vs",
+      "tni": "upgrade|Insatiable Curiosity"
+    },
+    "restrictions": [
+      "OR",
+      {
+        "name": "Ewok Skirmishers"
+      },
+      {
+        "name": "Ewok Slingers"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Ewok Trapper",
+    "upgradeType": "personnel",
+    "points": 10,
+    "imageRef": "Ewok Trapper.jpeg",
+    "identifiers": {
+      "name": "Ewok Trapper",
+      "legionhqId": "vt",
+      "tni": "upgrade|Ewok Trapper"
+    },
+    "restrictions": [
+      "OR",
+      {
+        "name": "Ewok Skirmishers"
+      },
+      {
+        "name": "Ewok Slingers"
+      }
+    ],
+    "meta": {
+      "additionalUpgradeSlots": [
+        "training"
+      ]
+    }
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Secret Ingredients",
+    "upgradeType": "training",
+    "points": 5,
+    "keywords": [
+      "Aid"
+    ],
+    "isUnique": true,
+    "imageRef": "Secret Ingredients.jpeg",
+    "identifiers": {
+      "name": "Secret Ingredients",
+      "legionhqId": "wa",
+      "tni": "upgrade|Secret Ingredients"
+    },
+    "restrictions": [
+      {
+        "name": "Logray"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Herbal Medicine",
+    "upgradeType": "training",
+    "points": 10,
+    "isUnique": true,
+    "imageRef": "Herbal Medicine.jpeg",
+    "identifiers": {
+      "name": "Herbal Medicine",
+      "legionhqId": "wb",
+      "tni": "upgrade|Herbal Medicine"
+    },
+    "restrictions": [
+      {
+        "name": "Logray"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Onward to Victory",
+    "upgradeType": "training",
+    "points": 10,
+    "isUnique": true,
+    "imageRef": "Onward to Victory.jpeg",
+    "identifiers": {
+      "name": "Onward to Victory",
+      "legionhqId": "wc",
+      "tni": "upgrade|Onward to Victory"
+    },
+    "restrictions": [
+      {
+        "name": "Logray"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Inquisitorius Training",
+    "upgradeType": "training",
+    "points": 5,
+    "imageRef": "Inquisitorius Training.jpeg",
+    "identifiers": {
+      "name": "Inquisitorius Training",
+      "legionhqId": "wq",
+      "tni": "upgrade|Inquisitorius Training"
+    },
+    "restrictions": [
+      "OR",
+      {
+        "name": "Fifth Brother"
+      },
+      {
+        "name": "Seventh Sister"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Force Pike Warrior",
+    "upgradeType": "heavy weapon",
+    "points": 15,
+    "keywords": [
+      "Suppressive"
+    ],
+    "imageRef": "Force Pike Warrior.jpeg",
+    "identifiers": {
+      "name": "Force Pike Warrior",
+      "legionhqId": "wr",
+      "tni": "upgrade|Force Pike Warrior"
+    },
+    "restrictions": [
+      {
+        "name": "Geonosian Warriors"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Sonic Cannon Warrior",
+    "upgradeType": "heavy weapon",
+    "points": 25,
+    "keywords": [
+      "Scatter",
+      "Impact"
+    ],
+    "imageRef": "Sonic Cannon Warrior.jpeg",
+    "identifiers": {
+      "name": "Sonic Cannon Warrior",
+      "legionhqId": "ws",
+      "tni": "upgrade|Sonic Cannon Warrior"
+    },
+    "restrictions": [
+      {
+        "name": "Geonosian Warriors"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Geonosian Warrior",
+    "upgradeType": "personnel",
+    "points": 11,
+    "imageRef": "Geonosian Warrior.jpeg",
+    "identifiers": {
+      "name": "Geonosian Warrior",
+      "legionhqId": "wt",
+      "tni": "upgrade|Geonosian Warrior"
+    },
+    "restrictions": [
+      {
+        "name": "Geonosian Warriors"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "DC-17m ICWS Configuration",
+    "upgradeType": "armament",
+    "points": 0,
+    "keywords": [
+      "Impact",
+      "Scatter",
+      "Lethal",
+      "High Velocity",
+      "Reconfigure"
+    ],
+    "imageRef": "DC-17m ICWS Config.jpeg",
+    "identifiers": {
+      "name": "DC-17m ICWS Configuration",
+      "legionhqId": "xk",
+      "tni": "upgrade|DC-17m ICWS Configuration"
+    },
+    "restrictions": [
+      {
+        "name": "Clone Commandos"
+      }
+    ],
+    "meta": {
+      "displayName": "DC-17m ICWS Config"
+    }
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Katarn Pattern Armor",
+    "upgradeType": "gear",
+    "points": 0,
+    "imageRef": "Katarn Pattern Armor.jpeg",
+    "identifiers": {
+      "name": "Katarn Pattern Armor",
+      "legionhqId": "xl",
+      "tni": "upgrade|Katarn Pattern Armor"
+    },
+    "restrictions": [
+      {
+        "name": "Clone Commandos"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Range Trooper",
+    "upgradeType": "personnel",
+    "points": 15,
+    "imageRef": "Range Trooper.jpeg",
+    "identifiers": {
+      "name": "Range Trooper",
+      "legionhqId": "xm",
+      "tni": "upgrade|Range Trooper"
+    },
+    "restrictions": [
+      {
+        "name": "Range Troopers"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "DLT-20A Range Trooper",
+    "upgradeType": "heavy weapon",
+    "points": 25,
+    "imageRef": "DLT-20A Range Trooper.jpeg",
+    "identifiers": {
+      "name": "DLT-20A Range Trooper",
+      "legionhqId": "xn",
+      "tni": "upgrade|DLT-20A Range Trooper"
+    },
+    "restrictions": [
+      {
+        "name": "Range Troopers"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "T-21A Range Trooper",
+    "upgradeType": "heavy weapon",
+    "points": 28,
+    "keywords": [
+      "Suppressive"
+    ],
+    "imageRef": "T-21A Range Trooper.jpeg",
+    "identifiers": {
+      "name": "T-21A Range Trooper",
+      "legionhqId": "xo",
+      "tni": "upgrade|T-21A Range Trooper"
+    },
+    "restrictions": [
+      {
+        "name": "Range Troopers"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Echo",
+    "upgradeType": "heavy weapon",
+    "points": 0,
+    "keywords": [
+      "Reliable"
+    ],
+    "isUnique": true,
+    "imageRef": "Echo2.jpeg",
+    "identifiers": {
+      "name": "Echo",
+      "legionhqId": "xq",
+      "tni": "upgrade|Echo"
+    },
+    "restrictions": [
+      {
+        "name": "The Bad Batch"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Hunter",
+    "upgradeType": "heavy weapon",
+    "points": 0,
+    "keywords": [
+      "Leader"
+    ],
+    "isUnique": true,
+    "imageRef": "Hunter2.jpeg",
+    "identifiers": {
+      "name": "Hunter",
+      "legionhqId": "xr",
+      "tni": "upgrade|Hunter"
+    },
+    "restrictions": [
+      {
+        "name": "The Bad Batch"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Wrecker",
+    "upgradeType": "heavy weapon",
+    "points": 0,
+    "isUnique": true,
+    "imageRef": "Wrecker.jpeg",
+    "identifiers": {
+      "name": "Wrecker",
+      "legionhqId": "xs",
+      "tni": "upgrade|Wrecker"
+    },
+    "restrictions": [
+      {
+        "name": "The Bad Batch"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Tech",
+    "upgradeType": "heavy weapon",
+    "points": 0,
+    "keywords": [
+      "Cache",
+      "Tactical"
+    ],
+    "isUnique": true,
+    "imageRef": "Tech.jpeg",
+    "identifiers": {
+      "name": "Tech",
+      "legionhqId": "xt",
+      "tni": "upgrade|Tech"
+    },
+    "restrictions": [
+      {
+        "name": "The Bad Batch"
+      }
+    ]
+  },
+  {
+    "__typename": "upgrade",
+    "name": "Crosshair",
+    "upgradeType": "heavy weapon",
+    "points": 0,
+    "keywords": [
+      "Critical",
+      "High Velocity",
+      "Pierce",
+      "Precise"
+    ],
+    "isUnique": true,
+    "imageRef": "Crosshair.jpeg",
+    "identifiers": {
+      "name": "Crosshair",
+      "legionhqId": "xu",
+      "tni": "upgrade|Crosshair"
+    },
+    "restrictions": [
+      {
+        "name": "The Bad Batch"
+      }
+    ],
+    "meta": {
+      "faction": "republic"
+    }
+  }
+]
