@@ -1,5 +1,5 @@
 import type {UnitCard} from "@legion-builder/types/cards";
-import {Box, css, Paper, styled, Typography, useTheme} from "@mui/material";
+import {alpha, Box, css, Paper, styled, Typography, useTheme} from "@mui/material";
 
 type Props = {
   unit: UnitCard;
@@ -33,41 +33,95 @@ const Slant = styled("div")(
   `,
 );
 
+const Flank = styled("div")(
+  ({theme}) => css`
+    position: relative;
+    align-self: stretch;
+    background-color: ${alpha(theme.palette.common.black, 0.6)};
+    width: ${theme.spacing(1)};
+
+    &:after {
+      position: absolute;
+      content: "";
+      background-color: hotpink;
+      width: 100%;
+      top: ${theme.spacing(2)};
+      bottom: ${theme.spacing(2)};
+    }
+  `,
+);
+
+export function FlankMarker() {
+  return <Flank />;
+}
+
 export function UnitCard({unit: {name, subtitle, unitType, isUnique}}: Props) {
   const theme = useTheme();
   return (
-    <Paper sx={{justifySelf: "stretch", minHeight: 120}} square>
+    <Paper sx={{justifySelf: "stretch", minHeight: 120}} square={false}>
       <Box
-        sx={{
+        sx={(theme) => ({
+          height: "100%",
+          overflow: "hidden",
           display: "flex",
-          flexDirection: "column",
-          flexGrow: 1,
-        }}
+          borderRadius: "inherit",
+        })}
       >
-        <div
-          style={{
-            alignSelf: "stretch",
-            backgroundColor: "#001524",
-            color: theme.palette.getContrastText("#001524"),
-            paddingInline: theme.spacing(1),
-          }}
+        <FlankMarker />
+        <Box
+          sx={(theme) => ({
+            flexGrow: 1,
+            display: "flex",
+          })}
         >
-          <Typography variant="subtitle1" component="p">
-            {isUnique && <b style={{paddingRight: "0.3em"}}>&#8226;</b>}
-            {name}
-            {subtitle && `: ${subtitle}`}
-          </Typography>
-          {/* {subtitle && (
+          <Box
+            sx={{
+              display: "flex",
+              flexDirection: "column",
+              // backgroundColor: theme.palette.background.paper,
+              height: "100%",
+              width: "100px",
+              // borderRadius: 2,
+            }}
+          ></Box>
+          <Box
+            sx={{
+              display: "flex",
+              flexDirection: "column",
+              flexGrow: 1,
+              // backgroundColor: theme.palette.background.paper,
+              height: "100%",
+
+              // borderRadius: 2,
+            }}
+          >
+            <div
+              style={{
+                alignSelf: "stretch",
+                /*backgroundColor: "#001524",
+              color: theme.palette.getContrastText("#001524"),*/
+                paddingInline: theme.spacing(1),
+              }}
+            >
+              <Typography variant="subtitle1" component="p">
+                {isUnique && <b style={{paddingRight: "0.3em"}}>&#8226;</b>}
+                {name}
+                {subtitle && `: ${subtitle}`}
+              </Typography>
+              {/* {subtitle && (
             <Typography variant="caption" component="p">
-              {subtitle}
+            {subtitle}
             </Typography>
-          )} */}
-        </div>
-        <Slant>
-          <Typography variant="overline" component="span" lineHeight={0} p={0} m={0}>
-            {unitType}
-          </Typography>
-        </Slant>
+            )} */}
+            </div>
+            <Slant>
+              <Typography variant="overline" component="span" lineHeight={0} p={0} m={0}>
+                {unitType}
+              </Typography>
+            </Slant>
+          </Box>
+        </Box>
+        <FlankMarker />
       </Box>
     </Paper>
   );

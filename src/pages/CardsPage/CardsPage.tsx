@@ -3,12 +3,12 @@ import {SpriteCards} from "@legion-builder/components/SpriteCard";
 import {DoubleSidedCard} from "@legion-builder/components/SpriteCard/DoubleSidedCard";
 import {SpriteUnitCard} from "@legion-builder/components/SpriteCard/SpriteUnitCard";
 import {useAppContext} from "@legion-builder/context";
-import {Box, Grid2, Paper, Typography} from "@mui/material";
-
+import {Box, Container, Grid2, Paper, Typography} from "@mui/material";
 import unitCards from "@legion-builder/data/2.6.0/unit.json";
 import {UnitCard as Unit} from "@legion-builder/types/cards";
 import {sortBy} from "lodash";
 import {UnitCard} from "@legion-builder/components/UnitCard";
+import {Ewoks} from "@legion-builder/components/Icons/Ewoks";
 // import {isSpriteImageRef} from "@legion-builder/utils/spriteImageUtils";
 
 export function CardsPage() {
@@ -33,7 +33,9 @@ export function CardsPage() {
   return (
     <div>
       <Typography variant="h1">Cards</Typography>
-      <Box
+      <Ewoks />
+      <Container
+        disableGutters
         sx={(theme) => ({
           display: "grid",
           gridTemplateColumns: "repeat(1, 1fr)",
@@ -53,7 +55,7 @@ export function CardsPage() {
             return <UnitCard key={`flipCard_${index}`} unit={card} />;
           })}
         {/* </Grid2> */}
-      </Box>
+      </Container>
       <DoubleSidedCard
         front={
           <SpriteUnitCard
