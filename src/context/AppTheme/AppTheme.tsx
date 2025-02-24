@@ -37,6 +37,13 @@ declare module "@mui/material/styles" {
   }
 }
 
+declare module "@mui/material/SvgIcon" {
+  interface SvgIconPropsSizeOverrides {
+    extraLarge: true;
+    huge: true;
+  }
+}
+
 const createTheme = ({
   mode,
   pageConfig,
@@ -49,6 +56,24 @@ const createTheme = ({
       mode,
       secondary: {
         main: "#948979",
+      },
+    },
+    components: {
+      MuiSvgIcon: {
+        variants: [
+          {
+            props: {fontSize: "extraLarge"},
+            style: {
+              fontSize: "3rem",
+            },
+          },
+          {
+            props: {fontSize: "huge"},
+            style: {
+              fontSize: "5rem",
+            },
+          },
+        ],
       },
     },
   });
