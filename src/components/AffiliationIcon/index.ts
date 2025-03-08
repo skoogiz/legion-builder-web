@@ -1,0 +1,1 @@
+export {AffiliationIcon} from "./AffiliationIcon";

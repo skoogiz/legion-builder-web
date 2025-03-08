@@ -1,5 +1,6 @@
 import type {UnitCard} from "@legion-builder/types/cards";
 import {alpha, Box, css, Paper, styled, Typography, useTheme} from "@mui/material";
+import {AffiliationIcon} from "../AffiliationIcon";
 
 type Props = {
   unit: UnitCard;
@@ -51,11 +52,27 @@ const Flank = styled("div")(
   `,
 );
 
+const Aside = styled("div")(
+  ({theme}) => css`
+    position: relative;
+    align-self: stretch;
+    background-color: ${alpha(theme.palette.common.black, 0.8)};
+    width: 2.5rem;
+    padding-block: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: ${alpha(theme.palette.common.white, 0.6)};
+  `,
+);
+
 export function FlankMarker() {
   return <Flank />;
 }
 
-export function UnitCard({unit: {name, subtitle, unitType, isUnique}}: Props) {
+export function UnitCard({
+  unit: {name, subtitle, unitType, isUnique, faction, affiliation},
+}: Props) {
   const theme = useTheme();
   return (
     <Paper sx={{justifySelf: "stretch", minHeight: 120}} square={false}>
@@ -67,7 +84,9 @@ export function UnitCard({unit: {name, subtitle, unitType, isUnique}}: Props) {
           borderRadius: "inherit",
         })}
       >
-        <FlankMarker />
+        <Aside>
+          <AffiliationIcon unit={{faction, affiliation}} size="medium" color="inherit" />
+        </Aside>
         <Box
           sx={(theme) => ({
             flexGrow: 1,
@@ -78,12 +97,16 @@ export function UnitCard({unit: {name, subtitle, unitType, isUnique}}: Props) {
             sx={{
               display: "flex",
               flexDirection: "column",
+              justifyContent: "center",
+              alignItems: "center",
               // backgroundColor: theme.palette.background.paper,
               height: "100%",
               width: "100px",
               // borderRadius: 2,
             }}
-          ></Box>
+          >
+            <AffiliationIcon unit={{faction, affiliation}} size="medium" />
+          </Box>
           <Box
             sx={{
               display: "flex",

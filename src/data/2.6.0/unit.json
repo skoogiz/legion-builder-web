@@ -4670,6 +4670,7 @@
     "subtitle": "Notorious Assassin Droid",
     "unitType": "droid trooper",
     "faction": "mercenaries",
+    "affiliation": "Rogues",
     "unitRank": "operative",
     "points": 110,
     "numberOfMiniatures": 1,

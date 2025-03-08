@@ -35,3 +35,16 @@ export type SpriteCardType = "unit" | "command" | "item";
 export type SpriteFileConfig = {
   canvas: SpriteSize;
 } & Record<SpriteCardType, SpriteSize>;
+
+export type PositionFN = (x: number) => string;
+export interface SpriteCardTemplate extends SpriteCardOptions {
+  getPositionX: PositionFN;
+  getPositionY: PositionFN;
+}
+
+export interface SpriteCardTemplateProps {
+  src: string;
+  spriteX: number;
+  spriteY: number;
+  template: SpriteCardTemplate;
+}
