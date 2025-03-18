@@ -1,11 +1,15 @@
-export type SpriteImageRef = {
-  front: {file: string; sprite?: string};
-  back?: {file: string; sprite?: string};
-};
+// type ImageSrc = string | {file: string; sprite?: string};
 
-export type ImageRef = string | SpriteImageRef;
+// export type SpriteImageRef = {
+//   front: ImageSrc;
+//   back?: ImageSrc;
+// };
 
-interface BaseCard {
+// export type ImageRef = ImageSrc | SpriteImageRef;
+export type ImageFile = {file: string; face?: "front" | "back"; sprite?: string};
+export type ImageRef = string | ImageFile;
+
+export interface BaseCard {
   __typename: string;
 
   /**
@@ -33,6 +37,7 @@ interface BaseCard {
      * e.g. "unit" | "Luke Skywalker" | "rebels"
      */
     tni: string;
+    slug?: string;
   };
 
   /**
@@ -48,7 +53,7 @@ interface BaseCard {
    *
    * If object, then it is the image file name and sprite coordinates if present.
    */
-  imageRef?: ImageRef;
+  imageRef?: ImageRef | ImageFile[];
 
   history?: {
     /**
@@ -63,8 +68,8 @@ interface BaseCard {
 }
 
 export type Legalities = {
-  standard?: string;
-  skirmish?: string;
+  standard?: boolean;
+  skirmish?: boolean;
 };
 
 type Restriction =
@@ -116,6 +121,29 @@ export interface LegacyBattleCard extends BaseCard {
   category: string;
 
   legalities?: Legalities;
+}
+
+export interface BattleCard extends BaseCard {
+  //--> cardType
+  __typename: "battle";
+  //--> cardName
+  /**
+   * The battle card’s type.
+   */
+  //--> cardSubtype
+  category: "objective" | "secondary-objective" | "advantage";
+
+  legalities?: Legalities;
+
+  meta?: {
+    version?: string;
+    assets?: string;
+  };
+}
+
+export interface ObjectiveCard extends BattleCard {
+  category: "objective";
+  map: {imageRef?: BaseCard["imageRef"]};
 }
 
 // export interface Restrictions {
@@ -280,3 +308,19 @@ export interface UpgradeCard extends BaseCard {
     additionalUpgradeSlots?: string[];
   };
 }
+
+export type Card =
+  | BattleCard
+  | CommandCard
+  | FlawCard
+  | UnitCard
+  | UpgradeCard
+  | CounterpartCard;
+
+export type LegacyCard =
+  | LegacyBattleCard
+  | CommandCard
+  | FlawCard
+  | UnitCard
+  | UpgradeCard
+  | CounterpartCard;

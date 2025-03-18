@@ -1,5 +1,26 @@
 import {SimplePaletteColorOptions} from "@mui/material";
 
+export interface CardImageConfig {
+  width: number;
+  height: number;
+}
+
+export interface CardImageDerivativeConfig {
+  small: number;
+  medium: number;
+  large: number;
+  huge: number;
+}
+
+export type ImageSize = keyof CardImageDerivativeConfig;
+export interface CardConfig {
+  image: {
+    portrait: CardImageConfig;
+    landscape: CardImageConfig;
+    derivative: CardImageDerivativeConfig;
+  };
+}
+
 export interface PageConfig {
   hero: {
     /**
@@ -31,5 +52,8 @@ export interface PageConfig {
   };
   assets: {
     playerCardsUrl?: string;
+    skirmishRulebookUrl?: string;
+    battleCardsUrl?: string;
+    cardsUrl?: string;
   };
 }

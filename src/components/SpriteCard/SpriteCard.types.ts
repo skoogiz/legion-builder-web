@@ -1,3 +1,5 @@
+import {CardImageDerivativeConfig, ImageSize} from "@legion-builder/config";
+
 export type SpriteId = `${number}_${number}_${number}`;
 
 export interface SpriteImage {
@@ -20,7 +22,6 @@ export type SpriteCardOptions = {
   canvasWidth: number;
   imageHeight: number;
   imageWidth: number;
-  scale: number;
 };
 
 export interface SpriteCardProps {
@@ -40,6 +41,9 @@ export type PositionFN = (x: number) => string;
 export interface SpriteCardTemplate extends SpriteCardOptions {
   getPositionX: PositionFN;
   getPositionY: PositionFN;
+  getDerivatives(
+    derivative: CardImageDerivativeConfig,
+  ): Record<ImageSize, SpriteCardTemplate>;
 }
 
 export interface SpriteCardTemplateProps {
@@ -47,4 +51,5 @@ export interface SpriteCardTemplateProps {
   spriteX: number;
   spriteY: number;
   template: SpriteCardTemplate;
+  size?: ImageSize;
 }

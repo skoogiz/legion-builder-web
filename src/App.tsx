@@ -3,6 +3,7 @@ import {PageFooter} from "./components/PageFooter";
 import {AppHero} from "./components/AppHero";
 import {Navigate, Outlet, Route, Routes, useLocation} from "react-router-dom";
 import {CardsPage, SettingsPage, StartPage} from "./pages";
+import {SkirmishMissionPage} from "./pages/MissionPage";
 
 function AppLayout() {
   const {pathname} = useLocation();
@@ -20,6 +21,7 @@ export function App() {
         <Route index element={<StartPage />} />
         <Route path="settings" element={<SettingsPage />} />
         <Route path="cards" element={<CardsPage />} />
+        <Route path="skirmish-mission" element={<SkirmishMissionPage />} />
         {/* default redirect to home page */}
         <Route path="*" element={<Navigate to="/" />} />
       </Route>

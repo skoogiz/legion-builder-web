@@ -1,5 +1,5 @@
 import {SpriteCardTemplateProps} from "./SpriteCard.types";
-import {TemplateSpriteCard} from "./SpriteCard";
+import {SpriteCard} from "./SpriteCard";
 import {PLAYER_CARDS_COMMAND_TEMPLATE} from "./SpriteCard.utils";
 
 type Props = Omit<SpriteCardTemplateProps, "template"> & {
@@ -12,12 +12,5 @@ export function SpriteCommandCard({
   spriteY,
   template = PLAYER_CARDS_COMMAND_TEMPLATE,
 }: Props) {
-  return (
-    <TemplateSpriteCard
-      src={src}
-      spriteX={spriteX}
-      spriteY={spriteY}
-      template={template}
-    />
-  );
+  return <SpriteCard src={src} spriteX={spriteX} spriteY={spriteY} template={template} />;
 }

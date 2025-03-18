@@ -5,7 +5,7 @@ import {useSystemColorScheme} from "@legion-builder/hooks/useSystemColorScheme";
 import {useLocalStorageValue} from "@react-hookz/web";
 import {AppSettings, ColorMode} from "@legion-builder/types/settings";
 import {LocalStorageKey} from "@legion-builder/types/storage";
-import {PageConfig} from "@legion-builder/config";
+import {CardConfig, PageConfig} from "@legion-builder/config";
 import {createSettings} from "./App.types";
 import {reducer} from "./App.reducer";
 import {getActions} from "./App.actions";
@@ -13,7 +13,7 @@ import {getActions} from "./App.actions";
 export type AppContextValue = {
   mode: PaletteMode;
   settings: AppSettings;
-  config: {pageConfig: PageConfig};
+  config: {pageConfig: PageConfig; cardConfig: CardConfig};
   setColorMode: (mode: ColorMode) => void;
   setSettings: (settings: Partial<AppSettings>) => void;
 };
@@ -22,12 +22,13 @@ const AppContext = React.createContext<AppContextValue | undefined>(undefined);
 
 type Props = {
   pageConfig: PageConfig;
+  cardConfig: CardConfig;
   children: React.ReactNode;
 };
 
 const defaultSettings = createSettings();
 
-function AppContextProvider({pageConfig, children}: Props) {
+function AppContextProvider({pageConfig, cardConfig, children}: Props) {
   const systemColorScheme = useSystemColorScheme();
   const {value: storedSettings, set: persistSettings} = useLocalStorageValue<
     AppSettings,
@@ -81,9 +82,9 @@ function AppContextProvider({pageConfig, children}: Props) {
     () => ({
       mode,
       settings: state.settings,
-      config: {pageConfig},
+      config: {pageConfig, cardConfig},
     }),
-    [mode, state.settings, pageConfig],
+    [mode, state.settings, pageConfig, cardConfig],
   );
 
   return (

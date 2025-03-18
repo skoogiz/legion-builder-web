@@ -30,7 +30,6 @@ export function SpriteCommandCards() {
         {getCommandCards().map(({imageRef: {front}}, index) => {
           const src = `${config.pageConfig.assets.playerCardsUrl}/${front.file}`;
           const [x, y] = front.sprite.split(":").map((n) => +n);
-          console.log({src, x, y});
           return (
             <Grid key={`flipCard_${index}`} item xs={12} md={4} lg={3}>
               <Box display="flex" justifyContent="center" alignItems="center">

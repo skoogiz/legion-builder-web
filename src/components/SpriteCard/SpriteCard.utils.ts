@@ -1,13 +1,14 @@
+import {Card} from "@legion-builder/types/cards";
 import {
   SpriteCard,
   SpriteId,
   SpriteImage,
-  SpriteCardOptions,
   SpriteFileConfig,
   SpriteCardTemplate,
   SpriteSize,
   PositionFN,
 } from "./SpriteCard.types";
+import {CardImageDerivativeConfig, ImageSize} from "@legion-builder/config";
 
 // export const getSrc = (page: number) =>
 //   `/data/2.6.0/SWQ_PlayerCards-4/page_${`${page}`.padStart(2, "0")}.png`;
@@ -69,24 +70,31 @@ export const PLAYER_CARDS_FILE_CONFIG: SpriteFileConfig = {
   },
 };
 
-export const createSpriteCardOptions = ({
-  canvasHeight = PLAYER_CARDS_FILE_CONFIG.canvas.height,
-  canvasWidth = PLAYER_CARDS_FILE_CONFIG.canvas.width,
-  imageHeight = PLAYER_CARDS_FILE_CONFIG.unit.height,
-  imageWidth = PLAYER_CARDS_FILE_CONFIG.unit.width,
-  scale = 1,
-}: Partial<SpriteCardOptions> = {}): SpriteCardOptions => ({
-  canvasHeight,
-  canvasWidth,
-  imageHeight,
-  imageWidth,
-  scale,
-});
+export const SKIRMISH_CARDS_FILE_CONFIG = {
+  canvas: {
+    height: 1024,
+    width: 791,
+  },
+  battle: {
+    height: 324,
+    width: 229,
+  },
+};
+
+export const BATTLE_CARDS_FILE_CONFIG = {
+  canvas: {
+    height: 1024,
+    width: 791,
+  },
+  battle: {
+    height: 324,
+    width: 229,
+  },
+};
 
 export class SpriteTemplate implements SpriteCardTemplate {
   private canvas: SpriteSize;
   private image: SpriteSize;
-  readonly scale: number;
 
   readonly getPositionX: PositionFN;
   readonly getPositionY: PositionFN;
@@ -94,19 +102,16 @@ export class SpriteTemplate implements SpriteCardTemplate {
   constructor({
     canvas,
     image,
-    scale = 1,
     getPositionX,
     getPositionY,
   }: {
     canvas: SpriteSize;
     image: SpriteSize;
-    scale?: number;
     getPositionX: PositionFN;
     getPositionY: PositionFN;
   }) {
     this.canvas = canvas;
     this.image = image;
-    this.scale = scale;
     this.getPositionX = getPositionX;
     this.getPositionY = getPositionY;
   }
@@ -126,12 +131,39 @@ export class SpriteTemplate implements SpriteCardTemplate {
   get imageWidth() {
     return this.image.width;
   }
+
+  getDerivatives(
+    derivative: CardImageDerivativeConfig,
+  ): Record<ImageSize, SpriteCardTemplate> {
+    return (Object.keys(derivative) as ImageSize[]).reduce(
+      (acc, key) => {
+        const scale = derivative[key];
+        return {
+          ...acc,
+          [key]: {
+            canvasHeight: Math.floor(this.canvasHeight * scale),
+            canvasWidth: Math.floor(this.canvasWidth * scale),
+            imageHeight: Math.floor(this.imageHeight * scale),
+            imageWidth: Math.floor(this.imageWidth * scale),
+            getPositionX: (x: number) =>
+              scale === 1
+                ? this.getPositionX(x)
+                : `calc(${this.getPositionX(x)} * ${scale})`,
+            getPositionY: (y: number) =>
+              scale === 1
+                ? this.getPositionY(y)
+                : `calc(${this.getPositionY(y)} * ${scale})`,
+          },
+        };
+      },
+      {} as Record<ImageSize, SpriteCardTemplate>,
+    );
+  }
 }
 
 export const PLAYER_CARDS_UNIT_TEMPLATE = new SpriteTemplate({
   canvas: PLAYER_CARDS_FILE_CONFIG.canvas,
   image: PLAYER_CARDS_FILE_CONFIG.unit,
-  scale: 1,
   getPositionX: (x) => {
     switch (x) {
       case 2:
@@ -157,7 +189,6 @@ export const PLAYER_CARDS_UNIT_TEMPLATE = new SpriteTemplate({
 export const PLAYER_CARDS_COMMAND_TEMPLATE = new SpriteTemplate({
   canvas: PLAYER_CARDS_FILE_CONFIG.canvas,
   image: PLAYER_CARDS_FILE_CONFIG.command,
-  scale: 1,
   getPositionX: (x) => {
     switch (x) {
       case 3:
@@ -181,7 +212,6 @@ export const PLAYER_CARDS_COMMAND_TEMPLATE = new SpriteTemplate({
 export const PLAYER_CARDS_ITEM_TEMPLATE = new SpriteTemplate({
   canvas: PLAYER_CARDS_FILE_CONFIG.canvas,
   image: PLAYER_CARDS_FILE_CONFIG.item,
-  scale: 1,
   getPositionX: (x) => {
     switch (x) {
       case 3:
@@ -201,3 +231,66 @@ export const PLAYER_CARDS_ITEM_TEMPLATE = new SpriteTemplate({
     }
   },
 });
+
+export const SKIRMISH_BATTLE_CARDS_TEMPLATE = new SpriteTemplate({
+  canvas: SKIRMISH_CARDS_FILE_CONFIG.canvas,
+  image: SKIRMISH_CARDS_FILE_CONFIG.battle,
+  getPositionX: (x) => {
+    switch (x) {
+      case 3:
+        return "-511px";
+      case 2:
+        return "-281px";
+      default:
+        return "-51px";
+    }
+  },
+  getPositionY: (y) => {
+    switch (y) {
+      case 2:
+        return "-538px";
+      default:
+        return "-212px";
+    }
+  },
+});
+
+export const BATTLE_CARDS_TEMPLATE = new SpriteTemplate({
+  canvas: BATTLE_CARDS_FILE_CONFIG.canvas,
+  image: BATTLE_CARDS_FILE_CONFIG.battle,
+  getPositionX: (x) => {
+    switch (x) {
+      case 3:
+        return "-511px";
+      case 2:
+        return "-281px";
+      default:
+        return "-51px";
+    }
+  },
+  getPositionY: (y) => {
+    switch (y) {
+      case 2:
+        return "-550px";
+      default:
+        return "-224px";
+    }
+  },
+});
+
+export const getTemplate = (file: string, type: Card["__typename"]): SpriteTemplate => {
+  if (file.startsWith("SWQ_SkirmishRulebook")) return SKIRMISH_BATTLE_CARDS_TEMPLATE;
+  if (file.startsWith("SWQ_BattleCards")) return BATTLE_CARDS_TEMPLATE;
+
+  // Default into SWQ_PlayerCards
+  switch (type) {
+    case "command":
+      return PLAYER_CARDS_COMMAND_TEMPLATE;
+    case "upgrade":
+      return PLAYER_CARDS_ITEM_TEMPLATE;
+    case "unit":
+    case "counterpart":
+    default:
+      return PLAYER_CARDS_UNIT_TEMPLATE;
+  }
+};

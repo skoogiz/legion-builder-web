@@ -1,1 +1,0 @@
-export {SpriteCards} from "./SpriteCards";

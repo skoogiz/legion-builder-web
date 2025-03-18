@@ -10,7 +10,7 @@ import {SpriteUnitCard} from "./SpriteUnitCard";
 import {DoubleSidedCard} from "./DoubleSidedCard";
 import {Grid} from "@mui/material";
 
-export function SpriteCards() {
+export function SpriteUnitCards() {
   return (
     <>
       <Grid container spacing={2}>

@@ -5,6 +5,8 @@ import CachedIcon from "@mui/icons-material/Cached";
 type Props = {
   front: JSX.Element;
   back: JSX.Element;
+  height?: number;
+  width?: number;
   flipOnClick?: boolean;
   noButton?: boolean;
 };
@@ -12,6 +14,8 @@ type Props = {
 export function DoubleSidedCard({
   front,
   back,
+  height = 228,
+  width = 325,
   flipOnClick = false,
   noButton = false,
 }: Props) {
@@ -42,8 +46,8 @@ export function DoubleSidedCard({
     >
       <div
         style={{
-          height: "228px",
-          width: "325px",
+          height: `${height}px`,
+          width: `${width}px`,
           position: "relative",
         }}
         onClick={flipOnClick || noButton ? () => toggleFlipped() : undefined}

@@ -30,16 +30,18 @@
       "block"
     ],
     "isUnique": true,
-    "imageRef": {
-      "front": {
+    "imageRef": [
+      {
         "file": "SWQ_PlayerCards_JanuaryUpdate_1.png",
+        "face": "front",
         "sprite": "1:1"
       },
-      "back": {
+      {
         "file": "SWQ_PlayerCards_JanuaryUpdate_1.png",
+        "face": "back",
         "sprite": "2:1"
       }
-    },
+    ],
     "identifiers": {
       "name": "Leia Organa: Fearless and Inventive",
       "legionhqId": "ab",

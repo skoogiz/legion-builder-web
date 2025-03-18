@@ -1,4 +1,3 @@
-import {SpriteCards} from "@legion-builder/components/SpriteCard";
 import {Typography} from "@mui/material";
 // import axios from "axios";
 
@@ -38,7 +37,6 @@ export function StartPage() {
       ].map((name) => (
         <p>{`${name} (${stringToHash(name)})`}</p>
       ))} */}
-      <SpriteCards />
     </div>
   );
 }

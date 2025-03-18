@@ -1,1 +1,560 @@
-[{"__typename":"battle","name":"Clear Conditions","category":"condition","imageRef":"Clear Conditions.jpeg","identifiers":{"name":"Clear Conditions","legionhqId":"Ca","tni":"condition|Clear Conditions"},"legalities":{"standard":true}},{"__typename":"battle","name":"Hostile Environment","category":"condition","imageRef":"Hostile Environment.jpeg","identifiers":{"name":"Hostile Environment","legionhqId":"Cb","tni":"condition|Hostile Environment"},"legalities":{"standard":true}},{"__typename":"battle","name":"Limited Visibility","category":"condition","imageRef":"Limited Visibility.jpeg","identifiers":{"name":"Limited Visibility","legionhqId":"Cc","tni":"condition|Limited Visibility"},"legalities":{"standard":true}},{"__typename":"battle","category":"condition","keywords":["Blast","Impact"],"imageRef":"Minefield.jpeg","identifiers":{"legionhqId":"Cd","tni":"condition|undefined"},"legalities":{"standard":true}},{"__typename":"battle","name":"Rapid Reinforcements","category":"condition","imageRef":"Rapid Reinforcements.jpeg","identifiers":{"name":"Rapid Reinforcements","legionhqId":"Ce","tni":"condition|Rapid Reinforcements"},"legalities":{"standard":true}},{"__typename":"battle","name":"Fortified Positions","category":"condition","imageRef":"Fortified Positions.jpeg","identifiers":{"name":"Fortified Positions","legionhqId":"Cf","tni":"condition|Fortified Positions"},"legalities":{"standard":true}},{"__typename":"battle","name":"Supply Drop","category":"condition","imageRef":"Supply Drop.jpeg","identifiers":{"name":"Supply Drop","legionhqId":"Cg","tni":"condition|Supply Drop"},"legalities":{"standard":true}},{"__typename":"battle","name":"War Weary","category":"condition","imageRef":"War Weary.jpeg","identifiers":{"name":"War Weary","legionhqId":"Ch","tni":"condition|War Weary"},"legalities":{"standard":true}},{"__typename":"battle","name":"Clear Conditions","category":"condition","imageRef":"Clear Conditions2.jpeg","identifiers":{"name":"Clear Conditions2 (Skirmish)","legionhqId":"Ci","tni":"condition|Clear Conditions2 (Skirmish)"},"legalities":{"skirmish":true}},{"__typename":"battle","name":"Dawn","category":"condition","imageRef":"Dawn.jpeg","identifiers":{"name":"Dawn (Skirmish)","legionhqId":"Cj","tni":"condition|Dawn (Skirmish)"},"legalities":{"skirmish":true}},{"__typename":"battle","name":"Improvised Defenses","category":"condition","imageRef":"Improvised Defenses.jpeg","identifiers":{"name":"Improvised Defenses (Skirmish)","legionhqId":"Ck","tni":"condition|Improvised Defenses (Skirmish)"},"legalities":{"skirmish":true}},{"__typename":"battle","name":"War Weary","category":"condition","imageRef":"War Weary2.jpeg","identifiers":{"name":"War Weary2 (Skirmish)","legionhqId":"Cl","tni":"condition|War Weary2 (Skirmish)"},"legalities":{"skirmish":true}},{"__typename":"battle","name":"Advanced Positions","category":"deployment","keywords":["Scout","Stationary"],"imageRef":"Advanced Positions.jpeg","identifiers":{"name":"Advanced Positions","legionhqId":"Da","tni":"deployment|Advanced Positions"},"legalities":{"standard":true}},{"__typename":"battle","name":"Battle Lines","category":"deployment","imageRef":"Battle Lines.jpeg","identifiers":{"name":"Battle Lines","legionhqId":"Db","tni":"deployment|Battle Lines"},"legalities":{"standard":true}},{"__typename":"battle","name":"Disarray","category":"deployment","imageRef":"Disarray.jpeg","identifiers":{"name":"Disarray","legionhqId":"Dc","tni":"deployment|Disarray"},"legalities":{"standard":true}},{"__typename":"battle","name":"The Long March","category":"deployment","imageRef":"The Long March.jpeg","identifiers":{"name":"The Long March","legionhqId":"Dd","tni":"deployment|The Long March"},"legalities":{"standard":true}},{"__typename":"battle","name":"Major Offensive","category":"deployment","imageRef":"Major Offensive.jpeg","identifiers":{"name":"Major Offensive","legionhqId":"De","tni":"deployment|Major Offensive"},"legalities":{"standard":true}},{"__typename":"battle","name":"Forces Converge","category":"deployment","imageRef":"Forces Converge (Act 1).jpeg","identifiers":{"name":"Forces Converge (Act 1)","legionhqId":"Df","tni":"deployment|Forces Converge (Act 1)"},"legalities":{"standard":true}},{"__typename":"battle","name":"Faceoff","category":"deployment","imageRef":"Faceoff.jpeg","identifiers":{"name":"Faceoff (Skirmish)","legionhqId":"Dg","tni":"deployment|Faceoff (Skirmish)"},"legalities":{"skirmish":true}},{"__typename":"battle","name":"Meeting Engagement","category":"deployment","imageRef":"Meeting Engagement.jpeg","identifiers":{"name":"Meeting Engagement (Skirmish)","legionhqId":"Dh","tni":"deployment|Meeting Engagement (Skirmish)"},"legalities":{"skirmish":true}},{"__typename":"battle","name":"Flanking Positions","category":"deployment","imageRef":"Flanking Positions.jpeg","identifiers":{"name":"Flanking Positions (Skirmish)","legionhqId":"Di","tni":"deployment|Flanking Positions (Skirmish)"},"legalities":{"skirmish":true}},{"__typename":"battle","name":"Battle Lines","category":"deployment","imageRef":"Battle Lines2.jpeg","identifiers":{"name":"Battle Lines2 (Skirmish)","legionhqId":"Dj","tni":"deployment|Battle Lines2 (Skirmish)"},"legalities":{"skirmish":true}},{"__typename":"battle","name":"Roll Out","category":"deployment","imageRef":"Roll Out.jpeg","identifiers":{"name":"Roll Out","legionhqId":"Dk","tni":"deployment|Roll Out"},"legalities":{"standard":true}},{"__typename":"battle","name":"Hemmed In","category":"deployment","imageRef":"Hemmed In.jpeg","identifiers":{"name":"Hemmed In","legionhqId":"Dl","tni":"deployment|Hemmed In"},"legalities":{"standard":true}},{"__typename":"battle","name":"Danger Close","category":"deployment","imageRef":"Danger Close.jpeg","identifiers":{"name":"Danger Close","legionhqId":"Dm","tni":"deployment|Danger Close"},"legalities":{"standard":true}},{"__typename":"battle","name":"Breakthrough","category":"objective","imageRef":"Breakthrough.jpeg","identifiers":{"name":"Breakthrough","legionhqId":"Oa","tni":"objective|Breakthrough"},"legalities":{"standard":true}},{"__typename":"battle","name":"Intercept Transmissions","category":"objective","imageRef":"Intercept the Transmissions.jpeg","identifiers":{"name":"Intercept the Transmissions","legionhqId":"Ob","tni":"objective|Intercept the Transmissions"},"legalities":{"standard":true}},{"__typename":"battle","name":"Key Positions","category":"objective","imageRef":"Key Positions.jpeg","identifiers":{"name":"Key Positions","legionhqId":"Oc","tni":"objective|Key Positions"},"legalities":{"standard":true}},{"__typename":"battle","name":"Recover Supplies","category":"objective","keywords":["Claim"],"imageRef":"Recover the Supplies.jpeg","identifiers":{"name":"Recover the Supplies","legionhqId":"Od","tni":"objective|Recover the Supplies"},"legalities":{"standard":true}},{"__typename":"battle","name":"Secure the Intel","category":"objective","keywords":["Extract","Claim"],"imageRef":"Secure the Intel (Act 1).jpeg","identifiers":{"name":"Secure the Intel (Act 1)","legionhqId":"Oe","tni":"objective|Secure the Intel (Act 1)"},"legalities":{"standard":true}},{"__typename":"battle","name":"Sabotage Moisture Vaporators","category":"objective","keywords":["Sabotage/Repair"],"imageRef":"Sabotage the Moisture Vaporators.jpeg","identifiers":{"name":"Sabotage the Moisture Vaporators","legionhqId":"Of","tni":"objective|Sabotage the Moisture Vaporators"},"legalities":{"standard":true}},{"__typename":"battle","name":"Hostage Exchange","category":"objective","keywords":["Claim"],"imageRef":"Hostage Exchange.jpeg","identifiers":{"name":"Hostage Exchange","legionhqId":"Og","tni":"objective|Hostage Exchange"},"legalities":{"standard":true}},{"__typename":"battle","name":"Elimination","category":"objective","imageRef":"Elimination.jpeg","identifiers":{"name":"Elimination (Skirmish)","legionhqId":"Oh","tni":"objective|Elimination (Skirmish)"},"legalities":{"skirmish":true}},{"__typename":"battle","name":"Pivotal Positions","category":"objective","imageRef":"Pivotal Positions.jpeg","identifiers":{"name":"Pivotal Positions (Skirmish)","legionhqId":"Oi","tni":"objective|Pivotal Positions (Skirmish)"},"legalities":{"skirmish":true}},{"__typename":"battle","name":"Breach","category":"objective","imageRef":"Breach.jpeg","identifiers":{"name":"Breach (Skirmish)","legionhqId":"Oj","tni":"objective|Breach (Skirmish)"},"legalities":{"skirmish":true}},{"__typename":"battle","name":"Control","category":"objective","imageRef":"Control.jpeg","identifiers":{"name":"Control (Skirmish)","legionhqId":"Ok","tni":"objective|Control (Skirmish)"},"legalities":{"skirmish":true}},{"__typename":"battle","name":"Bombing Run","category":"objective","keywords":["Blast","Suppressive"],"imageRef":"Bombing Run.jpeg","identifiers":{"name":"Bombing Run","legionhqId":"Ol","tni":"objective|Bombing Run"},"legalities":{"standard":true}},{"__typename":"battle","name":"Payload","category":"objective","imageRef":"Payload.jpeg","identifiers":{"name":"Payload","legionhqId":"Om","tni":"objective|Payload"},"legalities":{"standard":true}}]
+[
+  {
+    "__typename": "battle",
+    "name": "Shifting Priorities",
+    "category": "objective",
+    "imageRef": {
+      "file": "SWQ_BattleCards-2_1.png",
+      "sprite": "1:2"
+    },
+    "map": {
+      "imageRef": {
+        "file": "SWQ_BattleCards-2_1.png",
+        "sprite": "1:1"
+      }
+    },
+    "identifiers": {
+      "name": "Shifting Priorities",
+      "slug": "shifting-priorities",
+      "tni": "objective:shifting-priorities"
+    },
+    "legalities": {
+      "standard": true
+    },
+    "meta": {
+      "source": "SWQ_BattleCards-2"
+    }
+  },
+  {
+    "__typename": "battle",
+    "name": "Recover the Research",
+    "category": "objective",
+    "imageRef": {
+      "file": "SWQ_BattleCards-2_1.png",
+      "sprite": "2:2"
+    },
+    "map": {
+      "imageRef": {
+        "file": "SWQ_BattleCards-2_1.png",
+        "sprite": "2:1"
+      }
+    },
+    "identifiers": {
+      "name": "Recover the Research",
+      "slug": "recover-the-research",
+      "tni": "objective:recover-the-research"
+    },
+    "legalities": {
+      "standard": true
+    },
+    "meta": {
+      "source": "SWQ_BattleCards-2"
+    }
+  },
+  {
+    "__typename": "battle",
+    "name": "Intercept Signals",
+    "category": "objective",
+    "imageRef": {
+      "file": "SWQ_BattleCards-2_1.png",
+      "sprite": "3:2"
+    },
+    "map": {
+      "imageRef": {
+        "file": "SWQ_BattleCards-2_1.png",
+        "sprite": "3:1"
+      }
+    },
+    "identifiers": {
+      "name": "Intercept Signals",
+      "slug": "intercept-signals",
+      "tni": "objective:intercept-signals"
+    },
+    "legalities": {
+      "standard": true
+    },
+    "meta": {
+      "source": "SWQ_BattleCards-2"
+    }
+  },
+  {
+    "__typename": "battle",
+    "name": "Breakthrough",
+    "category": "objective",
+    "imageRef": {
+      "file": "SWQ_BattleCards-2_2.png",
+      "sprite": "1:2"
+    },
+    "map": {
+      "imageRef": {
+        "file": "SWQ_BattleCards-2_2.png",
+        "sprite": "1:1"
+      }
+    },
+    "identifiers": {
+      "name": "Breakthrough",
+      "slug": "breakthrough",
+      "tni": "objective:breakthrough"
+    },
+    "legalities": {
+      "standard": true
+    },
+    "meta": {
+      "source": "SWQ_BattleCards-2"
+    }
+  },
+  {
+    "__typename": "battle",
+    "name": "Bunker Assault",
+    "category": "objective",
+    "imageRef": {
+      "file": "SWQ_BattleCards-2_2.png",
+      "sprite": "2:2"
+    },
+    "map": {
+      "imageRef": {
+        "file": "SWQ_BattleCards-2_2.png",
+        "sprite": "2:1"
+      }
+    },
+    "identifiers": {
+      "name": "Bunker Assault",
+      "slug": "bunker-assault",
+      "tni": "objective:bunker-assault"
+    },
+    "legalities": {
+      "standard": true
+    },
+    "meta": {
+      "source": "SWQ_BattleCards-2"
+    }
+  },
+  {
+    "__typename": "battle",
+    "name": "Close the Pocket",
+    "category": "objective",
+    "imageRef": {
+      "file": "SWQ_BattleCards-2_2.png",
+      "sprite": "3:2"
+    },
+    "map": {
+      "imageRef": {
+        "file": "SWQ_BattleCards-2_2.png",
+        "sprite": "3:1"
+      }
+    },
+    "identifiers": {
+      "name": "Close the Pocket",
+      "slug": "close-the-pocket",
+      "tni": "objective:close-the-pocket"
+    },
+    "legalities": {
+      "standard": true
+    },
+    "meta": {
+      "source": "SWQ_BattleCards-2"
+    }
+  },
+  {
+    "__typename": "battle",
+    "name": "Recon Mission",
+    "category": "secondary-objective",
+    "imageRef": {
+      "file": "SWQ_BattleCards-2_3.png",
+      "sprite": "1:1"
+    },
+    "identifiers": {
+      "name": "Recon Mission",
+      "slug": "recon-mission",
+      "tni": "secondary-objective:recon-mission"
+    },
+    "legalities": {
+      "standard": true
+    },
+    "meta": {
+      "source": "SWQ_BattleCards-2"
+    }
+  },
+  {
+    "__typename": "battle",
+    "name": "Destroy Enemy Base",
+    "category": "secondary-objective",
+    "imageRef": {
+      "file": "SWQ_BattleCards-2_3.png",
+      "sprite": "2:1"
+    },
+    "identifiers": {
+      "name": "Destroy Enemy Base",
+      "slug": "destroy-enemy-base",
+      "tni": "secondary-objective:destroy-enemy-base"
+    },
+    "legalities": {
+      "standard": true
+    },
+    "meta": {
+      "source": "SWQ_BattleCards-2"
+    }
+  },
+  {
+    "__typename": "battle",
+    "name": "Surface Scan",
+    "category": "secondary-objective",
+    "imageRef": {
+      "file": "SWQ_BattleCards-2_3.png",
+      "sprite": "3:1"
+    },
+    "identifiers": {
+      "name": "Surface Scan",
+      "slug": "surface-scan",
+      "tni": "secondary-objective:surface-scan"
+    },
+    "legalities": {
+      "standard": true
+    },
+    "meta": {
+      "source": "SWQ_BattleCards-2"
+    }
+  },
+  {
+    "__typename": "battle",
+    "name": "Marked Target",
+    "category": "secondary-objective",
+    "imageRef": {
+      "file": "SWQ_BattleCards-2_3.png",
+      "sprite": "1:2"
+    },
+    "identifiers": {
+      "name": "Marked Target",
+      "slug": "marked-target",
+      "tni": "secondary-objective:marked-target"
+    },
+    "legalities": {
+      "standard": true
+    },
+    "meta": {
+      "source": "SWQ_BattleCards-2"
+    }
+  },
+  {
+    "__typename": "battle",
+    "name": "Bring Them to Heel",
+    "category": "secondary-objective",
+    "imageRef": {
+      "file": "SWQ_BattleCards-2_3.png",
+      "sprite": "2:2"
+    },
+    "identifiers": {
+      "name": "Bring Them to Heel",
+      "slug": "bring-them-to-heel",
+      "tni": "secondary-objective:bring-them-to-heel"
+    },
+    "legalities": {
+      "standard": true
+    },
+    "meta": {
+      "source": "SWQ_BattleCards-2"
+    }
+  },
+  {
+    "__typename": "battle",
+    "name": "Sweep and Clear",
+    "category": "secondary-objective",
+    "imageRef": {
+      "file": "SWQ_BattleCards-2_3.png",
+      "sprite": "3:2"
+    },
+    "identifiers": {
+      "name": "Sweep and Clear",
+      "slug": "sweep-and-clear",
+      "tni": "secondary-objective:sweep-and-clear"
+    },
+    "legalities": {
+      "standard": true
+    },
+    "meta": {
+      "source": "SWQ_BattleCards-2"
+    }
+  },
+  {
+    "__typename": "battle",
+    "name": "Strafing Run",
+    "category": "advantage",
+    "imageRef": {
+      "file": "SWQ_BattleCards-2_4.png",
+      "sprite": "1:1"
+    },
+    "identifiers": {
+      "name": "Strafing Run",
+      "slug": "strafing-run",
+      "tni": "advantage:strafing-run"
+    },
+    "legalities": {
+      "standard": true
+    },
+    "meta": {
+      "source": "SWQ_BattleCards-2"
+    }
+  },
+  {
+    "__typename": "battle",
+    "name": "Ordnance",
+    "category": "advantage",
+    "imageRef": {
+      "file": "SWQ_BattleCards-2_4.png",
+      "sprite": "2:1"
+    },
+    "identifiers": {
+      "name": "Ordnance",
+      "slug": "ordnance",
+      "tni": "advantage:ordnance"
+    },
+    "legalities": {
+      "standard": true
+    },
+    "meta": {
+      "source": "SWQ_BattleCards-2"
+    }
+  },
+  {
+    "__typename": "battle",
+    "name": "Garrison",
+    "category": "advantage",
+    "imageRef": {
+      "file": "SWQ_BattleCards-2_4.png",
+      "sprite": "3:1"
+    },
+    "identifiers": {
+      "name": "Garrison",
+      "slug": "garrison",
+      "tni": "advantage:garrison"
+    },
+    "legalities": {
+      "standard": true
+    },
+    "meta": {
+      "source": "SWQ_BattleCards-2"
+    }
+  },
+  {
+    "__typename": "battle",
+    "name": "Advanced Intel",
+    "category": "advantage",
+    "imageRef": {
+      "file": "SWQ_BattleCards-2_4.png",
+      "sprite": "1:2"
+    },
+    "identifiers": {
+      "name": "Advanced Intel",
+      "slug": "advanced-intel",
+      "tni": "advantage:advanced-intel"
+    },
+    "legalities": {
+      "standard": true
+    },
+    "meta": {
+      "source": "SWQ_BattleCards-2"
+    }
+  },
+  {
+    "__typename": "battle",
+    "name": "Cunning Deployment",
+    "category": "advantage",
+    "imageRef": {
+      "file": "SWQ_BattleCards-2_4.png",
+      "sprite": "2:2"
+    },
+    "identifiers": {
+      "name": "Cunning Deployment",
+      "slug": "cunning-deployment",
+      "tni": "advantage:cunning-deployment"
+    },
+    "legalities": {
+      "standard": true
+    },
+    "meta": {
+      "source": "SWQ_BattleCards-2"
+    }
+  },
+  {
+    "__typename": "battle",
+    "name": "Fortified Position",
+    "category": "advantage",
+    "imageRef": {
+      "file": "SWQ_BattleCards-2_4.png",
+      "sprite": "3:2"
+    },
+    "identifiers": {
+      "name": "Fortified Position",
+      "slug": "fortified-position",
+      "tni": "advantage:fortified-position"
+    },
+    "legalities": {
+      "standard": true
+    },
+    "meta": {
+      "source": "SWQ_BattleCards-2"
+    }
+  },
+  {
+    "__typename": "battle",
+    "name": "Intercept Signals",
+    "category": "objective",
+    "imageRef": "intercept-signals-skirmish.png",
+    "map": {
+      "imageRef": "intercept-signals-map-skirmish.png"
+    },
+    "identifiers": {
+      "name": "Intercept Signals (Skirmish)",
+      "slug": "intercept-signals-skirmish",
+      "tni": "objective:intercept-signals-skirmish"
+    },
+    "legalities": {
+      "skirmish": true
+    },
+    "meta": {
+      "source": "SWQ_SkirmishRulebook"
+    }
+  },
+  {
+    "__typename": "battle",
+    "name": "Bunker Assault",
+    "category": "objective",
+    "imageRef": "bunker-assault-skirmish.png",
+    "map": {
+      "imageRef": "bunker-assault-map-skirmish.png"
+    },
+    "identifiers": {
+      "name": "Bunker Assault (Skirmish)",
+      "slug": "bunker-assault-skirmish",
+      "tni": "objective:bunker-assault-skirmish"
+    },
+    "legalities": {
+      "skirmish": true
+    },
+    "meta": {
+      "source": "SWQ_SkirmishRulebook"
+    }
+  },
+  {
+    "__typename": "battle",
+    "name": "Close the Pocket",
+    "category": "objective",
+    "imageRef": "close-the-pocket-skirmish.png",
+    "map": {
+      "imageRef": "close-the-pocket-map-skirmish.png"
+    },
+    "identifiers": {
+      "name": "Close the Pocket (Skirmish)",
+      "slug": "close-the-pocket-skirmish",
+      "tni": "objective:close-the-pocket-skirmish"
+    },
+    "legalities": {
+      "skirmish": true
+    },
+    "meta": {
+      "source": "SWQ_SkirmishRulebook"
+    }
+  },
+  {
+    "__typename": "battle",
+    "name": "Bring Them to Heel",
+    "category": "secondary-objective",
+    "imageRef": "bring-them-to-heel-skirmish.png",
+    "identifiers": {
+      "name": "Bring Them to Heel (Skirmish)",
+      "slug": "bring-them-to-heel-skirmish",
+      "tni": "secondary-objective:bring-them-to-heel-skirmish"
+    },
+    "legalities": {
+      "skirmish": true
+    },
+    "meta": {
+      "source": "SWQ_SkirmishRulebook"
+    }
+  },
+  {
+    "__typename": "battle",
+    "name": "Surface Scan",
+    "category": "secondary-objective",
+    "imageRef": "surface-scan-skirmish.png",
+    "identifiers": {
+      "name": "Surface Scan (Skirmish)",
+      "slug": "surface-scan-skirmish",
+      "tni": "secondary-objective:surface-scan-skirmish"
+    },
+    "legalities": {
+      "skirmish": true
+    },
+    "meta": {
+      "source": "SWQ_SkirmishRulebook"
+    }
+  },
+  {
+    "__typename": "battle",
+    "name": "Recon Mission",
+    "category": "secondary-objective",
+    "imageRef": "recon-mission-skirmish.png",
+    "identifiers": {
+      "name": "Recon Mission (Skirmish)",
+      "slug": "recon-mission-skirmish",
+      "tni": "secondary-objective:recon-mission-skirmish"
+    },
+    "legalities": {
+      "skirmish": true
+    },
+    "meta": {
+      "source": "SWQ_SkirmishRulebook"
+    }
+  },
+  {
+    "__typename": "battle",
+    "name": "Advanced Intel",
+    "category": "advantage",
+    "imageRef": "advanced-intel-skirmish.png",
+    "identifiers": {
+      "name": "Advanced Intel (Skirmish)",
+      "slug": "advanced-intel-skirmish",
+      "tni": "advantage:advanced-intel-skirmish"
+    },
+    "legalities": {
+      "skirmish": true
+    },
+    "meta": {
+      "source": "SWQ_SkirmishRulebook"
+    }
+  },
+  {
+    "__typename": "battle",
+    "name": "Cunning Deployment",
+    "category": "advantage",
+    "imageRef": "cunning-deployment-skirmish.png",
+    "identifiers": {
+      "name": "Cunning Deployment (Skirmish)",
+      "slug": "cunning-deployment-skirmish",
+      "tni": "advantage:cunning-deployment-skirmish"
+    },
+    "legalities": {
+      "skirmish": true
+    },
+    "meta": {
+      "source": "SWQ_SkirmishRulebook"
+    }
+  },
+  {
+    "__typename": "battle",
+    "name": "Fortified Position",
+    "category": "advantage",
+    "imageRef": "fortified-position-skirmish.png",
+    "identifiers": {
+      "name": "Fortified Position (Skirmish)",
+      "slug": "fortified-position-skirmish",
+      "tni": "advantage:fortified-position-skirmish"
+    },
+    "legalities": {
+      "skirmish": true
+    },
+    "meta": {
+      "source": "SWQ_SkirmishRulebook"
+    }
+  }
+]
