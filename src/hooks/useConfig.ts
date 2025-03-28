@@ -24,12 +24,29 @@ export const useConfig = () => {
     size,
     type,
     // category,
+    orientation,
   }: {
     size: ImageSize;
     type: Card["__typename"];
     // category?: string;
+    orientation?: "portrait" | "landscape";
   }) => {
     const scale = cardConfig.image.derivative[size];
+
+    if (orientation) {
+      switch (orientation) {
+        case "portrait":
+          return {
+            height: Math.floor(cardConfig.image.portrait.height * scale),
+            width: Math.floor(cardConfig.image.portrait.width * scale),
+          };
+        default:
+          return {
+            height: Math.floor(cardConfig.image.landscape.height * scale),
+            width: Math.floor(cardConfig.image.landscape.width * scale),
+          };
+      }
+    }
 
     switch (type) {
       case "battle":

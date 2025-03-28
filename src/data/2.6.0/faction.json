@@ -1,0 +1,27 @@
+{
+  "rebels": {
+    "name": "Rebels",
+    "singular": "Rebel",
+    "longName": "Rebel Alliance"
+  },
+  "empire": {
+    "name": "Empire",
+    "singular": "Empire",
+    "longName": "Galactic Empire"
+  },
+  "republic": {
+    "name": "Republic",
+    "singular": "Republic",
+    "longName": "Galactic Republic"
+  },
+  "separatists": {
+    "name": "Separatists",
+    "singular": "Separatist",
+    "longName": "Separatist Alliance"
+  },
+  "metmercenariesa": {
+    "name": "Shadow Collective",
+    "singular": "Shadow Collective",
+    "longName": "Shadow Collective"
+  }
+}

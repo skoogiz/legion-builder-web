@@ -9,9 +9,10 @@ type Props = {
   type: Card["__typename"];
   imageRef: Card["imageRef"];
   size?: ImageSize;
+  orientation?: "portrait" | "landscape";
 };
 
-export function CardImage({type, imageRef, size = "medium"}: Props) {
+export function CardImage({type, imageRef, size = "medium", orientation}: Props) {
   const {resolveImageSrc, resolveSpriteSrc, getSize} = useConfig();
 
   if (!imageRef) return null;
@@ -32,7 +33,7 @@ export function CardImage({type, imageRef, size = "medium"}: Props) {
     );
   }
 
-  const {height, width} = getSize({size, type});
+  const {height, width} = getSize({size, type, orientation});
 
   return (
     <img

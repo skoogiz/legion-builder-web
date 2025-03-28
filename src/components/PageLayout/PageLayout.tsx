@@ -3,7 +3,6 @@ import {Hero, HeroBackground} from "./Hero";
 import {Header} from "./Header";
 import {Main} from "./Main";
 import {Footer} from "./Footer";
-import {Container, type ContainerOwnProps} from "@mui/material";
 import {useAppContext} from "@legion-builder/context";
 
 type Props = {
@@ -14,7 +13,7 @@ type Props = {
     height?: number;
   };
   footer?: JSX.Element;
-  containerProps?: Omit<ContainerOwnProps, "children">;
+  // containerProps?: Omit<ContainerOwnProps, "children">;
   children: React.ReactNode;
 };
 
@@ -24,7 +23,7 @@ export function PageLayout({
   header,
   headerProps,
   footer,
-  containerProps = {},
+  // containerProps = {},
   children,
 }: Props) {
   const {
@@ -37,11 +36,7 @@ export function PageLayout({
       {header && <Header maxHeight={headerHeight}>{header}</Header>}
       <Main>
         {hero && <Hero headerHeight={header ? headerHeight : 0}>{hero}</Hero>}
-        {
-          <Container fixed {...containerProps}>
-            {children}
-          </Container>
-        }
+        {children}
       </Main>
       {footer && <Footer>{footer}</Footer>}
     </>

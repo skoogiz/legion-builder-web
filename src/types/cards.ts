@@ -1,5 +1,7 @@
 // type ImageSrc = string | {file: string; sprite?: string};
 
+import {FactionType} from "./factions";
+
 // export type SpriteImageRef = {
 //   front: ImageSrc;
 //   back?: ImageSrc;
@@ -222,7 +224,7 @@ interface UnitBase extends BaseCard {
    * e.g. commander Luke Skywalker as the subtitle "Hero of the Rebellion"
    */
   subtitle?: string;
-  faction: string; // "rebels" | "empire" | "republic" | "separatists" | "mercenaries";
+  faction: FactionType;
   points: number;
   numberOfMiniatures: number;
   //--> cardSubtype: "trooper";

@@ -12,6 +12,7 @@ import {useAppContext} from "@legion-builder/context";
 
 import type {ThemeProviderProps} from "@mui/material/styles/ThemeProvider";
 import {PageConfig} from "@legion-builder/config";
+import {createPalette} from "./createPalette";
 
 const globalStyle = (
   <GlobalStyles
@@ -35,6 +36,15 @@ declare module "@mui/material/styles" {
   interface TypeBackground {
     hero: PaletteColor;
   }
+
+  interface BreakpointOverrides {
+    xs: true;
+    sm: true;
+    md: true;
+    lg: true;
+    xl: true;
+    xxl: true;
+  }
 }
 
 declare module "@mui/material/SvgIcon" {
@@ -52,6 +62,16 @@ const createTheme = ({
   pageConfig: PageConfig;
 }): Theme => {
   let theme = defineTheme({
+    breakpoints: {
+      values: {
+        xs: 0,
+        sm: 640,
+        md: 768,
+        lg: 1024,
+        xl: 1200,
+        xxl: 1440,
+      },
+    },
     palette: {
       mode,
       secondary: {
@@ -78,11 +98,14 @@ const createTheme = ({
     },
   });
 
+  const legionPalette = createPalette(theme);
+
   theme = defineTheme(theme, {
     palette: {
       background: {
         hero: theme.palette.augmentColor({color: pageConfig.hero.bgColor}),
       },
+      ...legionPalette.palette,
     },
   });
 

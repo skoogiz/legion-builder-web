@@ -1,3 +1,4 @@
+import {FactionType} from "@legion-builder/types/factions";
 import {
   BlackSunIcon,
   EmpireIcon,
@@ -14,15 +15,13 @@ import {
 import {SvgIconProps} from "../Icons/SvgIcon";
 
 type Props = {
-  unit: {
-    affiliation?: string;
-    faction: string;
-  };
+  faction: FactionType;
+  affiliation?: string;
 } & SvgIconProps;
 
-export function AffiliationIcon({unit, ...props}: Props) {
-  if (unit.affiliation) {
-    switch (unit.affiliation) {
+export function AffiliationIcon({faction, affiliation, ...props}: Props) {
+  if (affiliation) {
+    switch (affiliation) {
       case "The Pyke Syndicate":
         return <PykesIcon {...props} />;
       case "Black Sun":
@@ -38,7 +37,7 @@ export function AffiliationIcon({unit, ...props}: Props) {
     }
   }
 
-  switch (unit.faction) {
+  switch (faction) {
     case "rebels":
       return <RebelsIcon {...props} />;
     case "empire":

@@ -85,7 +85,12 @@ export function UnitCard({
         })}
       >
         <Aside>
-          <AffiliationIcon unit={{faction, affiliation}} size="medium" color="inherit" />
+          <AffiliationIcon
+            faction={faction}
+            affiliation={affiliation}
+            size="medium"
+            color="inherit"
+          />
         </Aside>
         <Box
           sx={(theme) => ({
@@ -105,7 +110,7 @@ export function UnitCard({
               // borderRadius: 2,
             }}
           >
-            <AffiliationIcon unit={{faction, affiliation}} size="medium" />
+            <AffiliationIcon faction={faction} affiliation={affiliation} size="medium" />
           </Box>
           <Box
             sx={{
